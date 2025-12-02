@@ -1,0 +1,254 @@
+[
+  {
+    "instanceId": "guest_20251202_171400",
+    "userId": null,
+    "topic": "高中衔接大学数学基础",
+    "difficulty": "L1",
+    "chapter": "第1章 三角函数",
+    "section": "§1.1 三角函数的概念",
+    "sections": [
+      {
+        "sectionName": "选择填空题",
+        "questionIds": [
+          "trig_L1_c_004",
+          "trig_L1_f_004",
+          "trig_L1_c_009",
+          "trig_L1_c_011",
+          "trig_L1_f_003",
+          "trig_L1_c_012",
+          "trig_L1_f_005",
+          "trig_L1_c_005",
+          "trig_L1_c_002",
+          "trig_L1_c_010",
+          "trig_L1_f_002",
+          "trig_L1_c_003",
+          "trig_L1_c_007",
+          "trig_L1_f_001",
+          "trig_L1_c_006",
+          "trig_L1_c_001",
+          "trig_L1_f_006",
+          "trig_L1_c_008"
+        ]
+      },
+      {
+        "sectionName": "解答题",
+        "questionIds": [
+          "trig_L1_c_013",
+          "trig_L1_c_014"
+        ]
+      }
+    ],
+    "totalQuestions": 20,
+    "createdAt": "2025-12-02T17:14:00.472404",
+    "completedAt": null,
+    "userAnswers": {},
+    "answerStatus": {}
+  },
+  {
+    "instanceId": "guest_20251202_171832",
+    "userId": null,
+    "topic": "高中衔接大学数学基础",
+    "difficulty": "L1",
+    "chapter": "第1章 三角函数",
+    "section": "§1.1 三角函数的概念",
+    "sections": [
+      {
+        "sectionName": "选择填空题",
+        "questionIds": [
+          "trig_L1_c_018",
+          "trig_L1_f_009",
+          "trig_L1_c_015",
+          "trig_L1_c_022",
+          "trig_L1_c_021",
+          "trig_L1_c_023",
+          "trig_L1_c_024",
+          "trig_L1_c_016",
+          "trig_L1_c_017",
+          "trig_L1_c_020",
+          "trig_L1_c_019",
+          "trig_L1_f_008",
+          "trig_L1_c_026",
+          "trig_L1_f_010",
+          "trig_L1_f_007",
+          "trig_L1_f_011",
+          "trig_L1_f_012",
+          "trig_L1_c_025"
+        ]
+      },
+      {
+        "sectionName": "解答题",
+        "questionIds": [
+          "trig_L1_c_027",
+          "trig_L1_c_028"
+        ]
+      }
+    ],
+    "totalQuestions": 20,
+    "createdAt": "2025-12-02T17:18:33.143587",
+    "completedAt": null,
+    "userAnswers": {},
+    "answerStatus": {}
+  },
+  {
+    "instanceId": "guest_20251202_171955",
+    "userId": null,
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "chapter": null,
+    "section": null,
+    "sections": [
+      {
+        "sectionName": "选择填空题",
+        "questionIds": [
+          "trig_L1_c_014"
+        ]
+      },
+      {
+        "sectionName": "解答题",
+        "questionIds": [
+          "trig_L1_c_029"
+        ]
+      }
+    ],
+    "totalQuestions": 2,
+    "createdAt": "2025-12-02T17:19:55.074828",
+    "completedAt": null,
+    "userAnswers": {},
+    "answerStatus": {}
+  },
+  {
+    "instanceId": "guest_20251202_172101",
+    "userId": null,
+    "topic": "高中衔接大学数学基础",
+    "difficulty": "L1",
+    "chapter": "第1章 三角函数",
+    "section": "§1.1 三角函数的概念",
+    "sections": [
+      {
+        "sectionName": "选择填空题",
+        "questionIds": [
+          "trig_L1_f_016",
+          "trig_L1_c_037",
+          "trig_L1_c_036",
+          "trig_L1_c_033",
+          "trig_L1_c_038",
+          "trig_L1_f_017",
+          "trig_L1_c_032",
+          "trig_L1_c_031",
+          "trig_L1_f_018",
+          "trig_L1_c_030",
+          "trig_L1_f_014",
+          "trig_L1_c_034",
+          "trig_L1_f_015",
+          "trig_L1_c_041",
+          "trig_L1_c_040",
+          "trig_L1_c_039",
+          "trig_L1_f_013",
+          "trig_L1_c_035"
+        ]
+      },
+      {
+        "sectionName": "解答题",
+        "questionIds": [
+          "trig_L1_c_042",
+          "trig_L1_c_043"
+        ]
+      }
+    ],
+    "totalQuestions": 20,
+    "createdAt": "2025-12-02T17:21:01.763125",
+    "completedAt": null,
+    "userAnswers": {},
+    "answerStatus": {}
+  },
+  {
+    "instanceId": "guest_20251202_172205",
+    "userId": null,
+    "topic": "高中衔接大学数学基础",
+    "difficulty": "L1",
+    "chapter": "第1章 三角函数",
+    "section": "§1.1 三角函数的概念",
+    "sections": [
+      {
+        "sectionName": "选择填空题",
+        "questionIds": [
+          "trig_L1_f_023",
+          "trig_L1_c_046",
+          "trig_L1_c_053",
+          "trig_L1_f_021",
+          "trig_L1_c_044",
+          "trig_L1_c_049",
+          "trig_L1_f_019",
+          "trig_L1_c_054",
+          "trig_L1_c_052",
+          "trig_L1_f_022",
+          "trig_L1_c_051",
+          "trig_L1_c_050",
+          "trig_L1_f_020",
+          "trig_L1_c_055",
+          "trig_L1_c_047",
+          "trig_L1_c_045",
+          "trig_L1_f_024",
+          "trig_L1_c_048"
+        ]
+      },
+      {
+        "sectionName": "解答题",
+        "questionIds": [
+          "trig_L1_c_056",
+          "trig_L1_c_057"
+        ]
+      }
+    ],
+    "totalQuestions": 20,
+    "createdAt": "2025-12-02T17:22:05.885241",
+    "completedAt": null,
+    "userAnswers": {},
+    "answerStatus": {}
+  },
+  {
+    "instanceId": "guest_20251202_172407",
+    "userId": null,
+    "topic": "高中衔接大学数学基础",
+    "difficulty": "L1",
+    "chapter": "第1章 三角函数",
+    "section": "§1.1 三角函数的概念",
+    "sections": [
+      {
+        "sectionName": "选择填空题",
+        "questionIds": [
+          "trig_L1_c_069",
+          "trig_L1_c_059",
+          "trig_L1_f_025",
+          "trig_L1_f_026",
+          "trig_L1_c_065",
+          "trig_L1_f_030",
+          "trig_L1_c_060",
+          "trig_L1_c_061",
+          "trig_L1_c_067",
+          "trig_L1_f_029",
+          "trig_L1_c_063",
+          "trig_L1_c_058",
+          "trig_L1_c_062",
+          "trig_L1_f_027",
+          "trig_L1_c_066",
+          "trig_L1_f_028",
+          "trig_L1_c_068",
+          "trig_L1_c_064"
+        ]
+      },
+      {
+        "sectionName": "解答题",
+        "questionIds": [
+          "trig_L1_c_070",
+          "trig_L1_c_071"
+        ]
+      }
+    ],
+    "totalQuestions": 20,
+    "createdAt": "2025-12-02T17:24:08.001234",
+    "completedAt": null,
+    "userAnswers": {},
+    "answerStatus": {}
+  }
+]

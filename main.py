@@ -1,12 +1,19 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from datetime import datetime
+import uuid
 
-from schemas import ProblemRequest, ProblemResponse, GradeRequest, GradeResponse
-from models import CreateInstanceRequest, CreateInstanceResponse, Question
+from schemas import (
+    ProblemRequest, ProblemResponse,
+    QuestionMetadata, AnswerSubmission, AnswerRecord,
+    QualityStatsUpdate, StudentProfile,
+    RecommendationRequest, RecommendationResponse,
+    ReviewRequest
+)
 from core.problem_generator import generate_problem
-from core.grading import grade_problem
-from core.instance_manager import get_instance_manager
-from core.question_bank import get_question_bank
+from core.question_bank import question_bank
+from core.answer_tracker import answer_tracker
+from core.recommender import ProblemRecommender
 
 app = FastAPI(title="Math Seckill CAS Backend")
 
@@ -19,92 +26,167 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# 初始化推荐器
+recommender = ProblemRecommender(question_bank, answer_tracker)
+
+
+# ========== 基础接口 ==========
 
 @app.get("/")
 async def root():
-    return {"status": "ok"}
+    return {"status": "ok", "version": "2.0.0"}
 
 
 @app.post("/api/problem", response_model=ProblemResponse)
 async def create_problem(request: ProblemRequest) -> ProblemResponse:
-    data = generate_problem(
-        request.topic,
-        request.difficulty,
-        chapter=request.chapter,
-        section=request.section,
-        problem_type=request.type
-    )
+    """生成题目（保持向后兼容）"""
+    data = generate_problem(request.topic, request.difficulty)
     return ProblemResponse(**data)
 
 
-@app.post("/api/grade", response_model=GradeResponse)
-async def grade_answer(request: GradeRequest) -> GradeResponse:
-    """
-    判分接口
-    
-    接收用户答案，返回判分结果
-    """
-    is_correct, explanation = grade_problem(
-        problem_type=request.problemType,
-        user_answer=request.userAnswer,
-        correct_answer=request.correctAnswer,
-        answer_type=request.answerType,
-        correct_answer_expr=request.correctAnswerExpr
-    )
-    
-    return GradeResponse(
-        isCorrect=is_correct,
-        explanation=explanation
-    )
+# ========== 题库管理接口 ==========
+
+@app.get("/api/questions/stats")
+async def get_question_stats():
+    """获取题库统计信息"""
+    return question_bank.get_statistics()
 
 
-@app.post("/api/instance/create", response_model=CreateInstanceResponse)
-async def create_training_instance(request: CreateInstanceRequest) -> CreateInstanceResponse:
-    """
-    创建训练实例
-    
-    根据用户配置，从题库中选题并创建训练实例
-    """
-    instance_manager = get_instance_manager()
+@app.get("/api/questions/{question_id}", response_model=QuestionMetadata)
+async def get_question(question_id: str):
+    """获取单个题目"""
+    question = question_bank.get(question_id)
+    if not question:
+        raise HTTPException(status_code=404, detail="题目不存在")
+    return question
+
+
+@app.post("/api/questions", response_model=QuestionMetadata)
+async def create_question(question: QuestionMetadata):
+    """创建题目"""
+    try:
+        return question_bank.add(question)
+    except ValueError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+
+@app.put("/api/questions/{question_id}", response_model=QuestionMetadata)
+async def update_question(question_id: str, question: QuestionMetadata):
+    """更新题目"""
+    if question_id != question.questionId:
+        raise HTTPException(status_code=400, detail="题目ID不匹配")
     
     try:
-        instance, questions = instance_manager.create_instance(request)
-        
-        return CreateInstanceResponse(
-            instance=instance,
-            questions=questions
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=f"创建实例失败: {str(e)}")
+        return question_bank.update(question)
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
 
 
-@app.get("/api/instance/{instance_id}")
-async def get_training_instance(instance_id: str):
-    """
-    获取训练实例及其题目
-    """
-    instance_manager = get_instance_manager()
-    question_bank = get_question_bank()
+@app.delete("/api/questions/{question_id}")
+async def delete_question(question_id: str):
+    """删除题目"""
+    success = question_bank.delete(question_id)
+    if not success:
+        raise HTTPException(status_code=404, detail="题目不存在")
+    return {"success": True}
+
+
+# ========== 作答记录接口 ==========
+
+@app.post("/api/answers/submit")
+async def submit_answer(submission: AnswerSubmission):
+    """提交答案"""
+    # 创建作答记录
+    record = AnswerRecord(
+        recordId=str(uuid.uuid4()),
+        studentId=submission.studentId,
+        questionId=submission.questionId,
+        userAnswer=submission.userAnswer,
+        isCorrect=False,  # 需要调用判分逻辑
+        timeSpent=submission.timeSpent,
+        answeredAt=datetime.now()
+    )
     
-    instance = instance_manager.get_instance(instance_id)
-    if not instance:
-        raise HTTPException(status_code=404, detail="实例不存在")
+    # TODO: 这里应该调用判分逻辑，暂时先标记为False
+    # 可以集成之前的grading.py
     
-    # 获取所有题目
-    all_question_ids = []
-    for section in instance.sections:
-        all_question_ids.extend(section.questionIds)
-    
-    questions = []
-    for qid in all_question_ids:
-        q = question_bank.get_question_by_id(qid)
-        if q:
-            questions.append(q)
+    answer_tracker.add_record(record)
     
     return {
-        "instance": instance,
-        "questions": questions
+        "success": True,
+        "recordId": record.recordId,
+        "isCorrect": record.isCorrect
     }
+
+
+@app.get("/api/answers/student/{student_id}")
+async def get_student_answers(student_id: str):
+    """获取学生的所有作答记录"""
+    records = answer_tracker.get_student_records(student_id)
+    return {"total": len(records), "records": records}
+
+
+# ========== 质量统计接口 ==========
+
+@app.post("/api/admin/question/update-stats")
+async def update_question_stats(update: QualityStatsUpdate):
+    """更新题目质量统计"""
+    try:
+        question_bank.update_quality_stats(update.questionId, update.stats)
+        return {"success": True}
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
+
+@app.get("/api/admin/question/{question_id}/stats")
+async def get_question_stats_detail(question_id: str):
+    """获取题目质量统计"""
+    stats = answer_tracker.calculate_question_stats(question_id)
+    return stats
+
+
+# ========== 学生画像接口 ==========
+
+@app.get("/api/student/{student_id}/profile", response_model=StudentProfile)
+async def get_student_profile(student_id: str):
+    """获取学生能力画像"""
+    profile = answer_tracker.calculate_student_profile(student_id, question_bank)
+    return profile
+
+
+# ========== 个性化推荐接口 ==========
+
+@app.post("/api/student/recommend", response_model=RecommendationResponse)
+async def recommend_problems(request: RecommendationRequest):
+    """个性化推荐题目"""
+    problems, reason = recommender.recommend(
+        student_id=request.studentId,
+        mode=request.mode,
+        count=request.count
+    )
+    
+    return RecommendationResponse(
+        questions=problems,
+        recommendationReason=reason
+    )
+
+
+# ========== 审核接口 ==========
+
+@app.post("/api/admin/review")
+async def review_question(review: ReviewRequest):
+    """审核题目"""
+    question = question_bank.get(review.questionId)
+    if not question:
+        raise HTTPException(status_code=404, detail="题目不存在")
+    
+    question.reviewStatus = review.status
+    question.reviewerId = review.reviewerId
+    question.reviewComment = review.comment
+    
+    question_bank.update(question)
+    
+    return {"success": True}
 
 
 

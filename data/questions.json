@@ -1,0 +1,2276 @@
+[
+  {
+    "questionId": "trig_L1_c_001",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的定义域是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+    "options": [
+      "$x > 0$",
+      "$所有实数$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:14:00.337435"
+  },
+  {
+    "questionId": "trig_L1_c_002",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的值域是？",
+    "answer": "B",
+    "solution": "根据三角函数的基本性质，答案是 $[-1, 1]$",
+    "options": [
+      "$[0, 1]$",
+      "$[-1, 1]$",
+      "$[-2, 2]$",
+      "$所有实数$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:14:00.339515"
+  },
+  {
+    "questionId": "trig_L1_c_003",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的定义域是？",
+    "answer": "B",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$所有实数$",
+      "$x > 0$",
+      "$x \\neq 0$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:14:00.339793"
+  },
+  {
+    "questionId": "trig_L1_c_004",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的定义域是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+    "options": [
+      "$x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+      "$所有实数$",
+      "$x > 0$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:14:00.339965"
+  },
+  {
+    "questionId": "trig_L1_c_005",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的值域是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $[-1, 1]$",
+    "options": [
+      "$所有实数$",
+      "$[-2, 2]$",
+      "$[0, 1]$",
+      "$[-1, 1]$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:14:00.340151"
+  },
+  {
+    "questionId": "trig_L1_c_006",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的定义域是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+    "options": [
+      "$x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+      "$x > 0$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$所有实数$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:14:00.340326"
+  },
+  {
+    "questionId": "trig_L1_c_007",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的值域是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$所有实数$",
+      "$所有实数$",
+      "$[0, 1]$",
+      "$[-2, 2]$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:14:00.340480"
+  },
+  {
+    "questionId": "trig_L1_c_008",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的值域是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$[-2, 2]$",
+      "$[0, 1]$",
+      "$所有实数$",
+      "$所有实数$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:14:00.340659"
+  },
+  {
+    "questionId": "trig_L1_c_009",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的定义域是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+    "options": [
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$x > 0$",
+      "$x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+      "$所有实数$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:14:00.340854"
+  },
+  {
+    "questionId": "trig_L1_c_010",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的最小正周期是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $\\pi$",
+    "options": [
+      "$\\pi$",
+      "$\\frac{\\pi}{2}$",
+      "$\\pi$",
+      "$4\\pi$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:14:00.341057"
+  },
+  {
+    "questionId": "trig_L1_c_011",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的定义域是？",
+    "answer": "B",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$x \\neq 0$",
+      "$所有实数$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$x > 0$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:14:00.341364"
+  },
+  {
+    "questionId": "trig_L1_c_012",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的值域是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $[-1, 1]$",
+    "options": [
+      "$[0, 1]$",
+      "$所有实数$",
+      "$[-2, 2]$",
+      "$[-1, 1]$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:14:00.341612"
+  },
+  {
+    "questionId": "trig_L1_f_001",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\sin(180^\\circ) = ?$",
+    "answer": "0.0",
+    "solution": "$\\sin(180^\\circ) = 0 \\approx 0.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "0",
+    "createdAt": "2025-12-02T17:14:00.346498"
+  },
+  {
+    "questionId": "trig_L1_f_002",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\cos(120^\\circ) = ?$",
+    "answer": "-0.5",
+    "solution": "$\\cos(120^\\circ) = - \\frac{1}{2} \\approx -0.5000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "- \\frac{1}{2}",
+    "createdAt": "2025-12-02T17:14:00.370473"
+  },
+  {
+    "questionId": "trig_L1_f_003",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\cos(150^\\circ) = ?$",
+    "answer": "-0.8660254037844386",
+    "solution": "$\\cos(150^\\circ) = - \\frac{\\sqrt{3}}{2} \\approx -0.8660$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "- \\frac{\\sqrt{3}}{2}",
+    "createdAt": "2025-12-02T17:14:00.464858"
+  },
+  {
+    "questionId": "trig_L1_f_004",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\cos(135^\\circ) = ?$",
+    "answer": "-0.7071067811865476",
+    "solution": "$\\cos(135^\\circ) = - \\frac{\\sqrt{2}}{2} \\approx -0.7071$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "- \\frac{\\sqrt{2}}{2}",
+    "createdAt": "2025-12-02T17:14:00.468935"
+  },
+  {
+    "questionId": "trig_L1_f_005",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\sin(30^\\circ) = ?$",
+    "answer": "0.5",
+    "solution": "$\\sin(30^\\circ) = \\frac{1}{2} \\approx 0.5000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "\\frac{1}{2}",
+    "createdAt": "2025-12-02T17:14:00.469900"
+  },
+  {
+    "questionId": "trig_L1_f_006",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\sin(90^\\circ) = ?$",
+    "answer": "1.0",
+    "solution": "$\\sin(90^\\circ) = 1 \\approx 1.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "1",
+    "createdAt": "2025-12-02T17:14:00.470976"
+  },
+  {
+    "questionId": "trig_L1_c_013",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的最小正周期是？",
+    "answer": "B",
+    "solution": "根据三角函数的基本性质，答案是 $\\pi$",
+    "options": [
+      "$4\\pi$",
+      "$\\pi$",
+      "$\\pi$",
+      "$\\frac{\\pi}{2}$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:14:00.471355"
+  },
+  {
+    "questionId": "trig_L1_c_014",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的定义域是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+    "options": [
+      "$所有实数$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$x > 0$",
+      "$x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:14:00.471845"
+  },
+  {
+    "questionId": "trig_L1_c_015",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的最小正周期是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $2\\pi$",
+    "options": [
+      "$\\frac{\\pi}{2}$",
+      "$\\pi$",
+      "$2\\pi$",
+      "$4\\pi$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:18:32.977331"
+  },
+  {
+    "questionId": "trig_L1_c_016",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的定义域是？",
+    "answer": "B",
+    "solution": "根据三角函数的基本性质，答案是 $x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+    "options": [
+      "$x > 0$",
+      "$x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$所有实数$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:18:32.979750"
+  },
+  {
+    "questionId": "trig_L1_c_017",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的值域是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$所有实数$",
+      "$[-2, 2]$",
+      "$所有实数$",
+      "$[0, 1]$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:18:32.980718"
+  },
+  {
+    "questionId": "trig_L1_c_018",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的最小正周期是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $2\\pi$",
+    "options": [
+      "$2\\pi$",
+      "$\\pi$",
+      "$\\frac{\\pi}{2}$",
+      "$4\\pi$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:18:32.981455"
+  },
+  {
+    "questionId": "trig_L1_c_019",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的定义域是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$x \\neq 0$",
+      "$所有实数$",
+      "$x > 0$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:18:32.982431"
+  },
+  {
+    "questionId": "trig_L1_c_020",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的最小正周期是？",
+    "answer": "B",
+    "solution": "根据三角函数的基本性质，答案是 $2\\pi$",
+    "options": [
+      "$\\pi$",
+      "$2\\pi$",
+      "$\\frac{\\pi}{2}$",
+      "$4\\pi$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:18:32.983308"
+  },
+  {
+    "questionId": "trig_L1_c_021",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的最小正周期是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $\\pi$",
+    "options": [
+      "$\\pi$",
+      "$\\pi$",
+      "$4\\pi$",
+      "$\\frac{\\pi}{2}$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:18:32.984150"
+  },
+  {
+    "questionId": "trig_L1_c_022",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的最小正周期是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $\\pi$",
+    "options": [
+      "$\\pi$",
+      "$\\pi$",
+      "$4\\pi$",
+      "$\\frac{\\pi}{2}$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:18:32.984909"
+  },
+  {
+    "questionId": "trig_L1_c_023",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的最小正周期是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $2\\pi$",
+    "options": [
+      "$\\frac{\\pi}{2}$",
+      "$4\\pi$",
+      "$\\pi$",
+      "$2\\pi$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:18:32.985691"
+  },
+  {
+    "questionId": "trig_L1_c_024",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的最小正周期是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $\\pi$",
+    "options": [
+      "$4\\pi$",
+      "$\\frac{\\pi}{2}$",
+      "$\\pi$",
+      "$\\pi$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:18:32.986472"
+  },
+  {
+    "questionId": "trig_L1_c_025",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的值域是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $[-1, 1]$",
+    "options": [
+      "$[-2, 2]$",
+      "$[0, 1]$",
+      "$所有实数$",
+      "$[-1, 1]$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:18:32.987261"
+  },
+  {
+    "questionId": "trig_L1_c_026",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的值域是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $[-1, 1]$",
+    "options": [
+      "$[-2, 2]$",
+      "$所有实数$",
+      "$[0, 1]$",
+      "$[-1, 1]$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:18:32.988049"
+  },
+  {
+    "questionId": "trig_L1_f_007",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\cos(150^\\circ) = ?$",
+    "answer": "-0.8660254037844386",
+    "solution": "$\\cos(150^\\circ) = - \\frac{\\sqrt{3}}{2} \\approx -0.8660$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "- \\frac{\\sqrt{3}}{2}",
+    "createdAt": "2025-12-02T17:18:33.133921"
+  },
+  {
+    "questionId": "trig_L1_f_008",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\cos(45^\\circ) = ?$",
+    "answer": "0.7071067811865476",
+    "solution": "$\\cos(45^\\circ) = \\frac{\\sqrt{2}}{2} \\approx 0.7071$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "\\frac{\\sqrt{2}}{2}",
+    "createdAt": "2025-12-02T17:18:33.137080"
+  },
+  {
+    "questionId": "trig_L1_f_009",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\sin(0^\\circ) = ?$",
+    "answer": "0.0",
+    "solution": "$\\sin(0^\\circ) = 0 \\approx 0.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "0",
+    "createdAt": "2025-12-02T17:18:33.137716"
+  },
+  {
+    "questionId": "trig_L1_f_010",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\sin(60^\\circ) = ?$",
+    "answer": "0.8660254037844386",
+    "solution": "$\\sin(60^\\circ) = \\frac{\\sqrt{3}}{2} \\approx 0.8660$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "\\frac{\\sqrt{3}}{2}",
+    "createdAt": "2025-12-02T17:18:33.139990"
+  },
+  {
+    "questionId": "trig_L1_f_011",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\sin(30^\\circ) = ?$",
+    "answer": "0.5",
+    "solution": "$\\sin(30^\\circ) = \\frac{1}{2} \\approx 0.5000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "\\frac{1}{2}",
+    "createdAt": "2025-12-02T17:18:33.141137"
+  },
+  {
+    "questionId": "trig_L1_f_012",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\tan(45^\\circ) = ?$",
+    "answer": "1.0",
+    "solution": "$\\tan(45^\\circ) = 1 \\approx 1.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "1",
+    "createdAt": "2025-12-02T17:18:33.141992"
+  },
+  {
+    "questionId": "trig_L1_c_027",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的定义域是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$x \\neq 0$",
+      "$x > 0$",
+      "$所有实数$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:18:33.142507"
+  },
+  {
+    "questionId": "trig_L1_c_028",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的定义域是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$x > 0$",
+      "$x \\neq 0$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$所有实数$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:18:33.143071"
+  },
+  {
+    "questionId": "trig_L1_c_029",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的定义域是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+    "options": [
+      "$x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+      "$所有实数$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$x > 0$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:19:55.072726"
+  },
+  {
+    "questionId": "trig_L1_c_030",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的定义域是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+    "options": [
+      "$x > 0$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+      "$所有实数$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:21:01.720779"
+  },
+  {
+    "questionId": "trig_L1_c_031",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的最小正周期是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $\\pi$",
+    "options": [
+      "$4\\pi$",
+      "$\\frac{\\pi}{2}$",
+      "$\\pi$",
+      "$\\pi$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:21:01.724648"
+  },
+  {
+    "questionId": "trig_L1_c_032",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的最小正周期是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $2\\pi$",
+    "options": [
+      "$4\\pi$",
+      "$\\frac{\\pi}{2}$",
+      "$\\pi$",
+      "$2\\pi$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:21:01.726193"
+  },
+  {
+    "questionId": "trig_L1_c_033",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的最小正周期是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $2\\pi$",
+    "options": [
+      "$4\\pi$",
+      "$\\pi$",
+      "$\\frac{\\pi}{2}$",
+      "$2\\pi$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:21:01.728309"
+  },
+  {
+    "questionId": "trig_L1_c_034",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的定义域是？",
+    "answer": "B",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$x > 0$",
+      "$所有实数$",
+      "$x \\neq 0$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:21:01.729988"
+  },
+  {
+    "questionId": "trig_L1_c_035",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的最小正周期是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $2\\pi$",
+    "options": [
+      "$2\\pi$",
+      "$4\\pi$",
+      "$\\pi$",
+      "$\\frac{\\pi}{2}$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:21:01.731327"
+  },
+  {
+    "questionId": "trig_L1_c_036",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的值域是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$所有实数$",
+      "$所有实数$",
+      "$[0, 1]$",
+      "$[-2, 2]$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:21:01.732616"
+  },
+  {
+    "questionId": "trig_L1_c_037",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的值域是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $[-1, 1]$",
+    "options": [
+      "$所有实数$",
+      "$[0, 1]$",
+      "$[-1, 1]$",
+      "$[-2, 2]$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:21:01.733929"
+  },
+  {
+    "questionId": "trig_L1_c_038",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的定义域是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+    "options": [
+      "$x > 0$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+      "$所有实数$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:21:01.735280"
+  },
+  {
+    "questionId": "trig_L1_c_039",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的最小正周期是？",
+    "answer": "B",
+    "solution": "根据三角函数的基本性质，答案是 $2\\pi$",
+    "options": [
+      "$\\frac{\\pi}{2}$",
+      "$2\\pi$",
+      "$\\pi$",
+      "$4\\pi$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:21:01.736708"
+  },
+  {
+    "questionId": "trig_L1_c_040",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的最小正周期是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $\\pi$",
+    "options": [
+      "$\\pi$",
+      "$4\\pi$",
+      "$\\pi$",
+      "$\\frac{\\pi}{2}$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:21:01.738086"
+  },
+  {
+    "questionId": "trig_L1_c_041",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的值域是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $[-1, 1]$",
+    "options": [
+      "$[0, 1]$",
+      "$[-2, 2]$",
+      "$所有实数$",
+      "$[-1, 1]$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:21:01.739293"
+  },
+  {
+    "questionId": "trig_L1_f_013",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\tan(0^\\circ) = ?$",
+    "answer": "0.0",
+    "solution": "$\\tan(0^\\circ) = 0 \\approx 0.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "0",
+    "createdAt": "2025-12-02T17:21:01.742303"
+  },
+  {
+    "questionId": "trig_L1_f_014",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\tan(120^\\circ) = ?$",
+    "answer": "-1.7320508075688772",
+    "solution": "$\\tan(120^\\circ) = - \\sqrt{3} \\approx -1.7321$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "- \\sqrt{3}",
+    "createdAt": "2025-12-02T17:21:01.750796"
+  },
+  {
+    "questionId": "trig_L1_f_015",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\tan(180^\\circ) = ?$",
+    "answer": "0.0",
+    "solution": "$\\tan(180^\\circ) = 0 \\approx 0.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "0",
+    "createdAt": "2025-12-02T17:21:01.752447"
+  },
+  {
+    "questionId": "trig_L1_f_016",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\tan(180^\\circ) = ?$",
+    "answer": "0.0",
+    "solution": "$\\tan(180^\\circ) = 0 \\approx 0.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "0",
+    "createdAt": "2025-12-02T17:21:01.753635"
+  },
+  {
+    "questionId": "trig_L1_f_017",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\tan(120^\\circ) = ?$",
+    "answer": "-1.7320508075688772",
+    "solution": "$\\tan(120^\\circ) = - \\sqrt{3} \\approx -1.7321$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "- \\sqrt{3}",
+    "createdAt": "2025-12-02T17:21:01.756147"
+  },
+  {
+    "questionId": "trig_L1_f_018",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\sin(135^\\circ) = ?$",
+    "answer": "0.7071067811865476",
+    "solution": "$\\sin(135^\\circ) = \\frac{\\sqrt{2}}{2} \\approx 0.7071$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "\\frac{\\sqrt{2}}{2}",
+    "createdAt": "2025-12-02T17:21:01.759797"
+  },
+  {
+    "questionId": "trig_L1_c_042",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的最小正周期是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $\\pi$",
+    "options": [
+      "$\\pi$",
+      "$\\frac{\\pi}{2}$",
+      "$4\\pi$",
+      "$\\pi$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:21:01.761003"
+  },
+  {
+    "questionId": "trig_L1_c_043",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的值域是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $[-1, 1]$",
+    "options": [
+      "$[-1, 1]$",
+      "$[-2, 2]$",
+      "$所有实数$",
+      "$[0, 1]$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:21:01.762090"
+  },
+  {
+    "questionId": "trig_L1_c_044",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的定义域是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+    "options": [
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$x > 0$",
+      "$所有实数$",
+      "$x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:22:05.858342"
+  },
+  {
+    "questionId": "trig_L1_c_045",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的值域是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $[-1, 1]$",
+    "options": [
+      "$所有实数$",
+      "$[-2, 2]$",
+      "$[-1, 1]$",
+      "$[0, 1]$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:22:05.860801"
+  },
+  {
+    "questionId": "trig_L1_c_046",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的值域是？",
+    "answer": "B",
+    "solution": "根据三角函数的基本性质，答案是 $[-1, 1]$",
+    "options": [
+      "$[-2, 2]$",
+      "$[-1, 1]$",
+      "$[0, 1]$",
+      "$所有实数$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:22:05.861613"
+  },
+  {
+    "questionId": "trig_L1_c_047",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的最小正周期是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $2\\pi$",
+    "options": [
+      "$\\pi$",
+      "$\\frac{\\pi}{2}$",
+      "$4\\pi$",
+      "$2\\pi$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:22:05.862384"
+  },
+  {
+    "questionId": "trig_L1_c_048",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的值域是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$所有实数$",
+      "$所有实数$",
+      "$[-2, 2]$",
+      "$[0, 1]$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:22:05.863149"
+  },
+  {
+    "questionId": "trig_L1_c_049",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的值域是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $[-1, 1]$",
+    "options": [
+      "$[-2, 2]$",
+      "$[0, 1]$",
+      "$所有实数$",
+      "$[-1, 1]$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:22:05.863970"
+  },
+  {
+    "questionId": "trig_L1_c_050",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的值域是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$[-2, 2]$",
+      "$[0, 1]$",
+      "$所有实数$",
+      "$所有实数$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:22:05.864802"
+  },
+  {
+    "questionId": "trig_L1_c_051",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的定义域是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$所有实数$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$x > 0$",
+      "$x \\neq 0$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:22:05.865605"
+  },
+  {
+    "questionId": "trig_L1_c_052",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的定义域是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$所有实数$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$x > 0$",
+      "$x \\neq 0$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:22:05.866445"
+  },
+  {
+    "questionId": "trig_L1_c_053",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的定义域是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$所有实数$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$x > 0$",
+      "$x \\neq 0$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:22:05.867279"
+  },
+  {
+    "questionId": "trig_L1_c_054",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的值域是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$所有实数$",
+      "$[-2, 2]$",
+      "$所有实数$",
+      "$[0, 1]$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:22:05.868102"
+  },
+  {
+    "questionId": "trig_L1_c_055",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的最小正周期是？",
+    "answer": "B",
+    "solution": "根据三角函数的基本性质，答案是 $\\pi$",
+    "options": [
+      "$4\\pi$",
+      "$\\pi$",
+      "$\\pi$",
+      "$\\frac{\\pi}{2}$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:22:05.869450"
+  },
+  {
+    "questionId": "trig_L1_f_019",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\sin(90^\\circ) = ?$",
+    "answer": "1.0",
+    "solution": "$\\sin(90^\\circ) = 1 \\approx 1.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "1",
+    "createdAt": "2025-12-02T17:22:05.876917"
+  },
+  {
+    "questionId": "trig_L1_f_020",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\tan(135^\\circ) = ?$",
+    "answer": "-1.0",
+    "solution": "$\\tan(135^\\circ) = -1 \\approx -1.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "-1",
+    "createdAt": "2025-12-02T17:22:05.878620"
+  },
+  {
+    "questionId": "trig_L1_f_021",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\cos(90^\\circ) = ?$",
+    "answer": "0.0",
+    "solution": "$\\cos(90^\\circ) = 0 \\approx 0.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "0",
+    "createdAt": "2025-12-02T17:22:05.879720"
+  },
+  {
+    "questionId": "trig_L1_f_022",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\tan(180^\\circ) = ?$",
+    "answer": "0.0",
+    "solution": "$\\tan(180^\\circ) = 0 \\approx 0.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "0",
+    "createdAt": "2025-12-02T17:22:05.880836"
+  },
+  {
+    "questionId": "trig_L1_f_023",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\sin(90^\\circ) = ?$",
+    "answer": "1.0",
+    "solution": "$\\sin(90^\\circ) = 1 \\approx 1.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "1",
+    "createdAt": "2025-12-02T17:22:05.881732"
+  },
+  {
+    "questionId": "trig_L1_f_024",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\cos(90^\\circ) = ?$",
+    "answer": "0.0",
+    "solution": "$\\cos(90^\\circ) = 0 \\approx 0.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "0",
+    "createdAt": "2025-12-02T17:22:05.882592"
+  },
+  {
+    "questionId": "trig_L1_c_056",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的最小正周期是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $\\pi$",
+    "options": [
+      "$\\pi$",
+      "$\\pi$",
+      "$\\frac{\\pi}{2}$",
+      "$4\\pi$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:22:05.883468"
+  },
+  {
+    "questionId": "trig_L1_c_057",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的定义域是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+    "options": [
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$所有实数$",
+      "$x > 0$",
+      "$x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:22:05.884357"
+  },
+  {
+    "questionId": "trig_L1_c_058",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的定义域是？",
+    "answer": "B",
+    "solution": "根据三角函数的基本性质，答案是 $x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+    "options": [
+      "$所有实数$",
+      "$x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$x > 0$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:24:07.954195"
+  },
+  {
+    "questionId": "trig_L1_c_059",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的定义域是？",
+    "answer": "B",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$所有实数$",
+      "$x \\neq 0$",
+      "$x > 0$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:24:07.957459"
+  },
+  {
+    "questionId": "trig_L1_c_060",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的值域是？",
+    "answer": "B",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$[-2, 2]$",
+      "$所有实数$",
+      "$[0, 1]$",
+      "$所有实数$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:24:07.959559"
+  },
+  {
+    "questionId": "trig_L1_c_061",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的定义域是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$x \\neq 0$",
+      "$x > 0$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$所有实数$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:24:07.961856"
+  },
+  {
+    "questionId": "trig_L1_c_062",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的定义域是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$",
+    "options": [
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$所有实数$",
+      "$x > 0$",
+      "$x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:24:07.963923"
+  },
+  {
+    "questionId": "trig_L1_c_063",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\tan(x)$ 的值域是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$[-2, 2]$",
+      "$[0, 1]$",
+      "$所有实数$",
+      "$所有实数$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:24:07.965833"
+  },
+  {
+    "questionId": "trig_L1_c_064",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的值域是？",
+    "answer": "B",
+    "solution": "根据三角函数的基本性质，答案是 $[-1, 1]$",
+    "options": [
+      "$[-2, 2]$",
+      "$[-1, 1]$",
+      "$[0, 1]$",
+      "$所有实数$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:24:07.968134"
+  },
+  {
+    "questionId": "trig_L1_c_065",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的定义域是？",
+    "answer": "A",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$所有实数$",
+      "$x > 0$",
+      "$x \\neq 0$",
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:24:07.970089"
+  },
+  {
+    "questionId": "trig_L1_c_066",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的值域是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $[-1, 1]$",
+    "options": [
+      "$[-2, 2]$",
+      "$所有实数$",
+      "$[-1, 1]$",
+      "$[0, 1]$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:24:07.972069"
+  },
+  {
+    "questionId": "trig_L1_c_067",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的值域是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $[-1, 1]$",
+    "options": [
+      "$[-2, 2]$",
+      "$[0, 1]$",
+      "$[-1, 1]$",
+      "$所有实数$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:24:07.973867"
+  },
+  {
+    "questionId": "trig_L1_c_068",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的值域是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $[-1, 1]$",
+    "options": [
+      "$所有实数$",
+      "$[0, 1]$",
+      "$[-1, 1]$",
+      "$[-2, 2]$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:24:07.975618"
+  },
+  {
+    "questionId": "trig_L1_c_069",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的值域是？",
+    "answer": "C",
+    "solution": "根据三角函数的基本性质，答案是 $[-1, 1]$",
+    "options": [
+      "$[-2, 2]$",
+      "$[0, 1]$",
+      "$[-1, 1]$",
+      "$所有实数$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:24:07.977167"
+  },
+  {
+    "questionId": "trig_L1_f_025",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\tan(180^\\circ) = ?$",
+    "answer": "0.0",
+    "solution": "$\\tan(180^\\circ) = 0 \\approx 0.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "0",
+    "createdAt": "2025-12-02T17:24:07.980053"
+  },
+  {
+    "questionId": "trig_L1_f_026",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\cos(0^\\circ) = ?$",
+    "answer": "1.0",
+    "solution": "$\\cos(0^\\circ) = 1 \\approx 1.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "1",
+    "createdAt": "2025-12-02T17:24:07.982034"
+  },
+  {
+    "questionId": "trig_L1_f_027",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\tan(180^\\circ) = ?$",
+    "answer": "0.0",
+    "solution": "$\\tan(180^\\circ) = 0 \\approx 0.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "0",
+    "createdAt": "2025-12-02T17:24:07.983687"
+  },
+  {
+    "questionId": "trig_L1_f_028",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\cos(45^\\circ) = ?$",
+    "answer": "0.7071067811865476",
+    "solution": "$\\cos(45^\\circ) = \\frac{\\sqrt{2}}{2} \\approx 0.7071$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "\\frac{\\sqrt{2}}{2}",
+    "createdAt": "2025-12-02T17:24:07.989254"
+  },
+  {
+    "questionId": "trig_L1_f_029",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\sin(180^\\circ) = ?$",
+    "answer": "0.0",
+    "solution": "$\\sin(180^\\circ) = 0 \\approx 0.0000$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "0",
+    "createdAt": "2025-12-02T17:24:07.991295"
+  },
+  {
+    "questionId": "trig_L1_f_030",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "fill",
+    "chapter": null,
+    "section": null,
+    "question": "计算：$\\sin(120^\\circ) = ?$",
+    "answer": "0.8660254037844386",
+    "solution": "$\\sin(120^\\circ) = \\frac{\\sqrt{3}}{2} \\approx 0.8660$",
+    "options": [],
+    "tags": [
+      "三角函数",
+      "基础计算"
+    ],
+    "answerType": "float",
+    "answerExpr": "\\frac{\\sqrt{3}}{2}",
+    "createdAt": "2025-12-02T17:24:07.994487"
+  },
+  {
+    "questionId": "trig_L1_c_070",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\sin(x)$ 的定义域是？",
+    "answer": "B",
+    "solution": "根据三角函数的基本性质，答案是 $所有实数$",
+    "options": [
+      "$x \\neq k\\pi (k \\in \\mathbb{Z})$",
+      "$所有实数$",
+      "$x > 0$",
+      "$x \\neq 0$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:24:07.997175"
+  },
+  {
+    "questionId": "trig_L1_c_071",
+    "topic": "三角函数",
+    "difficulty": "L1",
+    "type": "choice",
+    "chapter": null,
+    "section": null,
+    "question": "函数 $f(x) = \\cos(x)$ 的最小正周期是？",
+    "answer": "D",
+    "solution": "根据三角函数的基本性质，答案是 $2\\pi$",
+    "options": [
+      "$\\frac{\\pi}{2}$",
+      "$\\pi$",
+      "$4\\pi$",
+      "$2\\pi$"
+    ],
+    "tags": [
+      "三角函数",
+      "基础概念"
+    ],
+    "answerType": null,
+    "answerExpr": null,
+    "createdAt": "2025-12-02T17:24:07.999713"
+  }
+]

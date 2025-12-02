@@ -25,7 +25,7 @@ async def root():
 @app.post("/api/problem", response_model=ProblemResponse)
 async def create_problem(request: ProblemRequest) -> ProblemResponse:
     data = generate_problem(
-        request.topic, 
+        request.topic,
         request.difficulty,
         chapter=request.chapter,
         section=request.section,
@@ -38,7 +38,7 @@ async def create_problem(request: ProblemRequest) -> ProblemResponse:
 async def grade_answer(request: GradeRequest) -> GradeResponse:
     """
     判分接口
-    
+
     接收用户答案，返回判分结果
     """
     is_correct, explanation = grade_problem(
@@ -48,7 +48,7 @@ async def grade_answer(request: GradeRequest) -> GradeResponse:
         answer_type=request.answerType,
         correct_answer_expr=request.correctAnswerExpr
     )
-    
+
     return GradeResponse(
         isCorrect=is_correct,
         explanation=explanation

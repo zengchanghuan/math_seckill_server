@@ -3,6 +3,7 @@ from typing import Dict
 
 import sympy as sp
 from core.problem_config import get_problem_type_for_difficulty
+from core.geometry_generator import generate_geometry_problem
 
 
 def generate_derivative_basic() -> Dict:
@@ -65,12 +66,12 @@ def generate_trig_choice_l1() -> Dict:
         ("\\cos(x)", "所有实数", "[-1, 1]", "2\\pi"),
         ("\\tan(x)", "x \\neq \\frac{\\pi}{2} + k\\pi (k \\in \\mathbb{Z})", "所有实数", "\\pi"),
     ]
-    
+
     func_latex, domain, range_str, period = random.choice(functions)
-    
+
     question_types = ["domain", "range", "period"]
     q_type = random.choice(question_types)
-    
+
     if q_type == "domain":
         question = f"函数 $f(x) = {func_latex}$ 的定义域是？"
         correct = domain
@@ -86,11 +87,11 @@ def generate_trig_choice_l1() -> Dict:
         question = f"函数 $f(x) = {func_latex}$ 的最小正周期是？"
         correct = period
         options = [period, "\\pi", "4\\pi", "\\frac{\\pi}{2}"]
-    
+
     random.shuffle(options)
     correct_index = options.index(correct)
     answer_label = ["A", "B", "C", "D"][correct_index]
-    
+
     return {
         "id": "backend-temp",
         "topic": "三角函数",
@@ -113,9 +114,9 @@ def generate_trig_fill_l1() -> Dict:
     angles_degrees = [0, 30, 45, 60, 90, 120, 135, 150, 180]
     angle_deg = random.choice(angles_degrees)
     angle_rad = sp.rad(angle_deg)
-    
+
     func_type = random.choice(["sin", "cos", "tan"])
-    
+
     if func_type == "sin":
         result = sp.sin(angle_rad)
         func_name = "\\sin"
@@ -128,13 +129,13 @@ def generate_trig_fill_l1() -> Dict:
             return generate_trig_fill_l1()
         result = sp.tan(angle_rad)
         func_name = "\\tan"
-    
+
     result_simplified = sp.simplify(result)
     result_latex = sp.latex(result_simplified)
     result_float = float(result_simplified.evalf())
-    
+
     question = f"计算：${func_name}({angle_deg}^\\circ) = ?$"
-    
+
     return {
         "id": "backend-temp",
         "topic": "三角函数",
@@ -158,24 +159,24 @@ def generate_algebra_choice_l1() -> Dict:
     a = random.randint(1, 5)
     b = random.randint(-10, 10)
     c = random.randint(-10, 10)
-    
+
     # 计算判别式
     delta = b**2 - 4*a*c
-    
+
     if delta > 0:
         root_count = "两个不相等的实根"
     elif delta == 0:
         root_count = "两个相等的实根"
     else:
         root_count = "没有实根"
-    
+
     question = f"方程 ${a}x^2 {b:+d}x {c:+d} = 0$ 有多少个实根？"
-    
+
     options = ["两个不相等的实根", "两个相等的实根", "没有实根", "一个实根"]
     random.shuffle(options)
     correct_index = options.index(root_count)
     answer_label = ["A", "B", "C", "D"][correct_index]
-    
+
     return {
         "id": "backend-temp",
         "topic": "代数与方程",
@@ -196,18 +197,18 @@ def generate_algebra_fill_l1() -> Dict:
     生成第2章代数方程的L1填空题：方程求解
     """
     x = sp.symbols('x')
-    
+
     # 生成简单的一元二次方程，确保有整数解
     root1 = random.randint(-5, 5)
     root2 = random.randint(-5, 5)
-    
+
     # 构造方程 (x - root1)(x - root2) = 0
     eq = sp.expand((x - root1) * (x - root2))
-    
+
     question = f"解方程：${sp.latex(eq)} = 0$，较小的根是？"
-    
+
     smaller_root = min(root1, root2)
-    
+
     return {
         "id": "backend-temp",
         "topic": "代数与方程",
@@ -224,33 +225,33 @@ def generate_algebra_fill_l1() -> Dict:
 
 
 def generate_problem(
-    topic: str, 
-    difficulty: str, 
+    topic: str,
+    difficulty: str,
     chapter: str | None = None,
     section: str | None = None,
     problem_type: str | None = None
 ) -> Dict:
     """
     根据主题、难度、章节生成题目
-    
+
     Args:
         topic: 主题
         difficulty: 难度 (L1/L2/L3)
         chapter: 章节
         section: 节
         problem_type: 题型 (choice/fill/solution)，如果为None则根据难度自动选择
-        
+
     Returns:
         题目字典
     """
     # 兼容旧难度体系
     if difficulty in ["基础", "进阶"]:
         difficulty = "L1" if difficulty == "基础" else "L2"
-    
+
     # 如果没有指定题型，根据难度自动选择
     if problem_type is None:
         problem_type = get_problem_type_for_difficulty(difficulty)
-    
+
     # 根据主题和难度选择生成器
     if topic == "三角函数" or (chapter and "三角函数" in chapter):
         if difficulty == "L1":
@@ -274,16 +275,19 @@ def generate_problem(
                 result = generate_algebra_fill_l1()
         else:
             result = generate_algebra_choice_l1()
+    elif topic == "平面几何" or (chapter and "几何" in chapter):
+        # 平面几何题目（坐标化）
+        result = generate_geometry_problem(difficulty)
     else:
         # 默认使用导数题目
         result = generate_derivative_basic()
-    
+
     # 添加章节和节信息
     if chapter:
         result["chapter"] = chapter
     if section:
         result["section"] = section
-    
+
     return result
 
 

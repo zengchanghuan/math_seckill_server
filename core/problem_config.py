@@ -67,21 +67,21 @@ CHAPTER_DIFFICULTY_RATIO: Dict[str, Dict[str, float]] = {
 def get_problem_type_for_difficulty(difficulty: str) -> str:
     """
     根据难度随机选择题型（按配比）
-    
+
     Args:
         difficulty: 难度等级 ("L1", "L2", "L3")
-        
+
     Returns:
         题型 ("choice", "fill", "solution")
     """
     import random
-    
+
     if difficulty not in DIFFICULTY_TYPE_RATIO:
         difficulty = "L1"
-    
+
     ratios = DIFFICULTY_TYPE_RATIO[difficulty]
     types = list(ratios.keys())
     weights = list(ratios.values())
-    
+
     return random.choices(types, weights=weights)[0]
 

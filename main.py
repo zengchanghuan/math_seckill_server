@@ -528,6 +528,61 @@ async def get_chapter_tutorial(theme_name: str, chapter_name: str):
     except FileNotFoundError:
         raise HTTPException(status_code=404, detail="讲解内容未找到")
 
+# ==================== 反馈管理 ====================
+
+# 反馈文件路径
+FEEDBACK_FILE = DATA_DIR / "feedbacks.json"
+
+@app.post("/api/feedback")
+async def submit_feedback(feedback: dict):
+    """接收题目纠错反馈"""
+    try:
+        # 读取现有反馈
+        feedbacks = []
+        if FEEDBACK_FILE.exists():
+            with open(FEEDBACK_FILE, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                feedbacks = data.get('feedbacks', [])
+        
+        # 添加新反馈
+        feedback['id'] = str(uuid.uuid4())
+        feedback['status'] = 'pending'  # pending, resolved, ignored
+        feedbacks.append(feedback)
+        
+        # 保存到文件
+        with open(FEEDBACK_FILE, 'w', encoding='utf-8') as f:
+            json.dump({'feedbacks': feedbacks}, f, ensure_ascii=False, indent=2)
+        
+        print(f"✅ 收到新反馈：{feedback.get('questionId')} - {feedback.get('description')}")
+        
+        return {
+            "success": True,
+            "message": "反馈已收到，感谢您的反馈！",
+            "feedbackId": feedback['id']
+        }
+    except Exception as e:
+        print(f"❌ 保存反馈失败：{e}")
+        raise HTTPException(status_code=500, detail=f"保存反馈失败：{str(e)}")
+
+@app.get("/api/feedbacks")
+async def get_feedbacks(status: Optional[str] = None):
+    """获取所有反馈（用于后台管理）"""
+    try:
+        if not FEEDBACK_FILE.exists():
+            return {"feedbacks": []}
+        
+        with open(FEEDBACK_FILE, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            feedbacks = data.get('feedbacks', [])
+        
+        # 按状态筛选
+        if status:
+            feedbacks = [f for f in feedbacks if f.get('status') == status]
+        
+        return {"feedbacks": feedbacks, "total": len(feedbacks)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000, reload=True)

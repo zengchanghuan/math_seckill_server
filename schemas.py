@@ -74,31 +74,31 @@ class QuestionMetadata(BaseModel):
     topic: str
     difficulty: Difficulty
     type: ProblemType
-    
+
     # 内容
     question: str
     answer: str
     solution: str
     options: Optional[List[str]] = None
-    
+
     # 答案相关
     answerType: Optional[AnswerType] = None
     answerExpr: Optional[str] = None  # SymPy表达式字符串
-    
+
     # 分类标签
     knowledgePoints: List[str] = []   # 知识点标签：["导数", "单调性"]
     abilityTags: List[AbilityTag] = [] # 能力要求：["apply", "analyze"]
     tags: List[str] = []              # 通用标签
-    
+
     # 章节信息
     chapter: Optional[str] = None
     section: Optional[str] = None
-    
+
     # 来源信息
     source: str = "generated"         # "real_exam_2023" / "generated" / "manual"
     isRealExam: bool = False
     templateId: Optional[str] = None  # 题型模板ID
-    
+
     # 质量统计（由系统自动更新）
     totalAttempts: int = 0            # 总作答次数
     correctCount: int = 0             # 正确次数
@@ -106,14 +106,14 @@ class QuestionMetadata(BaseModel):
     discriminationIndex: Optional[float] = None # 区分度
     avgTimeSeconds: Optional[float] = None     # 平均耗时
     optionDistribution: Optional[Dict[str, float]] = None # 选项分布
-    
+
     # 审核状态
     reviewStatus: ReviewStatus = ReviewStatus.PENDING
     reviewerId: Optional[str] = None
     reviewComment: Optional[str] = None
-    
+
     # 时间戳
-    createdAt: datetime
+    createdAt: Optional[datetime] = None
     updatedAt: Optional[datetime] = None
 
 
@@ -143,27 +143,27 @@ class AnswerSubmission(BaseModel):
 class StudentProfile(BaseModel):
     """学生能力画像"""
     studentId: str
-    
+
     # 知识点掌握度 {"导数": 0.75, "极限": 0.60}
     knowledgeMastery: Dict[str, float] = {}
-    
+
     # 题型正确率 {"choice": 0.80, "fill": 0.65}
     questionTypeAccuracy: Dict[str, float] = {}
-    
+
     # 难度正确率 {"L1": 0.90, "L2": 0.60, "L3": 0.30}
     difficultyAccuracy: Dict[str, float] = {}
-    
+
     # 做题统计
     totalProblems: int = 0
     correctCount: int = 0
     avgTimePerProblem: Optional[float] = None
-    
+
     # 薄弱知识点
     weakPoints: List[str] = []
-    
+
     # 预测分数（基于当前数据）
     predictedScore: Optional[float] = None
-    
+
     updatedAt: datetime
 
 

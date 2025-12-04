@@ -1,0 +1,2834 @@
+{
+  "imagePath": "temp/pdf_images/page_1.png",
+  "ocrResult": {
+    "fullText": "| 广东专插本考试信息网 : www.gzzkgk.cn ”培训电话 : 020- 88282667 , 15374053589\n\n广东省 2020 年普通高等学校本科插班生招生考试\n高等数学\n\nAGA LEN 2 页，20 小题，满分 100 分着试时间 120 分钙。\n\nje\n\n注意事项:\n\n1，郑后必须在答题卜上作答，在则答案碟效。\n\n3，达择题每小蚂选出答案后，用 2B 铬笔把答题 R NRE et, uae\n动，用橡皮掖干净后，租选涂其他答案。\n\n4 AAT a UE oe Fi ke CR ER TE RAS: 如需改动，先\nSUPE AN BIS, A SS: 不得使用铅笔和涂改液。 AHL ERAS ERD\n\n5，攻后必须保持答题本的理洁，荐试结束后，将本试卷和答题上一并父加。\n\ntw\n\n2B La, WAL O<a, <\nnel\n\n、单项选择题《本大题共 5 小题，每小题 3 分，共 15 分. 每小题只有一个选项符合题目\n\n要求)\n. té lim[ cosx - f(x)]=1, WY Sal a at\n\nA. lim f(x)=1             B. lim f (x)cos.x =|\nC. lim f(x)=-1             D. lim[ f(x)+cosx]=1\n» PARES (x)= 2? - 3. RD ae\n\nA. x=-]                B. x=0\n\nC. x=)       .           D. x=2\nUMS PAR (XI Pra. WY F(x) =\n\nA. 3                  B. 3 in3\n\nC. x30!                 D. 了\n\nIn3\n\n. BKK D= {(x.y))x° ty < Lv 20} » Wy {Ie +y) do =\nDb\n\nA. =                  Bn. =\n10                    9\n\n5\n\nc. =                   D. =\n5                     9\n\n= ，则下列级数发禾的足\n\nA. 3a,                 B. Ya,.,\nmst\n=      I                       =      ]\nCc.       一一                   D.      一一一\n中。 十 |                           让“\n\n闹等数学试题 第1页(共2 9\n\n微信(QQ ) :1163816823       公众号:gzzkgk\n\n",
+    "words": [
+      {
+        "text": "|",
+        "confidence": 84,
+        "left": 14,
+        "top": 16,
+        "width": 20,
+        "height": 122
+      },
+      {
+        "text": "广东",
+        "confidence": 93,
+        "left": 110,
+        "top": 92,
+        "width": 112,
+        "height": 52
+      },
+      {
+        "text": "专",
+        "confidence": 93,
+        "left": 246,
+        "top": 92,
+        "width": 56,
+        "height": 52
+      },
+      {
+        "text": "插",
+        "confidence": 92,
+        "left": 308,
+        "top": 92,
+        "width": 31,
+        "height": 53
+      },
+      {
+        "text": "本",
+        "confidence": 85,
+        "left": 357,
+        "top": 91,
+        "width": 40,
+        "height": 53
+      },
+      {
+        "text": "考试",
+        "confidence": 96,
+        "left": 418,
+        "top": 92,
+        "width": 117,
+        "height": 52
+      },
+      {
+        "text": "信息",
+        "confidence": 96,
+        "left": 540,
+        "top": 91,
+        "width": 124,
+        "height": 54
+      },
+      {
+        "text": "网",
+        "confidence": 88,
+        "left": 663,
+        "top": 71,
+        "width": 50,
+        "height": 98
+      },
+      {
+        "text": ":",
+        "confidence": 88,
+        "left": 730,
+        "top": 107,
+        "width": 18,
+        "height": 37
+      },
+      {
+        "text": "www.gzzkgk.cn",
+        "confidence": 82,
+        "left": 750,
+        "top": 94,
+        "width": 440,
+        "height": 56
+      },
+      {
+        "text": "”培训",
+        "confidence": 35,
+        "left": 1226,
+        "top": 71,
+        "width": 147,
+        "height": 98
+      },
+      {
+        "text": "电话",
+        "confidence": 92,
+        "left": 1392,
+        "top": 92,
+        "width": 99,
+        "height": 52
+      },
+      {
+        "text": ":",
+        "confidence": 82,
+        "left": 1519,
+        "top": 107,
+        "width": 8,
+        "height": 33
+      },
+      {
+        "text": "020-",
+        "confidence": 92,
+        "left": 1576,
+        "top": 71,
+        "width": 90,
+        "height": 98
+      },
+      {
+        "text": "88282667",
+        "confidence": 87,
+        "left": 1686,
+        "top": 96,
+        "width": 254,
+        "height": 64
+      },
+      {
+        "text": ",",
+        "confidence": 87,
+        "left": 1983,
+        "top": 132,
+        "width": 9,
+        "height": 15
+      },
+      {
+        "text": "15374053589",
+        "confidence": 96,
+        "left": 2014,
+        "top": 96,
+        "width": 356,
+        "height": 69
+      },
+      {
+        "text": "广东",
+        "confidence": 96,
+        "left": 420,
+        "top": 497,
+        "width": 212,
+        "height": 68
+      },
+      {
+        "text": "省",
+        "confidence": 96,
+        "left": 591,
+        "top": 478,
+        "width": 60,
+        "height": 134
+      },
+      {
+        "text": "2020",
+        "confidence": 93,
+        "left": 658,
+        "top": 507,
+        "width": 143,
+        "height": 55
+      },
+      {
+        "text": "年",
+        "confidence": 96,
+        "left": 851,
+        "top": 500,
+        "width": 39,
+        "height": 68
+      },
+      {
+        "text": "普通",
+        "confidence": 96,
+        "left": 926,
+        "top": 502,
+        "width": 111,
+        "height": 67
+      },
+      {
+        "text": "高",
+        "confidence": 96,
+        "left": 1077,
+        "top": 503,
+        "width": 76,
+        "height": 70
+      },
+      {
+        "text": "等",
+        "confidence": 96,
+        "left": 1192,
+        "top": 506,
+        "width": 37,
+        "height": 68
+      },
+      {
+        "text": "学",
+        "confidence": 93,
+        "left": 1263,
+        "top": 506,
+        "width": 41,
+        "height": 68
+      },
+      {
+        "text": "校本",
+        "confidence": 93,
+        "left": 1338,
+        "top": 508,
+        "width": 92,
+        "height": 68
+      },
+      {
+        "text": "科",
+        "confidence": 85,
+        "left": 1437,
+        "top": 509,
+        "width": 41,
+        "height": 68
+      },
+      {
+        "text": "插班",
+        "confidence": 81,
+        "left": 1504,
+        "top": 478,
+        "width": 160,
+        "height": 134
+      },
+      {
+        "text": "生",
+        "confidence": 93,
+        "left": 1663,
+        "top": 512,
+        "width": 33,
+        "height": 64
+      },
+      {
+        "text": "招生",
+        "confidence": 93,
+        "left": 1730,
+        "top": 513,
+        "width": 113,
+        "height": 67
+      },
+      {
+        "text": "考试",
+        "confidence": 43,
+        "left": 1864,
+        "top": 514,
+        "width": 125,
+        "height": 69
+      },
+      {
+        "text": "高",
+        "confidence": 96,
+        "left": 1017,
+        "top": 660,
+        "width": 138,
+        "height": 92
+      },
+      {
+        "text": "等",
+        "confidence": 96,
+        "left": 1155,
+        "top": 661,
+        "width": 100,
+        "height": 92
+      },
+      {
+        "text": "数学",
+        "confidence": 92,
+        "left": 1254,
+        "top": 655,
+        "width": 139,
+        "height": 133
+      },
+      {
+        "text": "AGA",
+        "confidence": 7,
+        "left": 448,
+        "top": 838,
+        "width": 81,
+        "height": 60
+      },
+      {
+        "text": "LEN",
+        "confidence": 7,
+        "left": 544,
+        "top": 838,
+        "width": 70,
+        "height": 60
+      },
+      {
+        "text": "2",
+        "confidence": 95,
+        "left": 642,
+        "top": 848,
+        "width": 10,
+        "height": 32
+      },
+      {
+        "text": "页",
+        "confidence": 90,
+        "left": 695,
+        "top": 845,
+        "width": 25,
+        "height": 37
+      },
+      {
+        "text": "，20",
+        "confidence": 92,
+        "left": 752,
+        "top": 850,
+        "width": 41,
+        "height": 31
+      },
+      {
+        "text": "小",
+        "confidence": 93,
+        "left": 810,
+        "top": 846,
+        "width": 92,
+        "height": 40
+      },
+      {
+        "text": "题",
+        "confidence": 69,
+        "left": 875,
+        "top": 838,
+        "width": 38,
+        "height": 60
+      },
+      {
+        "text": "，",
+        "confidence": 90,
+        "left": 936,
+        "top": 851,
+        "width": 6,
+        "height": 34
+      },
+      {
+        "text": "满",
+        "confidence": 68,
+        "left": 946,
+        "top": 848,
+        "width": 69,
+        "height": 40
+      },
+      {
+        "text": "分",
+        "confidence": 95,
+        "left": 1002,
+        "top": 838,
+        "width": 27,
+        "height": 60
+      },
+      {
+        "text": "100",
+        "confidence": 92,
+        "left": 1036,
+        "top": 855,
+        "width": 55,
+        "height": 31
+      },
+      {
+        "text": "分",
+        "confidence": 95,
+        "left": 1108,
+        "top": 851,
+        "width": 51,
+        "height": 39
+      },
+      {
+        "text": "着",
+        "confidence": 0,
+        "left": 1194,
+        "top": 851,
+        "width": 35,
+        "height": 40
+      },
+      {
+        "text": "试",
+        "confidence": 93,
+        "left": 1254,
+        "top": 853,
+        "width": 36,
+        "height": 37
+      },
+      {
+        "text": "时",
+        "confidence": 92,
+        "left": 1295,
+        "top": 853,
+        "width": 34,
+        "height": 38
+      },
+      {
+        "text": "间",
+        "confidence": 92,
+        "left": 1329,
+        "top": 855,
+        "width": 26,
+        "height": 37
+      },
+      {
+        "text": "120",
+        "confidence": 93,
+        "left": 1377,
+        "top": 859,
+        "width": 56,
+        "height": 31
+      },
+      {
+        "text": "分",
+        "confidence": 92,
+        "left": 1452,
+        "top": 855,
+        "width": 92,
+        "height": 39
+      },
+      {
+        "text": "钙",
+        "confidence": 22,
+        "left": 1505,
+        "top": 838,
+        "width": 23,
+        "height": 60
+      },
+      {
+        "text": "。",
+        "confidence": 0,
+        "left": 1527,
+        "top": 838,
+        "width": 20,
+        "height": 60
+      },
+      {
+        "text": "je",
+        "confidence": 26,
+        "left": 1243,
+        "top": 666,
+        "width": 12,
+        "height": 14
+      },
+      {
+        "text": "注意",
+        "confidence": 95,
+        "left": 367,
+        "top": 915,
+        "width": 79,
+        "height": 39
+      },
+      {
+        "text": "事项",
+        "confidence": 93,
+        "left": 468,
+        "top": 916,
+        "width": 65,
+        "height": 38
+      },
+      {
+        "text": ":",
+        "confidence": 88,
+        "left": 541,
+        "top": 936,
+        "width": 6,
+        "height": 16
+      },
+      {
+        "text": "1，",
+        "confidence": 87,
+        "left": 370,
+        "top": 995,
+        "width": 26,
+        "height": 28
+      },
+      {
+        "text": "郑",
+        "confidence": 0,
+        "left": 440,
+        "top": 990,
+        "width": 44,
+        "height": 40
+      },
+      {
+        "text": "后",
+        "confidence": 41,
+        "left": 489,
+        "top": 989,
+        "width": 21,
+        "height": 38
+      },
+      {
+        "text": "必须",
+        "confidence": 90,
+        "left": 517,
+        "top": 991,
+        "width": 208,
+        "height": 40
+      },
+      {
+        "text": "在",
+        "confidence": 92,
+        "left": 621,
+        "top": 985,
+        "width": 41,
+        "height": 63
+      },
+      {
+        "text": "答题",
+        "confidence": 93,
+        "left": 743,
+        "top": 993,
+        "width": 24,
+        "height": 38
+      },
+      {
+        "text": "卜",
+        "confidence": 0,
+        "left": 755,
+        "top": 985,
+        "width": 25,
+        "height": 63
+      },
+      {
+        "text": "上",
+        "confidence": 86,
+        "left": 788,
+        "top": 995,
+        "width": 22,
+        "height": 35
+      },
+      {
+        "text": "作答",
+        "confidence": 92,
+        "left": 817,
+        "top": 995,
+        "width": 93,
+        "height": 38
+      },
+      {
+        "text": "，",
+        "confidence": 73,
+        "left": 947,
+        "top": 999,
+        "width": 10,
+        "height": 35
+      },
+      {
+        "text": "在",
+        "confidence": 32,
+        "left": 968,
+        "top": 999,
+        "width": 13,
+        "height": 34
+      },
+      {
+        "text": "则",
+        "confidence": 89,
+        "left": 996,
+        "top": 998,
+        "width": 28,
+        "height": 38
+      },
+      {
+        "text": "答案",
+        "confidence": 93,
+        "left": 1032,
+        "top": 998,
+        "width": 181,
+        "height": 39
+      },
+      {
+        "text": "碟",
+        "confidence": 0,
+        "left": 1133,
+        "top": 985,
+        "width": 41,
+        "height": 63
+      },
+      {
+        "text": "效",
+        "confidence": 80,
+        "left": 1173,
+        "top": 985,
+        "width": 28,
+        "height": 63
+      },
+      {
+        "text": "。",
+        "confidence": 92,
+        "left": 1200,
+        "top": 985,
+        "width": 17,
+        "height": 63
+      },
+      {
+        "text": "3，",
+        "confidence": 50,
+        "left": 364,
+        "top": 1141,
+        "width": 31,
+        "height": 30
+      },
+      {
+        "text": "达",
+        "confidence": 74,
+        "left": 431,
+        "top": 1139,
+        "width": 34,
+        "height": 37
+      },
+      {
+        "text": "择",
+        "confidence": 86,
+        "left": 481,
+        "top": 1139,
+        "width": 27,
+        "height": 38
+      },
+      {
+        "text": "题",
+        "confidence": 78,
+        "left": 531,
+        "top": 1139,
+        "width": 51,
+        "height": 40
+      },
+      {
+        "text": "每",
+        "confidence": 96,
+        "left": 602,
+        "top": 1140,
+        "width": 20,
+        "height": 38
+      },
+      {
+        "text": "小",
+        "confidence": 92,
+        "left": 626,
+        "top": 1152,
+        "width": 10,
+        "height": 15
+      },
+      {
+        "text": "蚂",
+        "confidence": 0,
+        "left": 661,
+        "top": 1141,
+        "width": 43,
+        "height": 38
+      },
+      {
+        "text": "选",
+        "confidence": 57,
+        "left": 730,
+        "top": 1143,
+        "width": 20,
+        "height": 36
+      },
+      {
+        "text": "出",
+        "confidence": 96,
+        "left": 749,
+        "top": 1135,
+        "width": 39,
+        "height": 67
+      },
+      {
+        "text": "答案",
+        "confidence": 96,
+        "left": 787,
+        "top": 1142,
+        "width": 97,
+        "height": 38
+      },
+      {
+        "text": "后",
+        "confidence": 92,
+        "left": 902,
+        "top": 1168,
+        "width": 7,
+        "height": 11
+      },
+      {
+        "text": "，",
+        "confidence": 90,
+        "left": 944,
+        "top": 1145,
+        "width": 6,
+        "height": 32
+      },
+      {
+        "text": "用",
+        "confidence": 91,
+        "left": 955,
+        "top": 1145,
+        "width": 22,
+        "height": 37
+      },
+      {
+        "text": "2B",
+        "confidence": 81,
+        "left": 994,
+        "top": 1149,
+        "width": 46,
+        "height": 31
+      },
+      {
+        "text": "铬",
+        "confidence": 11,
+        "left": 1067,
+        "top": 1146,
+        "width": 51,
+        "height": 38
+      },
+      {
+        "text": "笔",
+        "confidence": 92,
+        "left": 1122,
+        "top": 1147,
+        "width": 38,
+        "height": 37
+      },
+      {
+        "text": "把",
+        "confidence": 79,
+        "left": 1164,
+        "top": 1152,
+        "width": 4,
+        "height": 6
+      },
+      {
+        "text": "答题",
+        "confidence": 71,
+        "left": 1186,
+        "top": 1146,
+        "width": 76,
+        "height": 40
+      },
+      {
+        "text": "R",
+        "confidence": 1,
+        "left": 1282,
+        "top": 1149,
+        "width": 24,
+        "height": 37
+      },
+      {
+        "text": "NRE",
+        "confidence": 20,
+        "left": 1326,
+        "top": 1150,
+        "width": 552,
+        "height": 42
+      },
+      {
+        "text": "et,",
+        "confidence": 23,
+        "left": 1755,
+        "top": 1135,
+        "width": 135,
+        "height": 67
+      },
+      {
+        "text": "uae",
+        "confidence": 9,
+        "left": 1914,
+        "top": 1157,
+        "width": 119,
+        "height": 37
+      },
+      {
+        "text": "动",
+        "confidence": 56,
+        "left": 428,
+        "top": 1212,
+        "width": 52,
+        "height": 37
+      },
+      {
+        "text": "，",
+        "confidence": 92,
+        "left": 516,
+        "top": 1213,
+        "width": 6,
+        "height": 31
+      },
+      {
+        "text": "用",
+        "confidence": 92,
+        "left": 526,
+        "top": 1213,
+        "width": 23,
+        "height": 37
+      },
+      {
+        "text": "橡皮",
+        "confidence": 92,
+        "left": 574,
+        "top": 1212,
+        "width": 87,
+        "height": 40
+      },
+      {
+        "text": "掖",
+        "confidence": 0,
+        "left": 700,
+        "top": 1217,
+        "width": 6,
+        "height": 35
+      },
+      {
+        "text": "干净",
+        "confidence": 38,
+        "left": 715,
+        "top": 1214,
+        "width": 108,
+        "height": 39
+      },
+      {
+        "text": "后",
+        "confidence": 92,
+        "left": 791,
+        "top": 1208,
+        "width": 42,
+        "height": 60
+      },
+      {
+        "text": "，",
+        "confidence": 92,
+        "left": 832,
+        "top": 1208,
+        "width": 35,
+        "height": 60
+      },
+      {
+        "text": "租",
+        "confidence": 3,
+        "left": 866,
+        "top": 1218,
+        "width": 50,
+        "height": 37
+      },
+      {
+        "text": "选",
+        "confidence": 77,
+        "left": 915,
+        "top": 1217,
+        "width": 46,
+        "height": 39
+      },
+      {
+        "text": "涂",
+        "confidence": 89,
+        "left": 960,
+        "top": 1218,
+        "width": 30,
+        "height": 38
+      },
+      {
+        "text": "其",
+        "confidence": 93,
+        "left": 1001,
+        "top": 1218,
+        "width": 21,
+        "height": 38
+      },
+      {
+        "text": "他",
+        "confidence": 96,
+        "left": 1042,
+        "top": 1218,
+        "width": 22,
+        "height": 39
+      },
+      {
+        "text": "答案",
+        "confidence": 92,
+        "left": 1080,
+        "top": 1219,
+        "width": 69,
+        "height": 39
+      },
+      {
+        "text": "。",
+        "confidence": 84,
+        "left": 1158,
+        "top": 1244,
+        "width": 8,
+        "height": 11
+      },
+      {
+        "text": "4",
+        "confidence": 54,
+        "left": 361,
+        "top": 1289,
+        "width": 33,
+        "height": 29
+      },
+      {
+        "text": "AAT",
+        "confidence": 31,
+        "left": 426,
+        "top": 1285,
+        "width": 98,
+        "height": 38
+      },
+      {
+        "text": "a",
+        "confidence": 32,
+        "left": 557,
+        "top": 1288,
+        "width": 43,
+        "height": 36
+      },
+      {
+        "text": "UE",
+        "confidence": 29,
+        "left": 658,
+        "top": 1288,
+        "width": 96,
+        "height": 38
+      },
+      {
+        "text": "oe",
+        "confidence": 19,
+        "left": 770,
+        "top": 1281,
+        "width": 29,
+        "height": 67
+      },
+      {
+        "text": "Fi",
+        "confidence": 25,
+        "left": 820,
+        "top": 1290,
+        "width": 67,
+        "height": 38
+      },
+      {
+        "text": "ke",
+        "confidence": 40,
+        "left": 971,
+        "top": 1292,
+        "width": 86,
+        "height": 38
+      },
+      {
+        "text": "CR",
+        "confidence": 31,
+        "left": 1088,
+        "top": 1293,
+        "width": 55,
+        "height": 39
+      },
+      {
+        "text": "ER",
+        "confidence": 33,
+        "left": 1166,
+        "top": 1295,
+        "width": 146,
+        "height": 38
+      },
+      {
+        "text": "TE",
+        "confidence": 36,
+        "left": 1378,
+        "top": 1296,
+        "width": 141,
+        "height": 40
+      },
+      {
+        "text": "RAS:",
+        "confidence": 47,
+        "left": 1596,
+        "top": 1299,
+        "width": 159,
+        "height": 39
+      },
+      {
+        "text": "如",
+        "confidence": 92,
+        "left": 1801,
+        "top": 1301,
+        "width": 36,
+        "height": 38
+      },
+      {
+        "text": "需",
+        "confidence": 32,
+        "left": 1843,
+        "top": 1302,
+        "width": 41,
+        "height": 38
+      },
+      {
+        "text": "改",
+        "confidence": 39,
+        "left": 1889,
+        "top": 1302,
+        "width": 51,
+        "height": 38
+      },
+      {
+        "text": "动",
+        "confidence": 92,
+        "left": 1939,
+        "top": 1312,
+        "width": 26,
+        "height": 28
+      },
+      {
+        "text": "，",
+        "confidence": 89,
+        "left": 1998,
+        "top": 1308,
+        "width": 5,
+        "height": 12
+      },
+      {
+        "text": "先",
+        "confidence": 84,
+        "left": 1997,
+        "top": 1304,
+        "width": 34,
+        "height": 38
+      },
+      {
+        "text": "SUPE",
+        "confidence": 25,
+        "left": 428,
+        "top": 1354,
+        "width": 79,
+        "height": 71
+      },
+      {
+        "text": "AN",
+        "confidence": 25,
+        "left": 560,
+        "top": 1360,
+        "width": 75,
+        "height": 40
+      },
+      {
+        "text": "BIS,",
+        "confidence": 27,
+        "left": 654,
+        "top": 1362,
+        "width": 81,
+        "height": 39
+      },
+      {
+        "text": "A",
+        "confidence": 44,
+        "left": 758,
+        "top": 1364,
+        "width": 121,
+        "height": 39
+      },
+      {
+        "text": "SS:",
+        "confidence": 42,
+        "left": 897,
+        "top": 1364,
+        "width": 83,
+        "height": 40
+      },
+      {
+        "text": "不",
+        "confidence": 91,
+        "left": 1014,
+        "top": 1366,
+        "width": 45,
+        "height": 39
+      },
+      {
+        "text": "得",
+        "confidence": 96,
+        "left": 1064,
+        "top": 1367,
+        "width": 35,
+        "height": 39
+      },
+      {
+        "text": "使",
+        "confidence": 96,
+        "left": 1107,
+        "top": 1367,
+        "width": 30,
+        "height": 41
+      },
+      {
+        "text": "用",
+        "confidence": 96,
+        "left": 1147,
+        "top": 1369,
+        "width": 17,
+        "height": 38
+      },
+      {
+        "text": "铅笔",
+        "confidence": 74,
+        "left": 1182,
+        "top": 1368,
+        "width": 90,
+        "height": 41
+      },
+      {
+        "text": "和",
+        "confidence": 96,
+        "left": 1287,
+        "top": 1374,
+        "width": 6,
+        "height": 28
+      },
+      {
+        "text": "涂改",
+        "confidence": 92,
+        "left": 1307,
+        "top": 1369,
+        "width": 98,
+        "height": 42
+      },
+      {
+        "text": "液",
+        "confidence": 76,
+        "left": 1404,
+        "top": 1371,
+        "width": 32,
+        "height": 39
+      },
+      {
+        "text": "。",
+        "confidence": 86,
+        "left": 1435,
+        "top": 1354,
+        "width": 15,
+        "height": 71
+      },
+      {
+        "text": "AHL",
+        "confidence": 41,
+        "left": 1463,
+        "top": 1372,
+        "width": 117,
+        "height": 40
+      },
+      {
+        "text": "ERAS",
+        "confidence": 40,
+        "left": 1607,
+        "top": 1373,
+        "width": 214,
+        "height": 42
+      },
+      {
+        "text": "ERD",
+        "confidence": 22,
+        "left": 1861,
+        "top": 1376,
+        "width": 167,
+        "height": 41
+      },
+      {
+        "text": "5，",
+        "confidence": 76,
+        "left": 362,
+        "top": 1437,
+        "width": 30,
+        "height": 31
+      },
+      {
+        "text": "攻",
+        "confidence": 0,
+        "left": 430,
+        "top": 1433,
+        "width": 34,
+        "height": 39
+      },
+      {
+        "text": "后",
+        "confidence": 32,
+        "left": 483,
+        "top": 1433,
+        "width": 23,
+        "height": 39
+      },
+      {
+        "text": "必",
+        "confidence": 88,
+        "left": 525,
+        "top": 1436,
+        "width": 43,
+        "height": 34
+      },
+      {
+        "text": "须",
+        "confidence": 92,
+        "left": 571,
+        "top": 1435,
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "保持",
+        "confidence": 89,
+        "left": 609,
+        "top": 1436,
+        "width": 152,
+        "height": 40
+      },
+      {
+        "text": "答题",
+        "confidence": 32,
+        "left": 701,
+        "top": 1429,
+        "width": 85,
+        "height": 67
+      },
+      {
+        "text": "本",
+        "confidence": 79,
+        "left": 785,
+        "top": 1438,
+        "width": 34,
+        "height": 38
+      },
+      {
+        "text": "的",
+        "confidence": 88,
+        "left": 822,
+        "top": 1438,
+        "width": 25,
+        "height": 39
+      },
+      {
+        "text": "理",
+        "confidence": 0,
+        "left": 868,
+        "top": 1439,
+        "width": 37,
+        "height": 38
+      },
+      {
+        "text": "洁",
+        "confidence": 58,
+        "left": 914,
+        "top": 1439,
+        "width": 34,
+        "height": 39
+      },
+      {
+        "text": "，",
+        "confidence": 92,
+        "left": 961,
+        "top": 1429,
+        "width": 34,
+        "height": 67
+      },
+      {
+        "text": "荐",
+        "confidence": 0,
+        "left": 994,
+        "top": 1440,
+        "width": 25,
+        "height": 40
+      },
+      {
+        "text": "试",
+        "confidence": 81,
+        "left": 1044,
+        "top": 1442,
+        "width": 43,
+        "height": 38
+      },
+      {
+        "text": "结束",
+        "confidence": 77,
+        "left": 1090,
+        "top": 1442,
+        "width": 115,
+        "height": 39
+      },
+      {
+        "text": "后",
+        "confidence": 92,
+        "left": 1178,
+        "top": 1429,
+        "width": 35,
+        "height": 67
+      },
+      {
+        "text": "，",
+        "confidence": 87,
+        "left": 1237,
+        "top": 1444,
+        "width": 12,
+        "height": 38
+      },
+      {
+        "text": "将",
+        "confidence": 86,
+        "left": 1252,
+        "top": 1444,
+        "width": 22,
+        "height": 39
+      },
+      {
+        "text": "本",
+        "confidence": 95,
+        "left": 1291,
+        "top": 1444,
+        "width": 26,
+        "height": 39
+      },
+      {
+        "text": "试卷",
+        "confidence": 60,
+        "left": 1325,
+        "top": 1445,
+        "width": 206,
+        "height": 40
+      },
+      {
+        "text": "和",
+        "confidence": 96,
+        "left": 1425,
+        "top": 1429,
+        "width": 39,
+        "height": 67
+      },
+      {
+        "text": "答题",
+        "confidence": 88,
+        "left": 1463,
+        "top": 1429,
+        "width": 93,
+        "height": 67
+      },
+      {
+        "text": "上",
+        "confidence": 95,
+        "left": 1551,
+        "top": 1447,
+        "width": 23,
+        "height": 38
+      },
+      {
+        "text": "一",
+        "confidence": 39,
+        "left": 1613,
+        "top": 1449,
+        "width": 27,
+        "height": 37
+      },
+      {
+        "text": "并",
+        "confidence": 90,
+        "left": 1642,
+        "top": 1449,
+        "width": 120,
+        "height": 38
+      },
+      {
+        "text": "父",
+        "confidence": 63,
+        "left": 1681,
+        "top": 1429,
+        "width": 38,
+        "height": 67
+      },
+      {
+        "text": "加",
+        "confidence": 0,
+        "left": 1718,
+        "top": 1429,
+        "width": 27,
+        "height": 67
+      },
+      {
+        "text": "。",
+        "confidence": 41,
+        "left": 1744,
+        "top": 1429,
+        "width": 21,
+        "height": 67
+      },
+      {
+        "text": "tw",
+        "confidence": 62,
+        "left": 356,
+        "top": 1888,
+        "width": 17,
+        "height": 30
+      },
+      {
+        "text": "2B",
+        "confidence": 19,
+        "left": 374,
+        "top": 2625,
+        "width": 505,
+        "height": 56
+      },
+      {
+        "text": "La,",
+        "confidence": 22,
+        "left": 567,
+        "top": 2606,
+        "width": 73,
+        "height": 79
+      },
+      {
+        "text": "WAL",
+        "confidence": 0,
+        "left": 659,
+        "top": 2606,
+        "width": 74,
+        "height": 79
+      },
+      {
+        "text": "O<a,",
+        "confidence": 0,
+        "left": 738,
+        "top": 2606,
+        "width": 106,
+        "height": 79
+      },
+      {
+        "text": "<",
+        "confidence": 75,
+        "left": 863,
+        "top": 2606,
+        "width": 21,
+        "height": 79
+      },
+      {
+        "text": "nel",
+        "confidence": 69,
+        "left": 551,
+        "top": 2688,
+        "width": 35,
+        "height": 17
+      },
+      {
+        "text": "、",
+        "confidence": 76,
+        "left": 410,
+        "top": 1556,
+        "width": 9,
+        "height": 10
+      },
+      {
+        "text": "单",
+        "confidence": 78,
+        "left": 445,
+        "top": 1531,
+        "width": 209,
+        "height": 41
+      },
+      {
+        "text": "项",
+        "confidence": 96,
+        "left": 506,
+        "top": 1527,
+        "width": 43,
+        "height": 67
+      },
+      {
+        "text": "选择",
+        "confidence": 93,
+        "left": 548,
+        "top": 1531,
+        "width": 93,
+        "height": 41
+      },
+      {
+        "text": "题",
+        "confidence": 92,
+        "left": 640,
+        "top": 1527,
+        "width": 43,
+        "height": 67
+      },
+      {
+        "text": "《",
+        "confidence": 26,
+        "left": 682,
+        "top": 1541,
+        "width": 6,
+        "height": 28
+      },
+      {
+        "text": "本",
+        "confidence": 92,
+        "left": 711,
+        "top": 1533,
+        "width": 26,
+        "height": 40
+      },
+      {
+        "text": "大",
+        "confidence": 93,
+        "left": 753,
+        "top": 1535,
+        "width": 25,
+        "height": 37
+      },
+      {
+        "text": "题",
+        "confidence": 91,
+        "left": 799,
+        "top": 1536,
+        "width": 47,
+        "height": 38
+      },
+      {
+        "text": "共",
+        "confidence": 84,
+        "left": 845,
+        "top": 1527,
+        "width": 26,
+        "height": 67
+      },
+      {
+        "text": "5",
+        "confidence": 74,
+        "left": 880,
+        "top": 1541,
+        "width": 16,
+        "height": 30
+      },
+      {
+        "text": "小",
+        "confidence": 93,
+        "left": 913,
+        "top": 1538,
+        "width": 95,
+        "height": 38
+      },
+      {
+        "text": "题",
+        "confidence": 86,
+        "left": 979,
+        "top": 1527,
+        "width": 39,
+        "height": 67
+      },
+      {
+        "text": "，",
+        "confidence": 92,
+        "left": 1036,
+        "top": 1538,
+        "width": 20,
+        "height": 39
+      },
+      {
+        "text": "每",
+        "confidence": 92,
+        "left": 1078,
+        "top": 1539,
+        "width": 23,
+        "height": 38
+      },
+      {
+        "text": "小",
+        "confidence": 93,
+        "left": 1105,
+        "top": 1541,
+        "width": 38,
+        "height": 37
+      },
+      {
+        "text": "题",
+        "confidence": 93,
+        "left": 1143,
+        "top": 1527,
+        "width": 34,
+        "height": 67
+      },
+      {
+        "text": "3",
+        "confidence": 96,
+        "left": 1189,
+        "top": 1545,
+        "width": 2,
+        "height": 30
+      },
+      {
+        "text": "分",
+        "confidence": 93,
+        "left": 1235,
+        "top": 1541,
+        "width": 25,
+        "height": 37
+      },
+      {
+        "text": "，",
+        "confidence": 89,
+        "left": 1268,
+        "top": 1527,
+        "width": 30,
+        "height": 67
+      },
+      {
+        "text": "共",
+        "confidence": 91,
+        "left": 1289,
+        "top": 1542,
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "15",
+        "confidence": 93,
+        "left": 1346,
+        "top": 1547,
+        "width": 35,
+        "height": 31
+      },
+      {
+        "text": "分",
+        "confidence": 93,
+        "left": 1396,
+        "top": 1543,
+        "width": 52,
+        "height": 37
+      },
+      {
+        "text": ".",
+        "confidence": 89,
+        "left": 1448,
+        "top": 1527,
+        "width": 18,
+        "height": 67
+      },
+      {
+        "text": "每",
+        "confidence": 96,
+        "left": 1494,
+        "top": 1543,
+        "width": 47,
+        "height": 40
+      },
+      {
+        "text": "小",
+        "confidence": 92,
+        "left": 1547,
+        "top": 1546,
+        "width": 45,
+        "height": 36
+      },
+      {
+        "text": "题",
+        "confidence": 92,
+        "left": 1606,
+        "top": 1547,
+        "width": 23,
+        "height": 35
+      },
+      {
+        "text": "只",
+        "confidence": 92,
+        "left": 1628,
+        "top": 1527,
+        "width": 35,
+        "height": 67
+      },
+      {
+        "text": "有",
+        "confidence": 96,
+        "left": 1662,
+        "top": 1545,
+        "width": 22,
+        "height": 39
+      },
+      {
+        "text": "一",
+        "confidence": 96,
+        "left": 1704,
+        "top": 1562,
+        "width": 26,
+        "height": 6
+      },
+      {
+        "text": "个",
+        "confidence": 96,
+        "left": 1750,
+        "top": 1546,
+        "width": 47,
+        "height": 40
+      },
+      {
+        "text": "选项",
+        "confidence": 96,
+        "left": 1820,
+        "top": 1549,
+        "width": 38,
+        "height": 37
+      },
+      {
+        "text": "符合",
+        "confidence": 96,
+        "left": 1880,
+        "top": 1547,
+        "width": 64,
+        "height": 40
+      },
+      {
+        "text": "题目",
+        "confidence": 94,
+        "left": 1963,
+        "top": 1550,
+        "width": 62,
+        "height": 38
+      },
+      {
+        "text": "要",
+        "confidence": 93,
+        "left": 446,
+        "top": 1592,
+        "width": 105,
+        "height": 40
+      },
+      {
+        "text": "求",
+        "confidence": 93,
+        "left": 502,
+        "top": 1587,
+        "width": 34,
+        "height": 65
+      },
+      {
+        "text": ")",
+        "confidence": 91,
+        "left": 535,
+        "top": 1587,
+        "width": 17,
+        "height": 65
+      },
+      {
+        "text": ".",
+        "confidence": 75,
+        "left": 384,
+        "top": 1685,
+        "width": 6,
+        "height": 5
+      },
+      {
+        "text": "té",
+        "confidence": 20,
+        "left": 429,
+        "top": 1656,
+        "width": 26,
+        "height": 38
+      },
+      {
+        "text": "lim[",
+        "confidence": 38,
+        "left": 473,
+        "top": 1652,
+        "width": 71,
+        "height": 63
+      },
+      {
+        "text": "cosx",
+        "confidence": 38,
+        "left": 555,
+        "top": 1672,
+        "width": 77,
+        "height": 23
+      },
+      {
+        "text": "-",
+        "confidence": 44,
+        "left": 649,
+        "top": 1681,
+        "width": 16,
+        "height": 3
+      },
+      {
+        "text": "f(x)]=1,",
+        "confidence": 71,
+        "left": 685,
+        "top": 1655,
+        "width": 177,
+        "height": 59
+      },
+      {
+        "text": "WY",
+        "confidence": 35,
+        "left": 898,
+        "top": 1662,
+        "width": 34,
+        "height": 39
+      },
+      {
+        "text": "Sal",
+        "confidence": 28,
+        "left": 989,
+        "top": 1663,
+        "width": 50,
+        "height": 39
+      },
+      {
+        "text": "a",
+        "confidence": 19,
+        "left": 1124,
+        "top": 1664,
+        "width": 80,
+        "height": 40
+      },
+      {
+        "text": "at",
+        "confidence": 26,
+        "left": 1244,
+        "top": 1666,
+        "width": 29,
+        "height": 39
+      },
+      {
+        "text": "A.",
+        "confidence": 93,
+        "left": 424,
+        "top": 1736,
+        "width": 40,
+        "height": 29
+      },
+      {
+        "text": "lim",
+        "confidence": 87,
+        "left": 506,
+        "top": 1736,
+        "width": 48,
+        "height": 54
+      },
+      {
+        "text": "f(x)=1",
+        "confidence": 80,
+        "left": 565,
+        "top": 1732,
+        "width": 142,
+        "height": 49
+      },
+      {
+        "text": "B.",
+        "confidence": 90,
+        "left": 1256,
+        "top": 1745,
+        "width": 37,
+        "height": 31
+      },
+      {
+        "text": "lim",
+        "confidence": 89,
+        "left": 1334,
+        "top": 1745,
+        "width": 50,
+        "height": 56
+      },
+      {
+        "text": "f",
+        "confidence": 46,
+        "left": 1400,
+        "top": 1747,
+        "width": 16,
+        "height": 39
+      },
+      {
+        "text": "(x)cos.x",
+        "confidence": 46,
+        "left": 1429,
+        "top": 1743,
+        "width": 196,
+        "height": 58
+      },
+      {
+        "text": "=|",
+        "confidence": 68,
+        "left": 1587,
+        "top": 1739,
+        "width": 39,
+        "height": 66
+      },
+      {
+        "text": "C.",
+        "confidence": 85,
+        "left": 421,
+        "top": 1814,
+        "width": 41,
+        "height": 30
+      },
+      {
+        "text": "lim",
+        "confidence": 77,
+        "left": 502,
+        "top": 1813,
+        "width": 52,
+        "height": 56
+      },
+      {
+        "text": "f(x)=-1",
+        "confidence": 54,
+        "left": 562,
+        "top": 1810,
+        "width": 170,
+        "height": 59
+      },
+      {
+        "text": "D.",
+        "confidence": 76,
+        "left": 1254,
+        "top": 1824,
+        "width": 40,
+        "height": 30
+      },
+      {
+        "text": "lim[",
+        "confidence": 76,
+        "left": 1335,
+        "top": 1815,
+        "width": 69,
+        "height": 63
+      },
+      {
+        "text": "f(x)+cosx]=1",
+        "confidence": 63,
+        "left": 1416,
+        "top": 1815,
+        "width": 284,
+        "height": 63
+      },
+      {
+        "text": "»",
+        "confidence": 0,
+        "left": 382,
+        "top": 1912,
+        "width": 6,
+        "height": 6
+      },
+      {
+        "text": "PARES",
+        "confidence": 57,
+        "left": 424,
+        "top": 1880,
+        "width": 112,
+        "height": 61
+      },
+      {
+        "text": "(x)=",
+        "confidence": 51,
+        "left": 550,
+        "top": 1886,
+        "width": 83,
+        "height": 47
+      },
+      {
+        "text": "2?",
+        "confidence": 51,
+        "left": 647,
+        "top": 1886,
+        "width": 52,
+        "height": 36
+      },
+      {
+        "text": "-",
+        "confidence": 62,
+        "left": 718,
+        "top": 1909,
+        "width": 18,
+        "height": 3
+      },
+      {
+        "text": "3.",
+        "confidence": 62,
+        "left": 749,
+        "top": 1892,
+        "width": 35,
+        "height": 31
+      },
+      {
+        "text": "RD",
+        "confidence": 55,
+        "left": 840,
+        "top": 1886,
+        "width": 79,
+        "height": 42
+      },
+      {
+        "text": "ae",
+        "confidence": 36,
+        "left": 952,
+        "top": 1891,
+        "width": 109,
+        "height": 39
+      },
+      {
+        "text": "A.",
+        "confidence": 88,
+        "left": 422,
+        "top": 1949,
+        "width": 40,
+        "height": 27
+      },
+      {
+        "text": "x=-]",
+        "confidence": 2,
+        "left": 502,
+        "top": 1950,
+        "width": 101,
+        "height": 27
+      },
+      {
+        "text": "B.",
+        "confidence": 88,
+        "left": 1252,
+        "top": 1957,
+        "width": 38,
+        "height": 30
+      },
+      {
+        "text": "x=0",
+        "confidence": 90,
+        "left": 1330,
+        "top": 1957,
+        "width": 84,
+        "height": 30
+      },
+      {
+        "text": "C.",
+        "confidence": 84,
+        "left": 420,
+        "top": 1993,
+        "width": 40,
+        "height": 31
+      },
+      {
+        "text": "x=)",
+        "confidence": 80,
+        "left": 499,
+        "top": 1995,
+        "width": 74,
+        "height": 31
+      },
+      {
+        "text": ".",
+        "confidence": 19,
+        "left": 827,
+        "top": 2013,
+        "width": 4,
+        "height": 4
+      },
+      {
+        "text": "D.",
+        "confidence": 85,
+        "left": 1252,
+        "top": 2004,
+        "width": 41,
+        "height": 31
+      },
+      {
+        "text": "x=2",
+        "confidence": 85,
+        "left": 1331,
+        "top": 2005,
+        "width": 84,
+        "height": 31
+      },
+      {
+        "text": "UMS",
+        "confidence": 37,
+        "left": 380,
+        "top": 2071,
+        "width": 148,
+        "height": 5
+      },
+      {
+        "text": "PAR",
+        "confidence": 21,
+        "left": 584,
+        "top": 2045,
+        "width": 93,
+        "height": 38
+      },
+      {
+        "text": "(XI",
+        "confidence": 25,
+        "left": 728,
+        "top": 2046,
+        "width": 96,
+        "height": 47
+      },
+      {
+        "text": "Pra.",
+        "confidence": 0,
+        "left": 864,
+        "top": 2047,
+        "width": 189,
+        "height": 40
+      },
+      {
+        "text": "WY",
+        "confidence": 50,
+        "left": 1089,
+        "top": 2051,
+        "width": 35,
+        "height": 39
+      },
+      {
+        "text": "F(x)",
+        "confidence": 29,
+        "left": 1142,
+        "top": 2053,
+        "width": 113,
+        "height": 47
+      },
+      {
+        "text": "=",
+        "confidence": 75,
+        "left": 1234,
+        "top": 2040,
+        "width": 22,
+        "height": 64
+      },
+      {
+        "text": "A.",
+        "confidence": 91,
+        "left": 420,
+        "top": 2113,
+        "width": 42,
+        "height": 29
+      },
+      {
+        "text": "3",
+        "confidence": 56,
+        "left": 501,
+        "top": 2113,
+        "width": 28,
+        "height": 30
+      },
+      {
+        "text": "B.",
+        "confidence": 87,
+        "left": 1252,
+        "top": 2122,
+        "width": 36,
+        "height": 30
+      },
+      {
+        "text": "3",
+        "confidence": 42,
+        "left": 1328,
+        "top": 2123,
+        "width": 17,
+        "height": 31
+      },
+      {
+        "text": "in3",
+        "confidence": 43,
+        "left": 1352,
+        "top": 2123,
+        "width": 74,
+        "height": 32
+      },
+      {
+        "text": "C.",
+        "confidence": 72,
+        "left": 417,
+        "top": 2195,
+        "width": 41,
+        "height": 30
+      },
+      {
+        "text": "x30!",
+        "confidence": 32,
+        "left": 498,
+        "top": 2190,
+        "width": 77,
+        "height": 36
+      },
+      {
+        "text": "D.",
+        "confidence": 90,
+        "left": 1251,
+        "top": 2206,
+        "width": 39,
+        "height": 29
+      },
+      {
+        "text": "了",
+        "confidence": 75,
+        "left": 1328,
+        "top": 2179,
+        "width": 63,
+        "height": 47
+      },
+      {
+        "text": "In3",
+        "confidence": 92,
+        "left": 1333,
+        "top": 2239,
+        "width": 55,
+        "height": 32
+      },
+      {
+        "text": ".",
+        "confidence": 60,
+        "left": 378,
+        "top": 2318,
+        "width": 6,
+        "height": 7
+      },
+      {
+        "text": "BKK",
+        "confidence": 19,
+        "left": 467,
+        "top": 2291,
+        "width": 234,
+        "height": 38
+      },
+      {
+        "text": "D=",
+        "confidence": 79,
+        "left": 644,
+        "top": 2286,
+        "width": 59,
+        "height": 54
+      },
+      {
+        "text": "{(x.y))x°",
+        "confidence": 33,
+        "left": 713,
+        "top": 2282,
+        "width": 155,
+        "height": 70
+      },
+      {
+        "text": "ty",
+        "confidence": 34,
+        "left": 884,
+        "top": 2294,
+        "width": 67,
+        "height": 46
+      },
+      {
+        "text": "<",
+        "confidence": 76,
+        "left": 968,
+        "top": 2304,
+        "width": 25,
+        "height": 34
+      },
+      {
+        "text": "Lv",
+        "confidence": 0,
+        "left": 1008,
+        "top": 2303,
+        "width": 48,
+        "height": 38
+      },
+      {
+        "text": "20}",
+        "confidence": 0,
+        "left": 1068,
+        "top": 2291,
+        "width": 61,
+        "height": 62
+      },
+      {
+        "text": "»",
+        "confidence": 81,
+        "left": 1146,
+        "top": 2324,
+        "width": 6,
+        "height": 10
+      },
+      {
+        "text": "Wy",
+        "confidence": 82,
+        "left": 1186,
+        "top": 2299,
+        "width": 36,
+        "height": 40
+      },
+      {
+        "text": "{Ie",
+        "confidence": 52,
+        "left": 1239,
+        "top": 2291,
+        "width": 87,
+        "height": 67
+      },
+      {
+        "text": "+y)",
+        "confidence": 17,
+        "left": 1341,
+        "top": 2296,
+        "width": 90,
+        "height": 58
+      },
+      {
+        "text": "do",
+        "confidence": 89,
+        "left": 1455,
+        "top": 2287,
+        "width": 51,
+        "height": 52
+      },
+      {
+        "text": "=",
+        "confidence": 96,
+        "left": 1518,
+        "top": 2321,
+        "width": 21,
+        "height": 12
+      },
+      {
+        "text": "Db",
+        "confidence": 31,
+        "left": 1241,
+        "top": 2363,
+        "width": 18,
+        "height": 17
+      },
+      {
+        "text": "A.",
+        "confidence": 71,
+        "left": 416,
+        "top": 2412,
+        "width": 41,
+        "height": 29
+      },
+      {
+        "text": "=",
+        "confidence": 60,
+        "left": 496,
+        "top": 2395,
+        "width": 44,
+        "height": 39
+      },
+      {
+        "text": "Bn.",
+        "confidence": 17,
+        "left": 1248,
+        "top": 2421,
+        "width": 37,
+        "height": 30
+      },
+      {
+        "text": "=",
+        "confidence": 92,
+        "left": 1324,
+        "top": 2405,
+        "width": 28,
+        "height": 39
+      },
+      {
+        "text": "10",
+        "confidence": 96,
+        "left": 502,
+        "top": 2445,
+        "width": 34,
+        "height": 31
+      },
+      {
+        "text": "9",
+        "confidence": 96,
+        "left": 1328,
+        "top": 2455,
+        "width": 20,
+        "height": 31
+      },
+      {
+        "text": "5",
+        "confidence": 69,
+        "left": 1330,
+        "top": 2502,
+        "width": 17,
+        "height": 23
+      },
+      {
+        "text": "c.",
+        "confidence": 69,
+        "left": 414,
+        "top": 2520,
+        "width": 40,
+        "height": 30
+      },
+      {
+        "text": "=",
+        "confidence": 76,
+        "left": 493,
+        "top": 2502,
+        "width": 27,
+        "height": 38
+      },
+      {
+        "text": "D.",
+        "confidence": 68,
+        "left": 1248,
+        "top": 2529,
+        "width": 26,
+        "height": 31
+      },
+      {
+        "text": "=",
+        "confidence": 57,
+        "left": 1325,
+        "top": 2513,
+        "width": 51,
+        "height": 39
+      },
+      {
+        "text": "5",
+        "confidence": 80,
+        "left": 498,
+        "top": 2554,
+        "width": 16,
+        "height": 32
+      },
+      {
+        "text": "9",
+        "confidence": 96,
+        "left": 1341,
+        "top": 2565,
+        "width": 19,
+        "height": 29
+      },
+      {
+        "text": "=",
+        "confidence": 33,
+        "left": 890,
+        "top": 2612,
+        "width": 41,
+        "height": 89
+      },
+      {
+        "text": "，",
+        "confidence": 90,
+        "left": 947,
+        "top": 2658,
+        "width": 7,
+        "height": 9
+      },
+      {
+        "text": "则",
+        "confidence": 87,
+        "left": 990,
+        "top": 2635,
+        "width": 34,
+        "height": 37
+      },
+      {
+        "text": "下",
+        "confidence": 90,
+        "left": 1044,
+        "top": 2636,
+        "width": 21,
+        "height": 36
+      },
+      {
+        "text": "列",
+        "confidence": 86,
+        "left": 1087,
+        "top": 2636,
+        "width": 43,
+        "height": 38
+      },
+      {
+        "text": "级",
+        "confidence": 93,
+        "left": 1131,
+        "top": 2638,
+        "width": 19,
+        "height": 35
+      },
+      {
+        "text": "数",
+        "confidence": 93,
+        "left": 1174,
+        "top": 2636,
+        "width": 49,
+        "height": 39
+      },
+      {
+        "text": "发",
+        "confidence": 92,
+        "left": 1244,
+        "top": 2637,
+        "width": 8,
+        "height": 36
+      },
+      {
+        "text": "禾",
+        "confidence": 12,
+        "left": 1262,
+        "top": 2637,
+        "width": 34,
+        "height": 39
+      },
+      {
+        "text": "的",
+        "confidence": 49,
+        "left": 1301,
+        "top": 2638,
+        "width": 40,
+        "height": 38
+      },
+      {
+        "text": "足",
+        "confidence": 50,
+        "left": 1337,
+        "top": 2639,
+        "width": 27,
+        "height": 38
+      },
+      {
+        "text": "A.",
+        "confidence": 95,
+        "left": 412,
+        "top": 2751,
+        "width": 42,
+        "height": 29
+      },
+      {
+        "text": "3a,",
+        "confidence": 26,
+        "left": 492,
+        "top": 2726,
+        "width": 103,
+        "height": 71
+      },
+      {
+        "text": "B.",
+        "confidence": 86,
+        "left": 1244,
+        "top": 2759,
+        "width": 38,
+        "height": 30
+      },
+      {
+        "text": "Ya,.,",
+        "confidence": 36,
+        "left": 1321,
+        "top": 2751,
+        "width": 111,
+        "height": 56
+      },
+      {
+        "text": "mst",
+        "confidence": 65,
+        "left": 496,
+        "top": 2805,
+        "width": 35,
+        "height": 16
+      },
+      {
+        "text": "=",
+        "confidence": 69,
+        "left": 508,
+        "top": 2853,
+        "width": 8,
+        "height": 9
+      },
+      {
+        "text": "I",
+        "confidence": 64,
+        "left": 676,
+        "top": 2854,
+        "width": 6,
+        "height": 30
+      },
+      {
+        "text": "=",
+        "confidence": 87,
+        "left": 1337,
+        "top": 2862,
+        "width": 13,
+        "height": 11
+      },
+      {
+        "text": "]",
+        "confidence": 84,
+        "left": 1506,
+        "top": 2864,
+        "width": 8,
+        "height": 30
+      },
+      {
+        "text": "Cc.",
+        "confidence": 68,
+        "left": 406,
+        "top": 2874,
+        "width": 44,
+        "height": 43
+      },
+      {
+        "text": "一",
+        "confidence": 93,
+        "left": 640,
+        "top": 2897,
+        "width": 54,
+        "height": 22
+      },
+      {
+        "text": "一",
+        "confidence": 70,
+        "left": 693,
+        "top": 2877,
+        "width": 27,
+        "height": 46
+      },
+      {
+        "text": "D.",
+        "confidence": 91,
+        "left": 1244,
+        "top": 2887,
+        "width": 39,
+        "height": 30
+      },
+      {
+        "text": "一",
+        "confidence": 65,
+        "left": 1441,
+        "top": 2905,
+        "width": 22,
+        "height": 5
+      },
+      {
+        "text": "一",
+        "confidence": 93,
+        "left": 1487,
+        "top": 2906,
+        "width": 38,
+        "height": 27
+      },
+      {
+        "text": "一",
+        "confidence": 86,
+        "left": 1524,
+        "top": 2887,
+        "width": 29,
+        "height": 50
+      },
+      {
+        "text": "中。",
+        "confidence": 17,
+        "left": 489,
+        "top": 2840,
+        "width": 105,
+        "height": 116
+      },
+      {
+        "text": "十",
+        "confidence": 94,
+        "left": 609,
+        "top": 2888,
+        "width": 20,
+        "height": 20
+      },
+      {
+        "text": "|",
+        "confidence": 52,
+        "left": 649,
+        "top": 2841,
+        "width": 90,
+        "height": 117
+      },
+      {
+        "text": "让“",
+        "confidence": 45,
+        "left": 1322,
+        "top": 2849,
+        "width": 105,
+        "height": 117
+      },
+      {
+        "text": "闹",
+        "confidence": 0,
+        "left": 864,
+        "top": 3001,
+        "width": 34,
+        "height": 38
+      },
+      {
+        "text": "等",
+        "confidence": 67,
+        "left": 921,
+        "top": 3002,
+        "width": 46,
+        "height": 38
+      },
+      {
+        "text": "数学",
+        "confidence": 91,
+        "left": 966,
+        "top": 3001,
+        "width": 144,
+        "height": 41
+      },
+      {
+        "text": "试题",
+        "confidence": 95,
+        "left": 1052,
+        "top": 2997,
+        "width": 83,
+        "height": 55
+      },
+      {
+        "text": "第",
+        "confidence": 95,
+        "left": 1179,
+        "top": 3005,
+        "width": 17,
+        "height": 38
+      },
+      {
+        "text": "1",
+        "confidence": 96,
+        "left": 1220,
+        "top": 3006,
+        "width": 50,
+        "height": 37
+      },
+      {
+        "text": "页",
+        "confidence": 55,
+        "left": 1269,
+        "top": 2997,
+        "width": 38,
+        "height": 55
+      },
+      {
+        "text": "(",
+        "confidence": 88,
+        "left": 1309,
+        "top": 3012,
+        "width": 9,
+        "height": 28
+      },
+      {
+        "text": "共",
+        "confidence": 0,
+        "left": 1344,
+        "top": 3007,
+        "width": 23,
+        "height": 37
+      },
+      {
+        "text": "2",
+        "confidence": 91,
+        "left": 1383,
+        "top": 3012,
+        "width": 18,
+        "height": 30
+      },
+      {
+        "text": "9",
+        "confidence": 58,
+        "left": 1424,
+        "top": 3008,
+        "width": 51,
+        "height": 37
+      },
+      {
+        "text": "微",
+        "confidence": 91,
+        "left": 646,
+        "top": 3365,
+        "width": 111,
+        "height": 52
+      },
+      {
+        "text": "信",
+        "confidence": 92,
+        "left": 726,
+        "top": 3361,
+        "width": 52,
+        "height": 75
+      },
+      {
+        "text": "(QQ",
+        "confidence": 84,
+        "left": 781,
+        "top": 3369,
+        "width": 122,
+        "height": 54
+      },
+      {
+        "text": ")",
+        "confidence": 92,
+        "left": 924,
+        "top": 3370,
+        "width": 20,
+        "height": 51
+      },
+      {
+        "text": ":1163816823",
+        "confidence": 92,
+        "left": 971,
+        "top": 3369,
+        "width": 332,
+        "height": 44
+      },
+      {
+        "text": "公众",
+        "confidence": 96,
+        "left": 1456,
+        "top": 3365,
+        "width": 378,
+        "height": 58
+      },
+      {
+        "text": "号",
+        "confidence": 96,
+        "left": 1593,
+        "top": 3361,
+        "width": 42,
+        "height": 73
+      },
+      {
+        "text": ":gzzkgk",
+        "confidence": 84,
+        "left": 1634,
+        "top": 3365,
+        "width": 200,
+        "height": 58
+      }
+    ],
+    "wordCount": 353
+  },
+  "formulaRegions": []
+}

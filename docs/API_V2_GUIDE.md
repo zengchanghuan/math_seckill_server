@@ -22,18 +22,18 @@ v2.0版本引入了基于数据驱动的题库质量管理和个性化推荐系�
   "topic": "三角函数",
   "difficulty": "L1",
   "type": "choice",
-  
+
   "knowledgePoints": ["三角函数", "定义域"],
   "abilityTags": ["memory", "understand"],
   "templateId": "trig_domain_range",
-  
+
   "source": "generated",
   "isRealExam": false,
-  
+
   "totalAttempts": 1523,
   "correctRate": 0.586,
   "discriminationIndex": 0.67,
-  
+
   "reviewStatus": "approved"
 }
 ```
@@ -504,4 +504,5 @@ A: 初期可能偏差较大，随着数据积累会逐步提高准确度。建�
 ## 联系与支持
 
 如有问题或建议，请提交Issue或联系开发团队。
+
 

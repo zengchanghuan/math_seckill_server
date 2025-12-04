@@ -1,0 +1,358 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-12-03",
+  "themes": [
+    {
+      "themeName": "高中衔接大学数学基础",
+      "chapters": [
+        {
+          "chapterName": "第1章 三角函数",
+          "sections": [
+            {
+              "sectionName": "§1.1 三角函数的概念",
+              "knowledgeCards": [
+                {
+                  "title": "角与弧度",
+                  "summary": "度：360° 为一周；弧度：以半径为弧长的圆心角为 1 rad",
+                  "formula": "$\\pi \\text{ rad} = 180^\\circ$, 弧长 $s=R\\theta$"
+                },
+                {
+                  "title": "单位圆定义",
+                  "summary": "单位圆上点 P(x,y) 对应角 α",
+                  "formula": "$\\sin\\alpha=y,\\ \\cos\\alpha=x,\\ \\tan\\alpha=\\frac{y}{x}$"
+                },
+                {
+                  "title": "同角关系",
+                  "summary": "同一角的三角函数之间的基本关系",
+                  "formula": "$\\sin^2\\alpha+\\cos^2\\alpha=1$, $\\tan\\alpha=\\frac{\\sin\\alpha}{\\cos\\alpha}$"
+                },
+                {
+                  "title": "符号规律（ASTC）",
+                  "summary": "I象限全正，II仅sin正，III仅tan正，IV仅cos正",
+                  "formula": "记忆口诀：All-Sin-Tan-Cos"
+                },
+                {
+                  "title": "奇偶性",
+                  "summary": "正弦和正切是奇函数，余弦是偶函数",
+                  "formula": "$\\sin(-x)=-\\sin x$, $\\cos(-x)=\\cos x$"
+                },
+                {
+                  "title": "周期性",
+                  "summary": "正弦余弦周期2π，正切周期π",
+                  "formula": "$\\sin(x+2\\pi)=\\sin x$, $\\tan(x+\\pi)=\\tan x$"
+                }
+              ]
+            },
+            {
+              "sectionName": "§1.2 两角和与差的三角函数",
+              "knowledgeCards": [
+                {
+                  "title": "正弦和差公式",
+                  "summary": "两角和与差的正弦公式",
+                  "formula": "$\\sin(\\alpha\\pm\\beta)=\\sin\\alpha\\cos\\beta\\pm\\cos\\alpha\\sin\\beta$"
+                },
+                {
+                  "title": "余弦和差公式",
+                  "summary": "两角和与差的余弦公式（注意符号相反）",
+                  "formula": "$\\cos(\\alpha\\pm\\beta)=\\cos\\alpha\\cos\\beta\\mp\\sin\\alpha\\sin\\beta$"
+                },
+                {
+                  "title": "正切和差公式",
+                  "summary": "两角和与差的正切公式",
+                  "formula": "$\\tan(\\alpha\\pm\\beta)=\\frac{\\tan\\alpha\\pm\\tan\\beta}{1\\mp\\tan\\alpha\\tan\\beta}$"
+                },
+                {
+                  "title": "倍角公式",
+                  "summary": "2倍角的三角函数公式",
+                  "formula": "$\\sin2\\alpha=2\\sin\\alpha\\cos\\alpha$, $\\cos2\\alpha=\\cos^2\\alpha-\\sin^2\\alpha$"
+                },
+                {
+                  "title": "万能公式",
+                  "summary": "用半角正切表示三角函数，设 $t=\\tan\\frac{x}{2}$",
+                  "formula": "$\\sin x=\\frac{2t}{1+t^2}$, $\\cos x=\\frac{1-t^2}{1+t^2}$"
+                }
+              ]
+            },
+            {
+              "sectionName": "§1.3 三角函数的积化和差与和差化积",
+              "knowledgeCards": [
+                {
+                  "title": "积化和差",
+                  "summary": "三角函数乘积转换为和差形式",
+                  "formula": "$\\sin\\alpha\\cos\\beta=\\frac{1}{2}[\\sin(\\alpha+\\beta)+\\sin(\\alpha-\\beta)]$"
+                },
+                {
+                  "title": "和差化积",
+                  "summary": "三角函数和差转换为乘积形式",
+                  "formula": "$\\sin\\alpha+\\sin\\beta=2\\sin\\frac{\\alpha+\\beta}{2}\\cos\\frac{\\alpha-\\beta}{2}$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "chapterName": "第2章 代数与方程",
+          "sections": [
+            {
+              "sectionName": "§2.1 代数式及其运算",
+              "knowledgeCards": [
+                {
+                  "title": "因式分解",
+                  "summary": "提公因式、公式法、分组分解、十字相乘",
+                  "formula": "$a^2-b^2=(a+b)(a-b)$, $(a\\pm b)^2=a^2\\pm2ab+b^2$"
+                }
+              ]
+            },
+            {
+              "sectionName": "§2.2 一元二次方程的性质",
+              "knowledgeCards": [
+                {
+                  "title": "判别式",
+                  "summary": "判断实根个数的工具",
+                  "formula": "$\\Delta=b^2-4ac$"
+                },
+                {
+                  "title": "求根公式",
+                  "summary": "一元二次方程的通用解法",
+                  "formula": "$x=\\frac{-b\\pm\\sqrt{\\Delta}}{2a}$"
+                },
+                {
+                  "title": "韦达定理",
+                  "summary": "根与系数的关系",
+                  "formula": "$x_1+x_2=-\\frac{b}{a}$, $x_1x_2=\\frac{c}{a}$"
+                }
+              ]
+            },
+            {
+              "sectionName": "§2.3 解一元代数方程",
+              "knowledgeCards": [
+                {
+                  "title": "解方程步骤",
+                  "summary": "去分母→去根号→整理→求解→检验",
+                  "formula": "注意检查增根"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "chapterName": "第3章 平面几何",
+          "sections": [
+            {
+              "sectionName": "§3.1 三角形",
+              "knowledgeCards": [
+                {
+                  "title": "内角和",
+                  "summary": "三角形内角和为180°",
+                  "formula": "$\\angle A + \\angle B + \\angle C = 180^\\circ$"
+                },
+                {
+                  "title": "面积公式",
+                  "summary": "三角形面积的常用公式",
+                  "formula": "$S=\\frac{1}{2}ah=\\frac{1}{2}ab\\sin C$"
+                }
+              ]
+            },
+            {
+              "sectionName": "§3.4 相似形",
+              "knowledgeCards": [
+                {
+                  "title": "相似比",
+                  "summary": "相似三角形的比例关系",
+                  "formula": "周长比 = k，面积比 = $k^2$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "chapterName": "第4章 反三角函数",
+          "sections": [
+            {
+              "sectionName": "§4.2 反三角函数",
+              "knowledgeCards": [
+                {
+                  "title": "反正弦",
+                  "summary": "正弦函数的反函数",
+                  "formula": "$\\arcsin x: x\\in[-1,1], y\\in[-\\frac{\\pi}{2},\\frac{\\pi}{2}]$"
+                },
+                {
+                  "title": "反余弦",
+                  "summary": "余弦函数的反函数",
+                  "formula": "$\\arccos x: x\\in[-1,1], y\\in[0,\\pi]$"
+                },
+                {
+                  "title": "反正切",
+                  "summary": "正切函数的反函数",
+                  "formula": "$\\arctan x: x\\in\\mathbb{R}, y\\in(-\\frac{\\pi}{2},\\frac{\\pi}{2})$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "chapterName": "第5章 排列与组合",
+          "sections": [
+            {
+              "sectionName": "§5.1 分类计数原理与分步计数原理",
+              "knowledgeCards": [
+                {
+                  "title": "分类加法原理",
+                  "summary": "互斥情况求和",
+                  "formula": "做一件事有n类方法，总数 = 各类方法数之和"
+                },
+                {
+                  "title": "分步乘法原理",
+                  "summary": "独立步骤求积",
+                  "formula": "做一件事需n个步骤，总数 = 各步骤方法数之积"
+                }
+              ]
+            },
+            {
+              "sectionName": "§5.2 排列",
+              "knowledgeCards": [
+                {
+                  "title": "排列数公式",
+                  "summary": "从n个不同元素中取r个排成一列",
+                  "formula": "$A_n^r=\\frac{n!}{(n-r)!}$，全排列 $A_n^n=n!$"
+                }
+              ]
+            },
+            {
+              "sectionName": "§5.3 组合",
+              "knowledgeCards": [
+                {
+                  "title": "组合数公式",
+                  "summary": "从n个元素中选r个，不考虑顺序",
+                  "formula": "$C_n^r=\\frac{n!}{r!(n-r)!}$，对称性 $C_n^r=C_n^{n-r}$"
+                }
+              ]
+            },
+            {
+              "sectionName": "§5.4 二项式定理",
+              "knowledgeCards": [
+                {
+                  "title": "二项式展开",
+                  "summary": "(a+b)的n次方展开式",
+                  "formula": "$(a+b)^n=\\sum_{k=0}^{n}C_n^k a^{n-k}b^k$"
+                }
+              ]
+            },
+            {
+              "sectionName": "§5.5 数学归纳法",
+              "knowledgeCards": [
+                {
+                  "title": "数学归纳法步骤",
+                  "summary": "证明与自然数有关的命题",
+                  "formula": "①证n=1成立 ②假设n=k成立，推出n=k+1成立"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "chapterName": "第6章 复数",
+          "sections": [
+            {
+              "sectionName": "§6.1 复数的概念",
+              "knowledgeCards": [
+                {
+                  "title": "复数形式",
+                  "summary": "复数的代数形式",
+                  "formula": "$z=a+bi$，其中 $i^2=-1$"
+                },
+                {
+                  "title": "复平面",
+                  "summary": "复数与平面上点的对应",
+                  "formula": "点$(a,b)$ ↔ 复数$a+bi$"
+                }
+              ]
+            },
+            {
+              "sectionName": "§6.2 复数的运算",
+              "knowledgeCards": [
+                {
+                  "title": "复数加减",
+                  "summary": "实部对实部，虚部对虚部",
+                  "formula": "$(a+bi)\\pm(c+di)=(a\\pm c)+(b\\pm d)i$"
+                },
+                {
+                  "title": "复数乘法",
+                  "summary": "按多项式展开，i²=-1",
+                  "formula": "$(a+bi)(c+di)=(ac-bd)+(ad+bc)i$"
+                },
+                {
+                  "title": "共轭与模",
+                  "summary": "共轭复数和复数的模",
+                  "formula": "$\\overline{a+bi}=a-bi$, $|z|=\\sqrt{a^2+b^2}$"
+                }
+              ]
+            },
+            {
+              "sectionName": "§6.4 复数与平面向量、三角函数的联系",
+              "knowledgeCards": [
+                {
+                  "title": "三角形式",
+                  "summary": "用模和辐角表示复数",
+                  "formula": "$z=r(\\cos\\theta+i\\sin\\theta)$"
+                }
+              ]
+            },
+            {
+              "sectionName": "§6.5 复数的指数形式",
+              "knowledgeCards": [
+                {
+                  "title": "欧拉公式",
+                  "summary": "连接指数函数和三角函数的桥梁",
+                  "formula": "$e^{i\\theta}=\\cos\\theta+i\\sin\\theta$"
+                },
+                {
+                  "title": "指数形式",
+                  "summary": "复数的指数表示",
+                  "formula": "$z=re^{i\\theta}$"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "chapterName": "第7章 参数方程与极坐标方程",
+          "sections": [
+            {
+              "sectionName": "§7.1 参数方程",
+              "knowledgeCards": [
+                {
+                  "title": "参数方程定义",
+                  "summary": "用参数t描述曲线上的点",
+                  "formula": "$\\begin{cases} x=x(t)\\\\ y=y(t) \\end{cases}$"
+                },
+                {
+                  "title": "消参",
+                  "summary": "从参数方程得到普通方程",
+                  "formula": "消去参数t，得到x和y的关系式"
+                }
+              ]
+            },
+            {
+              "sectionName": "§7.2 极坐标方程",
+              "knowledgeCards": [
+                {
+                  "title": "极坐标定义",
+                  "summary": "用距离r和角度θ表示点",
+                  "formula": "$x=r\\cos\\theta$, $y=r\\sin\\theta$"
+                },
+                {
+                  "title": "常见曲线",
+                  "summary": "极坐标下的基本曲线",
+                  "formula": "圆: $r=a$，直线: $\\theta=\\theta_0$"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+

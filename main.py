@@ -312,6 +312,15 @@ async def get_pdf_questions(task_id: str):
 
     # 如果没有切分结果，尝试加载OCR原文
     if not questions_file.exists():
+        # 优先查找最新处理的结果
+        latest_file = processor_dir / "temp" / "latest_question.json"
+        if latest_file.exists():
+            with open(latest_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                # 更新taskId为当前请求的taskId
+                data['taskId'] = task_id
+                return data
+
         # 查找OCR结果
         ocr_files = list((processor_dir / "temp" / "pdf_images").glob("page_*.json"))
 
@@ -322,14 +331,25 @@ async def get_pdf_questions(task_id: str):
 
             ocr_text = ocr_data.get('ocrResult', {}).get('fullText', '')
 
+            # 提取题目部分
+            lines = ocr_text.split('\n')
+            question_start = 0
+            for i, line in enumerate(lines):
+                if '选择题' in line:
+                    question_start = i
+                    break
+
+            question_lines = lines[question_start:min(question_start+20, len(lines))]
+            extracted_text = '\n'.join(question_lines)
+
             # 返回OCR原文供人工处理
             return {
                 "taskId": task_id,
                 "questions": [
                     {
                         "questionNumber": 1,
-                        "rawText": "",  # 待填写
-                        "ocrRawText": ocr_text,  # OCR原文
+                        "rawText": "",
+                        "ocrRawText": extracted_text,
                         "options": [
                             {"letter": "A", "content": ""},
                             {"letter": "B", "content": ""},
@@ -343,7 +363,7 @@ async def get_pdf_questions(task_id: str):
                         "difficulty": "L1",
                         "knowledgePoints": [],
                         "solution": "",
-                        "topic": ""
+                        "topic": "高等数学"
                     }
                 ],
                 "message": "OCR识别完成，请人工校验修正"

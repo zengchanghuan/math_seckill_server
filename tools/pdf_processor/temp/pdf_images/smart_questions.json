@@ -1,0 +1,32 @@
+{
+  "sections": [
+    {
+      "type": "choice",
+      "start_line": 26,
+      "keyword": "单项选择题",
+      "start_text": "、单项选择题《本大题共 5 小题，每小题 3 分，共 15 分. 每小题只有一个选项符合题目"
+    }
+  ],
+  "questions": [
+    {
+      "questionNumber": 3,
+      "rawText": "",
+      "ocrRawText": "» PARES (x)= 2? - 3. RD ae\nUMS PAR (XI Pra. WY F(x) =\nIn3\n. BKK D= {(x.y))x° ty < Lv 20} » Wy {Ie +y) do =\nDb\n10                    9\n5\nc. =                   D. =\n5                     9\n= ，则下列级数发禾的足\nmst\n=      I                       =      ]\nCc.       一一                   D.      一一一\n中。 十 |                           让“\n闹等数学试题 第1页(共2 9\n微信(QQ ) :1163816823       公众号:gzzkgk",
+      "type": "choice",
+      "options": [
+        "A. x=-]                B. x=0",
+        "C. x=)       .           D. x=2",
+        "A. 3                  B. 3 in3",
+        "C. x30!                 D. 了",
+        "A. =                  Bn. =",
+        "A. 3a,                 B. Ya,.,"
+      ],
+      "answer": "",
+      "difficulty": "L1",
+      "knowledgePoints": [],
+      "solution": "",
+      "topic": ""
+    }
+  ],
+  "total": 1
+}

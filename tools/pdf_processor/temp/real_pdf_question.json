@@ -1,0 +1,34 @@
+{
+  "taskId": "real_pdf_001",
+  "questions": [
+    {
+      "questionNumber": 1,
+      "rawText": "",
+      "ocrRawText": "、单项选择题《本大题共 5 小题，每小题 3 分，共 15 分. 每小题只有一个选项符合题目\n\n要求)\n. té lim[ cosx - f(x)]=1, WY Sal a at\n\nA. lim f(x)=1             B. lim f (x)cos.x =|\nC. lim f(x)=-1             D. lim[ f(x)+cosx]=1\n» PARES (x)= 2? - 3. RD ae\n\nA. x=-]                B. x=0\n\nC. x=)       .           D. x=2\nUMS PAR (XI Pra. WY F(x) =\n\nA. 3                  B. 3 in3",
+      "options": [
+        {
+          "letter": "A",
+          "content": ""
+        },
+        {
+          "letter": "B",
+          "content": ""
+        },
+        {
+          "letter": "C",
+          "content": ""
+        },
+        {
+          "letter": "D",
+          "content": ""
+        }
+      ],
+      "answer": "",
+      "type": "choice",
+      "difficulty": "L1",
+      "knowledgePoints": [],
+      "solution": "",
+      "topic": "高等数学"
+    }
+  ]
+}

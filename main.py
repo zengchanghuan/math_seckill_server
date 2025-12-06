@@ -543,18 +543,18 @@ async def submit_feedback(feedback: dict):
             with open(FEEDBACK_FILE, 'r', encoding='utf-8') as f:
                 data = json.load(f)
                 feedbacks = data.get('feedbacks', [])
-        
+
         # 添加新反馈
         feedback['id'] = str(uuid.uuid4())
         feedback['status'] = 'pending'  # pending, resolved, ignored
         feedbacks.append(feedback)
-        
+
         # 保存到文件
         with open(FEEDBACK_FILE, 'w', encoding='utf-8') as f:
             json.dump({'feedbacks': feedbacks}, f, ensure_ascii=False, indent=2)
-        
+
         print(f"✅ 收到新反馈：{feedback.get('questionId')} - {feedback.get('description')}")
-        
+
         return {
             "success": True,
             "message": "反馈已收到，感谢您的反馈！",
@@ -570,17 +570,131 @@ async def get_feedbacks(status: Optional[str] = None):
     try:
         if not FEEDBACK_FILE.exists():
             return {"feedbacks": []}
-        
+
         with open(FEEDBACK_FILE, 'r', encoding='utf-8') as f:
             data = json.load(f)
             feedbacks = data.get('feedbacks', [])
-        
+
         # 按状态筛选
         if status:
             feedbacks = [f for f in feedbacks if f.get('status') == status]
-        
+
         return {"feedbacks": feedbacks, "total": len(feedbacks)}
     except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+# ========== 试卷API ==========
+
+@app.get("/api/papers")
+async def get_exam_papers():
+    """获取所有试卷列表"""
+    try:
+        with open(QUESTIONS_FILE, 'r', encoding='utf-8') as f:
+            questions = json.load(f)
+
+        # 按 paperId 分组
+        papers_dict = {}
+        questions_without_paper = []
+
+        for q in questions:
+            paper_id = q.get('paperId')
+            if not paper_id:
+                questions_without_paper.append(q)
+                continue
+
+            if paper_id not in papers_dict:
+                papers_dict[paper_id] = {
+                    "paperId": paper_id,
+                    "questionIds": [],
+                    "questionTypes": {"choice": 0, "fill": 0, "solution": 0}
+                }
+
+            papers_dict[paper_id]["questionIds"].append(q.get('questionId'))
+            q_type = q.get('type', 'choice')
+            if q_type in papers_dict[paper_id]["questionTypes"]:
+                papers_dict[paper_id]["questionTypes"][q_type] += 1
+
+        # 转换为列表并添加元数据
+        papers = []
+        for paper_id, paper_data in papers_dict.items():
+            # 从 paperId 解析试卷信息（格式：paper_2023_1）
+            parts = paper_id.split('_')
+            year = None
+            if len(parts) >= 2:
+                try:
+                    year = int(parts[1])
+                except:
+                    pass
+
+            paper = {
+                "paperId": paper_id,
+                "name": f"{year}年广东专升本高数真题（第{parts[-1]}套）" if year else f"试卷 {paper_id}",
+                "year": year or 2023,
+                "region": "广东",
+                "examType": "专升本",
+                "subject": "高数",
+                "questionIds": paper_data["questionIds"],
+                "suggestedTime": 90,
+                "totalQuestions": len(paper_data["questionIds"]),
+                "questionTypes": paper_data["questionTypes"]
+            }
+            papers.append(paper)
+
+        # 如果有题目没有 paperId，创建一个默认试卷
+        if questions_without_paper:
+            question_types = {"choice": 0, "fill": 0, "solution": 0}
+            question_ids = []
+            for q in questions_without_paper:
+                question_ids.append(q.get('questionId'))
+                q_type = q.get('type', 'choice')
+                if q_type in question_types:
+                    question_types[q_type] += 1
+
+            default_paper = {
+                "paperId": "paper_2023_1",
+                "name": "2023年广东专升本高数真题（第1套）",
+                "year": 2023,
+                "region": "广东",
+                "examType": "专升本",
+                "subject": "高数",
+                "questionIds": question_ids,
+                "suggestedTime": 90,
+                "totalQuestions": len(question_ids),
+                "questionTypes": question_types
+            }
+            papers.append(default_paper)
+
+        return papers
+    except Exception as e:
+        print(f"获取试卷列表失败：{e}")
+        import traceback
+        traceback.print_exc()
+        return []
+
+@app.get("/api/papers/{paper_id}/questions")
+async def get_questions_by_paper(paper_id: str):
+    """获取指定试卷的所有题目"""
+    try:
+        with open(QUESTIONS_FILE, 'r', encoding='utf-8') as f:
+            questions = json.load(f)
+
+        # 如果是默认试卷 paper_2023_1，返回所有没有 paperId 的题目
+        if paper_id == "paper_2023_1":
+            paper_questions = [q for q in questions if not q.get('paperId')]
+        else:
+            # 筛选出属于该试卷的题目
+            paper_questions = [q for q in questions if q.get('paperId') == paper_id]
+
+        if not paper_questions:
+            raise HTTPException(status_code=404, detail=f"试卷 {paper_id} 未找到或没有题目")
+
+        return paper_questions
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"获取试卷题目失败：{e}")
+        import traceback
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":

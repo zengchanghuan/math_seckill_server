@@ -18,13 +18,12 @@ def fix_latex_in_question(text: str) -> str:
     # 在 $...$ 内部修复
     def fix_math_block(match):
         math_content = match.group(1)
-        # 修复 \int______0 为 \int_0 或 \int_{0}
-        # 匹配 \int 后跟多个下划线和数字
-        fixed = re.sub(r'\\int_+(\d)', r'\\int_{\1}', math_content)
+        # 修复 \int______0 为 \int_0（单个数字不需要大括号）
+        fixed = re.sub(r'\\int_+(\d)(?=\^|\s|$)', r'\\int_{\1}', math_content)
         # 修复 \int______{表达式} 为 \int_{表达式}
         fixed = re.sub(r'\\int_+(\{[^}]+\})', r'\\int_{\1}', fixed)
-        # 修复 \int______0^{表达式} 为 \int_0^{表达式}
-        fixed = re.sub(r'\\int_+(\d)\^', r'\\int_{\1}^', fixed)
+        # 修复多余的大括号（如 {{{0}}} 变为 {0}）
+        fixed = re.sub(r'\{\{+(\d+)\}+\}', r'{\1}', fixed)
         return '$' + fixed + '$'
     
     # 修复所有 $...$ 块

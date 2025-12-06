@@ -48,8 +48,10 @@ def fix_latex_in_question(text: str) -> str:
         fixed = re.sub(r'\\(sum|prod|bigcup|bigcap|bigvee|bigwedge)_{2,}([A-Za-z\d])', r'\\\1_{\2}', fixed)
         fixed = re.sub(r'\\(sum|prod|bigcup|bigcap|bigvee|bigwedge)_{2,}(\{[^}]+\})', r'\\\1_{\2}', fixed)
         
-        # 6. 修复多余的大括号（如 {{{0}}} 变为 {0}）
+        # 6. 修复多余的大括号（如 {{{0}}} 变为 {0}，{{x=0}} 变为 {x=0}）
         fixed = re.sub(r'\{\{+(\d+)\}+\}', r'{\1}', fixed)
+        # 修复 {{表达式}} 变为 {表达式}
+        fixed = re.sub(r'\{\{([^}]+)\}\}', r'{\1}', fixed)
         
         return '$' + fixed + '$'
 

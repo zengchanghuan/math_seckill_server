@@ -6,3 +6,7 @@ pytesseract>=0.3.10      # OCR文本识别
 opencv-python>=4.8.0     # 图像预处理和分析
 numpy>=1.24.0            # 数值计算
 
+
+
+
+

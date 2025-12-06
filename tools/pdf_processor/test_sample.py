@@ -38,3 +38,7 @@ print("  2. OCR识别: python ocr_engine.py temp/pdf_images/page_1.png")
 print("  3. 切分题目: python question_splitter.py temp/pdf_images/page_1.json")
 print("\n💡 提示：将PDF文件放在当前目录，然后运行上述命令")
 
+
+
+
+

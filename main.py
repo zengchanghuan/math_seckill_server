@@ -587,16 +587,27 @@ async def get_feedbacks(status: Optional[str] = None):
 
 @app.get("/api/papers")
 async def get_exam_papers():
-    """获取所有试卷列表"""
+    """获取所有真题试卷列表（只返回真题，不包括生成的题目）"""
     try:
         with open(QUESTIONS_FILE, 'r', encoding='utf-8') as f:
             questions = json.load(f)
+
+        # 只筛选真题（source == 'real_exam' 或 isRealExam == True）
+        real_exam_questions = [
+            q for q in questions
+            if q.get('source') == 'real_exam' or q.get('isRealExam') == True
+        ]
+
+        if not real_exam_questions:
+            # 如果没有真题，返回空列表
+            print("⚠️ 没有找到真题数据，返回空列表")
+            return []
 
         # 按 paperId 分组
         papers_dict = {}
         questions_without_paper = []
 
-        for q in questions:
+        for q in real_exam_questions:
             paper_id = q.get('paperId')
             if not paper_id:
                 questions_without_paper.append(q)
@@ -640,29 +651,10 @@ async def get_exam_papers():
             }
             papers.append(paper)
 
-        # 如果有题目没有 paperId，创建一个默认试卷
+        # 如果有真题没有 paperId，按年份或其他规则分组
         if questions_without_paper:
-            question_types = {"choice": 0, "fill": 0, "solution": 0}
-            question_ids = []
-            for q in questions_without_paper:
-                question_ids.append(q.get('questionId'))
-                q_type = q.get('type', 'choice')
-                if q_type in question_types:
-                    question_types[q_type] += 1
-
-            default_paper = {
-                "paperId": "paper_2023_1",
-                "name": "2023年广东专升本高数真题（第1套）",
-                "year": 2023,
-                "region": "广东",
-                "examType": "专升本",
-                "subject": "高数",
-                "questionIds": question_ids,
-                "suggestedTime": 90,
-                "totalQuestions": len(question_ids),
-                "questionTypes": question_types
-            }
-            papers.append(default_paper)
+            # 可以按年份或其他字段分组，这里暂时不处理
+            print(f"⚠️ 有 {len(questions_without_paper)} 道真题没有 paperId，需要手动分配")
 
         return papers
     except Exception as e:
@@ -673,20 +665,22 @@ async def get_exam_papers():
 
 @app.get("/api/papers/{paper_id}/questions")
 async def get_questions_by_paper(paper_id: str):
-    """获取指定试卷的所有题目"""
+    """获取指定试卷的所有题目（只返回真题）"""
     try:
         with open(QUESTIONS_FILE, 'r', encoding='utf-8') as f:
             questions = json.load(f)
 
-        # 如果是默认试卷 paper_2023_1，返回所有没有 paperId 的题目
-        if paper_id == "paper_2023_1":
-            paper_questions = [q for q in questions if not q.get('paperId')]
-        else:
-            # 筛选出属于该试卷的题目
-            paper_questions = [q for q in questions if q.get('paperId') == paper_id]
+        # 只筛选真题
+        real_exam_questions = [
+            q for q in questions
+            if q.get('source') == 'real_exam' or q.get('isRealExam') == True
+        ]
+
+        # 筛选出属于该试卷的题目
+        paper_questions = [q for q in real_exam_questions if q.get('paperId') == paper_id]
 
         if not paper_questions:
-            raise HTTPException(status_code=404, detail=f"试卷 {paper_id} 未找到或没有题目")
+            raise HTTPException(status_code=404, detail=f"试卷 {paper_id} 未找到或没有真题题目")
 
         return paper_questions
     except HTTPException:

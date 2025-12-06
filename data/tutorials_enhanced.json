@@ -1,562 +1,569 @@
 {
-  "version": "2.0.0",
-  "lastUpdated": "2025-12-03",
-  "description": "增强版讲解内容 - 包含概念讲解、解题方法、典型例题、易错点",
-  "themes": [
-    {
-      "themeName": "高中衔接大学数学基础",
-      "chapters": [
+    "version": "2.0.0",
+    "lastUpdated": "2025-12-03",
+    "description": "增强版讲解内容 - 包含概念讲解、解题方法、典型例题、易错点",
+    "themes": [
         {
-          "chapterName": "第1章 三角函数",
-          "chapterIntro": {
-            "overview": "三角函数是数学中最重要的函数之一，描述周期性现象，在物理、工程、信号处理等领域有广泛应用。",
-            "learningGoals": [
-              "掌握三角函数的定义和性质",
-              "熟练运用三角恒等式化简和证明",
-              "理解三角函数的图像和周期性",
-              "掌握解三角方程的基本方法"
-            ],
-            "prerequisite": "平面几何基础、函数概念",
-            "difficulty": "中等",
-            "estimatedTime": "8-10小时"
-          },
-          "sections": [
-            {
-              "sectionName": "§1.1 三角函数的定义",
-              "sectionIntro": "从单位圆出发理解三角函数的本质",
-              "knowledgeCards": [
+            "themeName": "高中衔接大学数学基础",
+            "chapters": [
                 {
-                  "cardId": "trig_001",
-                  "title": "角的度量：角度制与弧度制",
-                  "concept": "角度制使用度(°)为单位，360°为一周。弧度制使用弧长与半径的比值，2π rad为一周。弧度制更适合数学分析。",
-                  "formula": "$\\pi \\text{ rad} = 180^\\circ$，转换公式：$1^\\circ = \\frac{\\pi}{180} \\text{ rad}$，弧长公式：$s = R\\theta$（θ为弧度）",
-                  "explanation": "为什么引入弧度制？因为在微积分中，当角度用弧度表示时，$\\frac{d}{dx}\\sin x = \\cos x$，如果用角度制则需要额外的转换系数$\\frac{\\pi}{180}$。",
-                  "memoryTip": "记住特殊角：30°=π/6, 45°=π/4, 60°=π/3, 90°=π/2",
-                  "example": {
-                    "problem": "将120°转换为弧度，并求半径为3的圆中对应的弧长。",
-                    "solution": "120° = 120 × π/180 = 2π/3 rad\n弧长 s = Rθ = 3 × 2π/3 = 2π",
-                    "steps": [
-                      "1. 使用转换公式：角度 × π/180",
-                      "2. 化简：120π/180 = 2π/3",
-                      "3. 应用弧长公式：s = 3 × 2π/3 = 2π"
-                    ]
-                  },
-                  "commonMistakes": [
-                    "❌ 忘记区分角度和弧度，混用公式",
-                    "❌ 计算器设置错误（DEG vs RAD模式）",
-                    "✅ 正确做法：明确标注单位，计算前检查模式"
-                  ],
-                  "practiceLink": "drill?topic=三角函数&difficulty=L1"
-                },
-                {
-                  "cardId": "trig_002",
-                  "title": "单位圆定义",
-                  "concept": "在单位圆（半径为1的圆）上，角α的终边与圆交于点P(x,y)，则cosα=x，sinα=y，tanα=y/x。这是三角函数最本质的定义。",
-                  "formula": "$\\sin\\alpha = y$，$\\cos\\alpha = x$，$\\tan\\alpha = \\frac{y}{x} = \\frac{\\sin\\alpha}{\\cos\\alpha}$ (x≠0)",
-                  "explanation": "为什么用单位圆？\n1. 简化计算（半径为1）\n2. 坐标直接等于三角函数值\n3. 便于理解周期性（绕圆一周）\n4. 推广到任意角度（不局限于锐角）",
-                  "visualization": "trig_unit_circle",
-                  "memoryTip": "口诀：横坐标cos，纵坐标sin，斜率tan",
-                  "example": {
-                    "problem": "在单位圆上，点P对应角度150°，求sin150°、cos150°、tan150°。",
-                    "solution": "150° = 180° - 30°（第二象限）\n根据单位圆：\n- sin150° = sin30° = 1/2\n- cos150° = -cos30° = -√3/2\n- tan150° = sin150°/cos150° = -1/√3 = -√3/3",
-                    "steps": [
-                      "1. 确定角度所在象限：150°在第二象限",
-                      "2. 找参考角：180° - 150° = 30°",
-                      "3. 应用象限符号规律：II象限sin正cos负",
-                      "4. 计算：sin150°=1/2, cos150°=-√3/2",
-                      "5. tan = sin/cos = -√3/3"
-                    ]
-                  },
-                  "commonMistakes": [
-                    "❌ 忘记考虑象限符号（特别是第二、三、四象限）",
-                    "❌ tan的定义域问题：cos=0时tan不存在",
-                    "✅ 正确做法：先定位象限，再确定符号"
-                  ]
-                },
-                {
-                  "cardId": "trig_003",
-                  "title": "同角三角函数基本关系",
-                  "concept": "同一个角的三角函数之间存在固定关系，这些关系是三角恒等变换的基础。",
-                  "formula": "平方关系：$\\sin^2\\alpha + \\cos^2\\alpha = 1$\n商数关系：$\\tan\\alpha = \\frac{\\sin\\alpha}{\\cos\\alpha}$\n倒数关系：$\\cot\\alpha = \\frac{1}{\\tan\\alpha} = \\frac{\\cos\\alpha}{\\sin\\alpha}$",
-                  "explanation": "平方关系的来源：单位圆上点P(x,y)满足x²+y²=1，而x=cosα，y=sinα，代入即得。这个关系式可以推导出许多有用的变形。",
-                  "derivation": [
-                    "从单位圆方程 x² + y² = 1",
-                    "代入 x = cosα, y = sinα",
-                    "得到 cos²α + sin²α = 1"
-                  ],
-                  "usefulTransforms": [
-                    "sin²α = 1 - cos²α",
-                    "cos²α = 1 - sin²α",
-                    "1 + tan²α = sec²α (sec = 1/cos)",
-                    "sin²α = (1-cos2α)/2",
-                    "cos²α = (1+cos2α)/2"
-                  ],
-                  "memoryTip": "\"一个神话\"：sin² + cos² = 1",
-                  "example": {
-                    "problem": "已知sinα = 3/5，且α在第二象限，求cosα和tanα。",
-                    "solution": "使用平方关系：\ncos²α = 1 - sin²α = 1 - (3/5)² = 1 - 9/25 = 16/25\n因为α在第二象限，cosα < 0，所以cosα = -4/5\ntanα = sinα/cosα = (3/5) / (-4/5) = -3/4",
-                    "steps": [
-                      "1. 已知：sinα = 3/5，α在第二象限",
-                      "2. 用平方关系：cos²α = 1 - 9/25 = 16/25",
-                      "3. 确定符号：第二象限cos<0",
-                      "4. 开方：cosα = -4/5",
-                      "5. 计算tan：tanα = (3/5) ÷ (-4/5) = -3/4"
-                    ]
-                  },
-                  "solvingStrategy": {
-                    "title": "已知一个三角函数值求其他的通用方法",
-                    "steps": [
-                      "1. 确定角所在象限（决定符号）",
-                      "2. 利用平方关系求另一个函数值",
-                      "3. 根据象限确定正负号",
-                      "4. 用商数关系求tan或cot"
-                    ]
-                  },
-                  "commonMistakes": [
-                    "❌ 开平方时忘记考虑±号",
-                    "❌ 不根据象限确定符号",
-                    "❌ 混淆sin²α和(sinα)²的写法",
-                    "✅ 正确做法：象限决定符号，开方考虑±"
-                  ]
-                },
-                {
-                  "cardId": "trig_004",
-                  "title": "三角函数的符号规律（ASTC法则）",
-                  "concept": "不同象限中，三角函数的正负性有规律。第一象限全正（All），第二象限sin正（Sin），第三象限tan正（Tan），第四象限cos正（Cos）。",
-                  "formula": "第I象限：sin>0, cos>0, tan>0\n第II象限：sin>0, cos<0, tan<0\n第III象限：sin<0, cos<0, tan>0\n第IV象限：sin<0, cos>0, tan<0",
-                  "memoryTip": "记忆口诀：\"All Students Take Calculus\"或中文\"全是太苦\"",
-                  "visualization": "quadrant_signs",
-                  "example": {
-                    "problem": "已知tanα > 0且sinα < 0，判断α在第几象限？",
-                    "solution": "tanα > 0说明α在第一或第三象限\nsinα < 0说明α在第三或第四象限\n两个条件的交集：α在第三象限",
-                    "steps": [
-                      "1. tanα > 0 → I或III象限",
-                      "2. sinα < 0 → III或IV象限",
-                      "3. 取交集 → III象限"
-                    ]
-                  },
-                  "practiceQuiz": [
-                    {
-                      "q": "若sinα·cosα > 0，α可能在哪个象限？",
-                      "a": "I或III（两者同号）"
+                    "chapterName": "第1章 三角函数",
+                    "chapterIntro": {
+                        "overview": "三角函数是数学中最重要的函数之一，描述周期性现象，在物理、工程、信号处理等领域有广泛应用。",
+                        "learningGoals": [
+                            "掌握三角函数的定义和性质",
+                            "熟练运用三角恒等式化简和证明",
+                            "理解三角函数的图像和周期性",
+                            "掌握解三角方程的基本方法"
+                        ],
+                        "prerequisite": "平面几何基础、函数概念",
+                        "difficulty": "中等",
+                        "estimatedTime": "8-10小时"
                     },
-                    {
-                      "q": "若cosα·tanα < 0，α可能在哪个象限？",
-                      "a": "II或IV（一正一负）"
-                    }
-                  ],
-                  "commonMistakes": [
-                    "❌ 混淆各象限的符号规律",
-                    "❌ tan的符号判断错误",
-                    "✅ 记住口诀ASTC，从第一象限逆时针"
-                  ]
-                },
-                {
-                  "cardId": "trig_005",
-                  "title": "诱导公式（一）：奇偶性",
-                  "concept": "sinx和tanx是奇函数，cosx是偶函数。这反映了三角函数关于原点或y轴的对称性。",
-                  "formula": "$\\sin(-x) = -\\sin x$（奇函数）\n$\\cos(-x) = \\cos x$（偶函数）\n$\\tan(-x) = -\\tan x$（奇函数）",
-                  "geometricMeaning": "在单位圆上，角-α和角α关于x轴对称，所以横坐标（cos）相同，纵坐标（sin）相反。",
-                  "example": {
-                    "problem": "化简：sin(-30°) + cos(-45°) - tan(-60°)",
-                    "solution": "= -sin30° + cos45° - (-tan60°)\n= -1/2 + √2/2 + √3\n= (√2 - 1)/2 + √3",
-                    "steps": [
-                      "1. sin(-30°) = -sin30° = -1/2",
-                      "2. cos(-45°) = cos45° = √2/2",
-                      "3. tan(-60°) = -tan60° = -√3",
-                      "4. 合并：-1/2 + √2/2 + √3"
-                    ]
-                  },
-                  "commonMistakes": [
-                    "❌ 认为cosx也是奇函数",
-                    "❌ 计算负角时符号处理错误",
-                    "✅ 记住：sin和tan奇，cos偶"
-                  ]
-                },
-                {
-                  "cardId": "trig_006",
-                  "title": "诱导公式（二）：周期性",
-                  "concept": "三角函数是周期函数。sin和cos的周期是2π，tan的周期是π。",
-                  "formula": "$\\sin(x + 2k\\pi) = \\sin x$\n$\\cos(x + 2k\\pi) = \\cos x$\n$\\tan(x + k\\pi) = \\tan x$\n（k为任意整数）",
-                  "explanation": "周期性来源于单位圆的旋转：绕圆一周（2π）后回到原位置，tan只需要半周（π）因为其关于原点对称。",
-                  "application": "利用周期性可以将任意角转化为0到2π（或0°到360°）之间的角。",
-                  "example": {
-                    "problem": "求sin(13π/6)的值。",
-                    "solution": "13π/6 = 2π + π/6\nsin(13π/6) = sin(2π + π/6) = sin(π/6) = 1/2",
-                    "steps": [
-                      "1. 分离整数倍的2π：13π/6 = 12π/6 + π/6 = 2π + π/6",
-                      "2. 应用周期性：sin(2π + π/6) = sin(π/6)",
-                      "3. 计算特殊值：sin(π/6) = 1/2"
-                    ]
-                  },
-                  "solvingStrategy": {
-                    "title": "大角转小角的通用方法",
-                    "steps": [
-                      "1. 除以周期（2π或π），求商和余数",
-                      "2. 商×周期的部分可以消去",
-                      "3. 只需计算余数部分的函数值"
-                    ]
-                  },
-                  "commonMistakes": [
-                    "❌ 混淆sin/cos的周期2π和tan的周期π",
-                    "❌ 大角转化时计算错误",
-                    "✅ 记住：sin/cos周期2π，tan周期π"
-                  ]
-                }
-              ]
-            },
-            {
-              "sectionName": "§1.2 和角公式与倍角公式",
-              "sectionIntro": "三角函数的核心恒等式，是化简和证明的基础",
-              "knowledgeCards": [
-                {
-                  "cardId": "trig_007",
-                  "title": "两角和的正弦公式",
-                  "concept": "两个角的和（或差）的正弦，等于各角正弦余弦的特定组合。",
-                  "formula": "$\\sin(\\alpha \\pm \\beta) = \\sin\\alpha\\cos\\beta \\pm \\cos\\alpha\\sin\\beta$",
-                  "derivation": "可以通过复数的欧拉公式或旋转矩阵推导，几何意义是角度相加时对应点的纵坐标。",
-                  "memoryTip": "\"正弦和差，交叉相乘\"：sinα乘cosβ，cosα乘sinβ，注意中间的±号和公式保持一致",
-                  "example": {
-                    "problem": "求sin75°的精确值。",
-                    "solution": "75° = 45° + 30°\nsin75° = sin(45° + 30°)\n= sin45°cos30° + cos45°sin30°\n= (√2/2)(√3/2) + (√2/2)(1/2)\n= (√6 + √2)/4",
-                    "steps": [
-                      "1. 分解角度：75° = 45° + 30°",
-                      "2. 应用和角公式：sin(A+B) = sinAcosB + cosAsinB",
-                      "3. 代入特殊值：sin45°=√2/2, cos30°=√3/2...",
-                      "4. 计算：(√2/2)(√3/2) + (√2/2)(1/2)",
-                      "5. 化简：(√6 + √2)/4"
-                    ]
-                  },
-                  "application": [
-                    "计算非特殊角的三角函数值",
-                    "证明三角恒等式",
-                    "化简三角表达式"
-                  ],
-                  "practice": {
-                    "problem": "证明：sin(α+β) + sin(α-β) = 2sinα·cosβ",
-                    "hint": "展开左边，观察哪些项会抵消"
-                  },
-                  "commonMistakes": [
-                    "❌ sin(α+β) ≠ sinα + sinβ（不能直接拆开）",
-                    "❌ 公式中±号的对应关系错误",
-                    "❌ 特殊角的值记忆错误",
-                    "✅ 正确：必须按照公式展开，注意符号"
-                  ]
-                },
-                {
-                  "cardId": "trig_008",
-                  "title": "两角和的余弦公式",
-                  "concept": "余弦的和角公式与正弦类似，但符号相反。",
-                  "formula": "$\\cos(\\alpha \\pm \\beta) = \\cos\\alpha\\cos\\beta \\mp \\sin\\alpha\\sin\\beta$",
-                  "attention": "注意：余弦公式中间的符号是相反的！α+β用减号，α-β用加号。",
-                  "memoryTip": "\"余弦和差，同名相乘，符号相反\"",
-                  "example": {
-                    "problem": "求cos15°的值。",
-                    "solution": "15° = 45° - 30°\ncos15° = cos(45° - 30°)\n= cos45°cos30° + sin45°sin30°\n= (√2/2)(√3/2) + (√2/2)(1/2)\n= (√6 + √2)/4",
-                    "steps": [
-                      "1. 分解：15° = 45° - 30°",
-                      "2. 公式：cos(A-B) = cosAcosB + sinAsinB（注意+号）",
-                      "3. 代入并计算"
-                    ]
-                  },
-                  "comparison": {
-                    "title": "sin和cos和角公式的对比",
-                    "sinFormula": "sin(α±β) = sinα·cosβ ± cosα·sinβ（符号一致）",
-                    "cosFormula": "cos(α±β) = cosα·cosβ ∓ sinα·sinβ（符号相反）"
-                  },
-                  "commonMistakes": [
-                    "❌ cos(α+β) ≠ cosα + cosβ",
-                    "❌ 混淆sin和cos公式的符号",
-                    "✅ 记住：cos的符号相反！"
-                  ]
-                },
-                {
-                  "cardId": "trig_009",
-                  "title": "正切的和角公式",
-                  "concept": "正切的和角公式是分式形式，分子分母都含有tan。",
-                  "formula": "$\\tan(\\alpha \\pm \\beta) = \\frac{\\tan\\alpha \\pm \\tan\\beta}{1 \\mp \\tan\\alpha\\tan\\beta}$",
-                  "derivation": "从sin和cos的和角公式推导：tan(α+β) = sin(α+β)/cos(α+β)，分子分母同除以cosα·cosβ。",
-                  "memoryTip": "\"切之和差，上加下减，交叉做分母\"",
-                  "example": {
-                    "problem": "已知tanα=1/2，tanβ=1/3，求tan(α+β)。",
-                    "solution": "tan(α+β) = (tanα + tanβ)/(1 - tanα·tanβ)\n= (1/2 + 1/3) / (1 - 1/2 × 1/3)\n= (5/6) / (1 - 1/6)\n= (5/6) / (5/6) = 1\n因此α+β = 45° (或π/4)",
-                    "steps": [
-                      "1. 公式：tan(α+β) = (tanα+tanβ)/(1-tanα·tanβ)",
-                      "2. 代入：(1/2+1/3)/(1-1/6)",
-                      "3. 分子：1/2+1/3 = 5/6",
-                      "4. 分母：1-1/6 = 5/6",
-                      "5. 结果：(5/6)÷(5/6) = 1"
-                    ]
-                  },
-                  "application": "当知道两个角的tan值时，可以快速求和角的tan值，而不需要先求sin和cos。",
-                  "commonMistakes": [
-                    "❌ 分子分母的符号弄反",
-                    "❌ 忘记分母中的1",
-                    "❌ 计算tanα·tanβ时出错",
-                    "✅ 仔细对照公式，注意分子分母的符号"
-                  ]
-                },
-                {
-                  "cardId": "trig_010",
-                  "title": "二倍角公式",
-                  "concept": "二倍角公式是和角公式的特殊情况（β=α），在降幂、化简中特别有用。",
-                  "formula": "$\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha$\n$\\cos 2\\alpha = \\cos^2\\alpha - \\sin^2\\alpha$\n$\\tan 2\\alpha = \\frac{2\\tan\\alpha}{1 - \\tan^2\\alpha}$",
-                  "multipleForm": {
-                    "title": "cos2α的三种形式",
-                    "forms": [
-                      "cos2α = cos²α - sin²α（原始形式）",
-                      "cos2α = 2cos²α - 1（全用cos表示）",
-                      "cos2α = 1 - 2sin²α（全用sin表示）"
+                    "sections": [
+                        {
+                            "sectionName": "§1.1 三角函数的定义",
+                            "sectionIntro": "从单位圆出发理解三角函数的本质",
+                            "knowledgeCards": [
+                                {
+                                    "cardId": "trig_001",
+                                    "title": "角的度量：角度制与弧度制",
+                                    "concept": "角度制使用度(°)为单位，360°为一周。弧度制使用弧长与半径的比值，2π rad为一周。弧度制更适合数学分析。",
+                                    "formula": "$\\pi \\text{ rad} = 180^\\circ$，转换公式：$1^\\circ = \\frac{\\pi}{180} \\text{ rad}$，弧长公式：$s = R\\theta$（θ为弧度）",
+                                    "explanation": "为什么引入弧度制？因为在微积分中，当角度用弧度表示时，$\\frac{d}{dx}\\sin x = \\cos x$，如果用角度制则需要额外的转换系数$\\frac{\\pi}{180}$。",
+                                    "memoryTip": "记住特殊角：30°=π/6, 45°=π/4, 60°=π/3, 90°=π/2",
+                                    "example": {
+                                        "problem": "将120°转换为弧度，并求半径为3的圆中对应的弧长。",
+                                        "solution": "120° = 120 × π/180 = 2π/3 rad\n弧长 s = Rθ = 3 × 2π/3 = 2π",
+                                        "steps": [
+                                            "1. 使用转换公式：角度 × π/180",
+                                            "2. 化简：120π/180 = 2π/3",
+                                            "3. 应用弧长公式：s = 3 × 2π/3 = 2π"
+                                        ]
+                                    },
+                                    "commonMistakes": [
+                                        "❌ 忘记区分角度和弧度，混用公式",
+                                        "❌ 计算器设置错误（DEG vs RAD模式）",
+                                        "✅ 正确做法：明确标注单位，计算前检查模式"
+                                    ],
+                                    "practiceLink": "drill?topic=三角函数&difficulty=L1"
+                                },
+                                {
+                                    "cardId": "trig_002",
+                                    "title": "单位圆定义",
+                                    "concept": "在单位圆（半径为1的圆）上，角α的终边与圆交于点P(x,y)，则cosα=x，sinα=y，tanα=y/x。这是三角函数最本质的定义。",
+                                    "formula": "$\\sin\\alpha = y$，$\\cos\\alpha = x$，$\\tan\\alpha = \\frac{y}{x} = \\frac{\\sin\\alpha}{\\cos\\alpha}$ (x≠0)",
+                                    "explanation": "为什么用单位圆？\n1. 简化计算（半径为1）\n2. 坐标直接等于三角函数值\n3. 便于理解周期性（绕圆一周）\n4. 推广到任意角度（不局限于锐角）",
+                                    "visualization": "trig_unit_circle",
+                                    "memoryTip": "口诀：横坐标cos，纵坐标sin，斜率tan",
+                                    "example": {
+                                        "problem": "在单位圆上，点P对应角度150°，求sin150°、cos150°、tan150°。",
+                                        "solution": "150° = 180° - 30°（第二象限）\n根据单位圆：\n- sin150° = sin30° = 1/2\n- cos150° = -cos30° = -√3/2\n- tan150° = sin150°/cos150° = -1/√3 = -√3/3",
+                                        "steps": [
+                                            "1. 确定角度所在象限：150°在第二象限",
+                                            "2. 找参考角：180° - 150° = 30°",
+                                            "3. 应用象限符号规律：II象限sin正cos负",
+                                            "4. 计算：sin150°=1/2, cos150°=-√3/2",
+                                            "5. tan = sin/cos = -√3/3"
+                                        ]
+                                    },
+                                    "commonMistakes": [
+                                        "❌ 忘记考虑象限符号（特别是第二、三、四象限）",
+                                        "❌ tan的定义域问题：cos=0时tan不存在",
+                                        "✅ 正确做法：先定位象限，再确定符号"
+                                    ]
+                                },
+                                {
+                                    "cardId": "trig_003",
+                                    "title": "同角三角函数基本关系",
+                                    "concept": "同一个角的三角函数之间存在固定关系，这些关系是三角恒等变换的基础。",
+                                    "formula": "平方关系：$\\sin^2\\alpha + \\cos^2\\alpha = 1$\n商数关系：$\\tan\\alpha = \\frac{\\sin\\alpha}{\\cos\\alpha}$\n倒数关系：$\\cot\\alpha = \\frac{1}{\\tan\\alpha} = \\frac{\\cos\\alpha}{\\sin\\alpha}$",
+                                    "explanation": "平方关系的来源：单位圆上点P(x,y)满足x²+y²=1，而x=cosα，y=sinα，代入即得。这个关系式可以推导出许多有用的变形。",
+                                    "derivation": [
+                                        "从单位圆方程 x² + y² = 1",
+                                        "代入 x = cosα, y = sinα",
+                                        "得到 cos²α + sin²α = 1"
+                                    ],
+                                    "usefulTransforms": [
+                                        "sin²α = 1 - cos²α",
+                                        "cos²α = 1 - sin²α",
+                                        "1 + tan²α = sec²α (sec = 1/cos)",
+                                        "sin²α = (1-cos2α)/2",
+                                        "cos²α = (1+cos2α)/2"
+                                    ],
+                                    "memoryTip": "\"一个神话\"：sin² + cos² = 1",
+                                    "example": {
+                                        "problem": "已知sinα = 3/5，且α在第二象限，求cosα和tanα。",
+                                        "solution": "使用平方关系：\ncos²α = 1 - sin²α = 1 - (3/5)² = 1 - 9/25 = 16/25\n因为α在第二象限，cosα < 0，所以cosα = -4/5\ntanα = sinα/cosα = (3/5) / (-4/5) = -3/4",
+                                        "steps": [
+                                            "1. 已知：sinα = 3/5，α在第二象限",
+                                            "2. 用平方关系：cos²α = 1 - 9/25 = 16/25",
+                                            "3. 确定符号：第二象限cos<0",
+                                            "4. 开方：cosα = -4/5",
+                                            "5. 计算tan：tanα = (3/5) ÷ (-4/5) = -3/4"
+                                        ]
+                                    },
+                                    "solvingStrategy": {
+                                        "title": "已知一个三角函数值求其他的通用方法",
+                                        "steps": [
+                                            "1. 确定角所在象限（决定符号）",
+                                            "2. 利用平方关系求另一个函数值",
+                                            "3. 根据象限确定正负号",
+                                            "4. 用商数关系求tan或cot"
+                                        ]
+                                    },
+                                    "commonMistakes": [
+                                        "❌ 开平方时忘记考虑±号",
+                                        "❌ 不根据象限确定符号",
+                                        "❌ 混淆sin²α和(sinα)²的写法",
+                                        "✅ 正确做法：象限决定符号，开方考虑±"
+                                    ]
+                                },
+                                {
+                                    "cardId": "trig_004",
+                                    "title": "三角函数的符号规律（ASTC法则）",
+                                    "concept": "不同象限中，三角函数的正负性有规律。第一象限全正（All），第二象限sin正（Sin），第三象限tan正（Tan），第四象限cos正（Cos）。",
+                                    "formula": "第I象限：sin>0, cos>0, tan>0\n第II象限：sin>0, cos<0, tan<0\n第III象限：sin<0, cos<0, tan>0\n第IV象限：sin<0, cos>0, tan<0",
+                                    "memoryTip": "记忆口诀：\"All Students Take Calculus\"或中文\"全是太苦\"",
+                                    "visualization": "quadrant_signs",
+                                    "example": {
+                                        "problem": "已知tanα > 0且sinα < 0，判断α在第几象限？",
+                                        "solution": "tanα > 0说明α在第一或第三象限\nsinα < 0说明α在第三或第四象限\n两个条件的交集：α在第三象限",
+                                        "steps": [
+                                            "1. tanα > 0 → I或III象限",
+                                            "2. sinα < 0 → III或IV象限",
+                                            "3. 取交集 → III象限"
+                                        ]
+                                    },
+                                    "practiceQuiz": [
+                                        {
+                                            "q": "若sinα·cosα > 0，α可能在哪个象限？",
+                                            "a": "I或III（两者同号）"
+                                        },
+                                        {
+                                            "q": "若cosα·tanα < 0，α可能在哪个象限？",
+                                            "a": "II或IV（一正一负）"
+                                        }
+                                    ],
+                                    "commonMistakes": [
+                                        "❌ 混淆各象限的符号规律",
+                                        "❌ tan的符号判断错误",
+                                        "✅ 记住口诀ASTC，从第一象限逆时针"
+                                    ]
+                                },
+                                {
+                                    "cardId": "trig_005",
+                                    "title": "诱导公式（一）：奇偶性",
+                                    "concept": "sinx和tanx是奇函数，cosx是偶函数。这反映了三角函数关于原点或y轴的对称性。",
+                                    "formula": "$\\sin(-x) = -\\sin x$（奇函数）\n$\\cos(-x) = \\cos x$（偶函数）\n$\\tan(-x) = -\\tan x$（奇函数）",
+                                    "geometricMeaning": "在单位圆上，角-α和角α关于x轴对称，所以横坐标（cos）相同，纵坐标（sin）相反。",
+                                    "example": {
+                                        "problem": "化简：sin(-30°) + cos(-45°) - tan(-60°)",
+                                        "solution": "= -sin30° + cos45° - (-tan60°)\n= -1/2 + √2/2 + √3\n= (√2 - 1)/2 + √3",
+                                        "steps": [
+                                            "1. sin(-30°) = -sin30° = -1/2",
+                                            "2. cos(-45°) = cos45° = √2/2",
+                                            "3. tan(-60°) = -tan60° = -√3",
+                                            "4. 合并：-1/2 + √2/2 + √3"
+                                        ]
+                                    },
+                                    "commonMistakes": [
+                                        "❌ 认为cosx也是奇函数",
+                                        "❌ 计算负角时符号处理错误",
+                                        "✅ 记住：sin和tan奇，cos偶"
+                                    ]
+                                },
+                                {
+                                    "cardId": "trig_006",
+                                    "title": "诱导公式（二）：周期性",
+                                    "concept": "三角函数是周期函数。sin和cos的周期是2π，tan的周期是π。",
+                                    "formula": "$\\sin(x + 2k\\pi) = \\sin x$\n$\\cos(x + 2k\\pi) = \\cos x$\n$\\tan(x + k\\pi) = \\tan x$\n（k为任意整数）",
+                                    "explanation": "周期性来源于单位圆的旋转：绕圆一周（2π）后回到原位置，tan只需要半周（π）因为其关于原点对称。",
+                                    "application": "利用周期性可以将任意角转化为0到2π（或0°到360°）之间的角。",
+                                    "example": {
+                                        "problem": "求sin(13π/6)的值。",
+                                        "solution": "13π/6 = 2π + π/6\nsin(13π/6) = sin(2π + π/6) = sin(π/6) = 1/2",
+                                        "steps": [
+                                            "1. 分离整数倍的2π：13π/6 = 12π/6 + π/6 = 2π + π/6",
+                                            "2. 应用周期性：sin(2π + π/6) = sin(π/6)",
+                                            "3. 计算特殊值：sin(π/6) = 1/2"
+                                        ]
+                                    },
+                                    "solvingStrategy": {
+                                        "title": "大角转小角的通用方法",
+                                        "steps": [
+                                            "1. 除以周期（2π或π），求商和余数",
+                                            "2. 商×周期的部分可以消去",
+                                            "3. 只需计算余数部分的函数值"
+                                        ]
+                                    },
+                                    "commonMistakes": [
+                                        "❌ 混淆sin/cos的周期2π和tan的周期π",
+                                        "❌ 大角转化时计算错误",
+                                        "✅ 记住：sin/cos周期2π，tan周期π"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sectionName": "§1.2 和角公式与倍角公式",
+                            "sectionIntro": "三角函数的核心恒等式，是化简和证明的基础",
+                            "knowledgeCards": [
+                                {
+                                    "cardId": "trig_007",
+                                    "title": "两角和的正弦公式",
+                                    "concept": "两个角的和（或差）的正弦，等于各角正弦余弦的特定组合。",
+                                    "formula": "$\\sin(\\alpha \\pm \\beta) = \\sin\\alpha\\cos\\beta \\pm \\cos\\alpha\\sin\\beta$",
+                                    "derivation": "可以通过复数的欧拉公式或旋转矩阵推导，几何意义是角度相加时对应点的纵坐标。",
+                                    "memoryTip": "\"正弦和差，交叉相乘\"：sinα乘cosβ，cosα乘sinβ，注意中间的±号和公式保持一致",
+                                    "example": {
+                                        "problem": "求sin75°的精确值。",
+                                        "solution": "75° = 45° + 30°\nsin75° = sin(45° + 30°)\n= sin45°cos30° + cos45°sin30°\n= (√2/2)(√3/2) + (√2/2)(1/2)\n= (√6 + √2)/4",
+                                        "steps": [
+                                            "1. 分解角度：75° = 45° + 30°",
+                                            "2. 应用和角公式：sin(A+B) = sinAcosB + cosAsinB",
+                                            "3. 代入特殊值：sin45°=√2/2, cos30°=√3/2...",
+                                            "4. 计算：(√2/2)(√3/2) + (√2/2)(1/2)",
+                                            "5. 化简：(√6 + √2)/4"
+                                        ]
+                                    },
+                                    "application": [
+                                        "计算非特殊角的三角函数值",
+                                        "证明三角恒等式",
+                                        "化简三角表达式"
+                                    ],
+                                    "practice": {
+                                        "problem": "证明：sin(α+β) + sin(α-β) = 2sinα·cosβ",
+                                        "hint": "展开左边，观察哪些项会抵消"
+                                    },
+                                    "commonMistakes": [
+                                        "❌ sin(α+β) ≠ sinα + sinβ（不能直接拆开）",
+                                        "❌ 公式中±号的对应关系错误",
+                                        "❌ 特殊角的值记忆错误",
+                                        "✅ 正确：必须按照公式展开，注意符号"
+                                    ]
+                                },
+                                {
+                                    "cardId": "trig_008",
+                                    "title": "两角和的余弦公式",
+                                    "concept": "余弦的和角公式与正弦类似，但符号相反。",
+                                    "formula": "$\\cos(\\alpha \\pm \\beta) = \\cos\\alpha\\cos\\beta \\mp \\sin\\alpha\\sin\\beta$",
+                                    "attention": "注意：余弦公式中间的符号是相反的！α+β用减号，α-β用加号。",
+                                    "memoryTip": "\"余弦和差，同名相乘，符号相反\"",
+                                    "example": {
+                                        "problem": "求cos15°的值。",
+                                        "solution": "15° = 45° - 30°\ncos15° = cos(45° - 30°)\n= cos45°cos30° + sin45°sin30°\n= (√2/2)(√3/2) + (√2/2)(1/2)\n= (√6 + √2)/4",
+                                        "steps": [
+                                            "1. 分解：15° = 45° - 30°",
+                                            "2. 公式：cos(A-B) = cosAcosB + sinAsinB（注意+号）",
+                                            "3. 代入并计算"
+                                        ]
+                                    },
+                                    "comparison": {
+                                        "title": "sin和cos和角公式的对比",
+                                        "sinFormula": "sin(α±β) = sinα·cosβ ± cosα·sinβ（符号一致）",
+                                        "cosFormula": "cos(α±β) = cosα·cosβ ∓ sinα·sinβ（符号相反）"
+                                    },
+                                    "commonMistakes": [
+                                        "❌ cos(α+β) ≠ cosα + cosβ",
+                                        "❌ 混淆sin和cos公式的符号",
+                                        "✅ 记住：cos的符号相反！"
+                                    ]
+                                },
+                                {
+                                    "cardId": "trig_009",
+                                    "title": "正切的和角公式",
+                                    "concept": "正切的和角公式是分式形式，分子分母都含有tan。",
+                                    "formula": "$\\tan(\\alpha \\pm \\beta) = \\frac{\\tan\\alpha \\pm \\tan\\beta}{1 \\mp \\tan\\alpha\\tan\\beta}$",
+                                    "derivation": "从sin和cos的和角公式推导：tan(α+β) = sin(α+β)/cos(α+β)，分子分母同除以cosα·cosβ。",
+                                    "memoryTip": "\"切之和差，上加下减，交叉做分母\"",
+                                    "example": {
+                                        "problem": "已知tanα=1/2，tanβ=1/3，求tan(α+β)。",
+                                        "solution": "tan(α+β) = (tanα + tanβ)/(1 - tanα·tanβ)\n= (1/2 + 1/3) / (1 - 1/2 × 1/3)\n= (5/6) / (1 - 1/6)\n= (5/6) / (5/6) = 1\n因此α+β = 45° (或π/4)",
+                                        "steps": [
+                                            "1. 公式：tan(α+β) = (tanα+tanβ)/(1-tanα·tanβ)",
+                                            "2. 代入：(1/2+1/3)/(1-1/6)",
+                                            "3. 分子：1/2+1/3 = 5/6",
+                                            "4. 分母：1-1/6 = 5/6",
+                                            "5. 结果：(5/6)÷(5/6) = 1"
+                                        ]
+                                    },
+                                    "application": "当知道两个角的tan值时，可以快速求和角的tan值，而不需要先求sin和cos。",
+                                    "commonMistakes": [
+                                        "❌ 分子分母的符号弄反",
+                                        "❌ 忘记分母中的1",
+                                        "❌ 计算tanα·tanβ时出错",
+                                        "✅ 仔细对照公式，注意分子分母的符号"
+                                    ]
+                                },
+                                {
+                                    "cardId": "trig_010",
+                                    "title": "二倍角公式",
+                                    "concept": "二倍角公式是和角公式的特殊情况（β=α），在降幂、化简中特别有用。",
+                                    "formula": "$\\sin 2\\alpha = 2\\sin\\alpha\\cos\\alpha$\n$\\cos 2\\alpha = \\cos^2\\alpha - \\sin^2\\alpha$\n$\\tan 2\\alpha = \\frac{2\\tan\\alpha}{1 - \\tan^2\\alpha}$",
+                                    "multipleForm": {
+                                        "title": "cos2α的三种形式",
+                                        "forms": [
+                                            "cos2α = cos²α - sin²α（原始形式）",
+                                            "cos2α = 2cos²α - 1（全用cos表示）",
+                                            "cos2α = 1 - 2sin²α（全用sin表示）"
+                                        ],
+                                        "usage": "根据已知条件选择合适的形式"
+                                    },
+                                    "example": {
+                                        "problem": "已知sinα = 3/5，α∈(0,π/2)，求sin2α和cos2α。",
+                                        "solution": "先求cosα：\ncos²α = 1 - sin²α = 1 - 9/25 = 16/25\n因α在第一象限，cosα = 4/5\n\nsin2α = 2sinα·cosα = 2×(3/5)×(4/5) = 24/25\n\ncos2α = cos²α - sin²α = 16/25 - 9/25 = 7/25\n\n或者：cos2α = 2cos²α - 1 = 2×16/25 - 1 = 7/25",
+                                        "steps": [
+                                            "1. 由sinα求cosα（利用sin²α+cos²α=1）",
+                                            "2. sin2α = 2sinα·cosα = 2×(3/5)×(4/5) = 24/25",
+                                            "3. cos2α = cos²α - sin²α = 16/25 - 9/25 = 7/25"
+                                        ]
+                                    },
+                                    "solvingStrategy": {
+                                        "title": "二倍角公式的应用技巧",
+                                        "techniques": [
+                                            "降幂：用cos2α=2cos²α-1推出cos²α=(1+cos2α)/2",
+                                            "升幂：将sinα·cosα改写为(1/2)sin2α",
+                                            "化简：根据已知选择合适的cos2α形式"
+                                        ]
+                                    },
+                                    "commonMistakes": [
+                                        "❌ sin2α ≠ 2sinα",
+                                        "❌ cos2α的三种形式记混",
+                                        "❌ tan2α的分母忘记平方",
+                                        "✅ 二倍角是整体，不能拆开"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sectionName": "§1.3 三角函数的图像与性质",
+                            "sectionIntro": "从函数的角度理解三角函数",
+                            "knowledgeCards": [
+                                {
+                                    "cardId": "trig_011",
+                                    "title": "正弦函数y=sinx的图像与性质",
+                                    "concept": "正弦函数是最基本的周期函数，描述波动现象。",
+                                    "properties": {
+                                        "domain": "R（全体实数）",
+                                        "range": "[-1, 1]",
+                                        "period": "2π",
+                                        "symmetry": "关于原点对称（奇函数）",
+                                        "monotonicity": "在[-π/2+2kπ, π/2+2kπ]上单调递增\n在[π/2+2kπ, 3π/2+2kπ]上单调递减",
+                                        "zeros": "x = kπ (k∈Z)",
+                                        "maxValue": "1，在x=π/2+2kπ处取得",
+                                        "minValue": "-1，在x=3π/2+2kπ处取得"
+                                    },
+                                    "graphFeatures": [
+                                        "波浪形曲线",
+                                        "关于原点中心对称",
+                                        "关于x=π/2+kπ的直线轴对称",
+                                        "在每个周期内有2个零点、1个最大值、1个最小值"
+                                    ],
+                                    "example": {
+                                        "problem": "求函数y=sinx在区间[0,2π]上的单调递增区间。",
+                                        "solution": "sinx的单调递增区间是[-π/2+2kπ, π/2+2kπ]\n在[0,2π]内：\n当k=0时：[-π/2, π/2]∩[0,2π] = [0, π/2]\n当k=1时：[3π/2, 5π/2]∩[0,2π] = [3π/2, 2π]\n答案：[0,π/2]和[3π/2,2π]",
+                                        "steps": [
+                                            "1. 写出sinx的一般单调递增区间",
+                                            "2. 让k取不同整数值",
+                                            "3. 与给定区间取交集",
+                                            "4. 得到在[0,2π]内的递增区间"
+                                        ]
+                                    },
+                                    "commonMistakes": [
+                                        "❌ 值域写成R",
+                                        "❌ 周期记为π",
+                                        "❌ 单调区间忘记加周期kπ",
+                                        "✅ 记住：振幅1，周期2π，关于原点对称"
+                                    ]
+                                },
+                                {
+                                    "cardId": "trig_012",
+                                    "title": "余弦函数y=cosx的图像与性质",
+                                    "concept": "余弦函数与正弦函数的关系：cosx = sin(x+π/2)，图像是正弦函数左移π/2得到。",
+                                    "properties": {
+                                        "domain": "R",
+                                        "range": "[-1, 1]",
+                                        "period": "2π",
+                                        "symmetry": "关于y轴对称（偶函数）",
+                                        "monotonicity": "在[2kπ, π+2kπ]上单调递减\n在[π+2kπ, 2π+2kπ]上单调递增",
+                                        "zeros": "x = π/2 + kπ",
+                                        "maxValue": "1，在x=2kπ处取得",
+                                        "minValue": "-1，在x=π+2kπ处取得"
+                                    },
+                                    "comparison": {
+                                        "title": "sin和cos的异同",
+                                        "similarities": [
+                                            "定义域R",
+                                            "值域[-1,1]",
+                                            "周期2π",
+                                            "振幅1"
+                                        ],
+                                        "differences": [
+                                            "sin是奇函数，cos是偶函数",
+                                            "sin过原点，cos不过原点",
+                                            "sin在0递增，cos在0递减",
+                                            "相位差π/2：cosx = sin(x+π/2)"
+                                        ]
+                                    },
+                                    "commonMistakes": [
+                                        "❌ 混淆sin和cos的奇偶性",
+                                        "❌ 零点位置记错",
+                                        "✅ cos是sin左移π/2，偶函数"
+                                    ]
+                                },
+                                {
+                                    "cardId": "trig_013",
+                                    "title": "正切函数y=tanx的图像与性质",
+                                    "concept": "正切函数是唯一周期为π的基本三角函数，有无穷多条渐近线。",
+                                    "properties": {
+                                        "domain": "x≠π/2+kπ (k∈Z)",
+                                        "range": "R",
+                                        "period": "π（比sin/cos的周期小一半）",
+                                        "symmetry": "关于原点对称（奇函数）",
+                                        "monotonicity": "在每个区间(-π/2+kπ, π/2+kπ)上单调递增",
+                                        "zeros": "x = kπ",
+                                        "asymptotes": "x = π/2 + kπ（垂直渐近线）"
+                                    },
+                                    "graphFeatures": [
+                                        "由无穷多条分支组成",
+                                        "每个分支在(-π/2+kπ, π/2+kπ)内",
+                                        "分支之间被渐近线分隔",
+                                        "没有最大最小值（值域为R）"
+                                    ],
+                                    "example": {
+                                        "problem": "求函数y=tanx在区间(0,2π)内的所有零点。",
+                                        "solution": "tanx的零点为x=kπ (k∈Z)\n在(0,2π)内：k=1时x=π\n答案：x=π",
+                                        "attention": "注意是开区间，不包括0和2π"
+                                    },
+                                    "commonMistakes": [
+                                        "❌ 定义域写成R（忘记tanx在π/2+kπ处无定义）",
+                                        "❌ 周期记为2π",
+                                        "❌ 认为有最值",
+                                        "✅ tan周期是π，定义域有限制"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "sectionName": "§1.4 三角恒等变换综合",
+                            "sectionIntro": "灵活运用各种三角公式进行化简和证明",
+                            "knowledgeCards": [
+                                {
+                                    "cardId": "trig_014",
+                                    "title": "三角恒等变换的基本策略",
+                                    "concept": "三角恒等变换的目标是化繁为简，主要方法包括：角度变换、函数名变换、幂次变换、形式变换。",
+                                    "strategies": [
+                                        {
+                                            "name": "角度变换",
+                                            "description": "统一角度",
+                                            "techniques": [
+                                                "α = (α+β) - β",
+                                                "2α = (α+β) + (α-β)",
+                                                "α+β = 2·((α+β)/2)"
+                                            ]
+                                        },
+                                        {
+                                            "name": "函数名变换",
+                                            "description": "统一函数种类",
+                                            "techniques": [
+                                                "切化弦：tanx = sinx/cosx",
+                                                "弦化切：sinx = tanx·cosx",
+                                                "统一为sin或cos"
+                                            ]
+                                        },
+                                        {
+                                            "name": "幂次变换",
+                                            "description": "升幂或降幂",
+                                            "techniques": [
+                                                "降幂：cos²x = (1+cos2x)/2",
+                                                "升幂：sinx·cosx = (1/2)sin2x"
+                                            ]
+                                        },
+                                        {
+                                            "name": "辅助角公式",
+                                            "description": "asinx + bcosx形式的化简",
+                                            "formula": "asinx + bcosx = √(a²+b²)·sin(x+φ)，其中tanφ=b/a"
+                                        }
+                                    ],
+                                    "example": {
+                                        "problem": "化简：(sin2α)/(1+cos2α)",
+                                        "solution": "分子：sin2α = 2sinα·cosα\n分母：1+cos2α = 1+(2cos²α-1) = 2cos²α\n\n原式 = (2sinα·cosα)/(2cos²α) = sinα/cosα = tanα",
+                                        "steps": [
+                                            "1. 识别：分子是sin2α，分母含cos2α",
+                                            "2. 展开：sin2α=2sinα·cosα, 1+cos2α=2cos²α",
+                                            "3. 约分：约去2和cosα",
+                                            "4. 结果：tanα"
+                                        ],
+                                        "technique": "降幂公式 + 切化弦"
+                                    },
+                                    "practiceProblems": [
+                                        {
+                                            "problem": "证明：(1-cos2α)/sin2α = tanα",
+                                            "hint": "将cos2α用sin²α表示"
+                                        },
+                                        {
+                                            "problem": "化简：sinα + sin(α+2π/3) + sin(α+4π/3)",
+                                            "hint": "和差化积公式"
+                                        }
+                                    ],
+                                    "commonMistakes": [
+                                        "❌ 盲目展开，越化越复杂",
+                                        "❌ 不会选择合适的公式",
+                                        "✅ 观察结构，选择合适的变换方向"
+                                    ]
+                                }
+                            ]
+                        }
                     ],
-                    "usage": "根据已知条件选择合适的形式"
-                  },
-                  "example": {
-                    "problem": "已知sinα = 3/5，α∈(0,π/2)，求sin2α和cos2α。",
-                    "solution": "先求cosα：\ncos²α = 1 - sin²α = 1 - 9/25 = 16/25\n因α在第一象限，cosα = 4/5\n\nsin2α = 2sinα·cosα = 2×(3/5)×(4/5) = 24/25\n\ncos2α = cos²α - sin²α = 16/25 - 9/25 = 7/25\n\n或者：cos2α = 2cos²α - 1 = 2×16/25 - 1 = 7/25",
-                    "steps": [
-                      "1. 由sinα求cosα（利用sin²α+cos²α=1）",
-                      "2. sin2α = 2sinα·cosα = 2×(3/5)×(4/5) = 24/25",
-                      "3. cos2α = cos²α - sin²α = 16/25 - 9/25 = 7/25"
-                    ]
-                  },
-                  "solvingStrategy": {
-                    "title": "二倍角公式的应用技巧",
-                    "techniques": [
-                      "降幂：用cos2α=2cos²α-1推出cos²α=(1+cos2α)/2",
-                      "升幂：将sinα·cosα改写为(1/2)sin2α",
-                      "化简：根据已知选择合适的cos2α形式"
-                    ]
-                  },
-                  "commonMistakes": [
-                    "❌ sin2α ≠ 2sinα",
-                    "❌ cos2α的三种形式记混",
-                    "❌ tan2α的分母忘记平方",
-                    "✅ 二倍角是整体，不能拆开"
-                  ]
-                }
-              ]
-            },
-            {
-              "sectionName": "§1.3 三角函数的图像与性质",
-              "sectionIntro": "从函数的角度理解三角函数",
-              "knowledgeCards": [
-                {
-                  "cardId": "trig_011",
-                  "title": "正弦函数y=sinx的图像与性质",
-                  "concept": "正弦函数是最基本的周期函数，描述波动现象。",
-                  "properties": {
-                    "domain": "R（全体实数）",
-                    "range": "[-1, 1]",
-                    "period": "2π",
-                    "symmetry": "关于原点对称（奇函数）",
-                    "monotonicity": "在[-π/2+2kπ, π/2+2kπ]上单调递增\n在[π/2+2kπ, 3π/2+2kπ]上单调递减",
-                    "zeros": "x = kπ (k∈Z)",
-                    "maxValue": "1，在x=π/2+2kπ处取得",
-                    "minValue": "-1，在x=3π/2+2kπ处取得"
-                  },
-                  "graphFeatures": [
-                    "波浪形曲线",
-                    "关于原点中心对称",
-                    "关于x=π/2+kπ的直线轴对称",
-                    "在每个周期内有2个零点、1个最大值、1个最小值"
-                  ],
-                  "example": {
-                    "problem": "求函数y=sinx在区间[0,2π]上的单调递增区间。",
-                    "solution": "sinx的单调递增区间是[-π/2+2kπ, π/2+2kπ]\n在[0,2π]内：\n当k=0时：[-π/2, π/2]∩[0,2π] = [0, π/2]\n当k=1时：[3π/2, 5π/2]∩[0,2π] = [3π/2, 2π]\n答案：[0,π/2]和[3π/2,2π]",
-                    "steps": [
-                      "1. 写出sinx的一般单调递增区间",
-                      "2. 让k取不同整数值",
-                      "3. 与给定区间取交集",
-                      "4. 得到在[0,2π]内的递增区间"
-                    ]
-                  },
-                  "commonMistakes": [
-                    "❌ 值域写成R",
-                    "❌ 周期记为π",
-                    "❌ 单调区间忘记加周期kπ",
-                    "✅ 记住：振幅1，周期2π，关于原点对称"
-                  ]
-                },
-                {
-                  "cardId": "trig_012",
-                  "title": "余弦函数y=cosx的图像与性质",
-                  "concept": "余弦函数与正弦函数的关系：cosx = sin(x+π/2)，图像是正弦函数左移π/2得到。",
-                  "properties": {
-                    "domain": "R",
-                    "range": "[-1, 1]",
-                    "period": "2π",
-                    "symmetry": "关于y轴对称（偶函数）",
-                    "monotonicity": "在[2kπ, π+2kπ]上单调递减\n在[π+2kπ, 2π+2kπ]上单调递增",
-                    "zeros": "x = π/2 + kπ",
-                    "maxValue": "1，在x=2kπ处取得",
-                    "minValue": "-1，在x=π+2kπ处取得"
-                  },
-                  "comparison": {
-                    "title": "sin和cos的异同",
-                    "similarities": ["定义域R", "值域[-1,1]", "周期2π", "振幅1"],
-                    "differences": [
-                      "sin是奇函数，cos是偶函数",
-                      "sin过原点，cos不过原点",
-                      "sin在0递增，cos在0递减",
-                      "相位差π/2：cosx = sin(x+π/2)"
-                    ]
-                  },
-                  "commonMistakes": [
-                    "❌ 混淆sin和cos的奇偶性",
-                    "❌ 零点位置记错",
-                    "✅ cos是sin左移π/2，偶函数"
-                  ]
-                },
-                {
-                  "cardId": "trig_013",
-                  "title": "正切函数y=tanx的图像与性质",
-                  "concept": "正切函数是唯一周期为π的基本三角函数，有无穷多条渐近线。",
-                  "properties": {
-                    "domain": "x≠π/2+kπ (k∈Z)",
-                    "range": "R",
-                    "period": "π（比sin/cos的周期小一半）",
-                    "symmetry": "关于原点对称（奇函数）",
-                    "monotonicity": "在每个区间(-π/2+kπ, π/2+kπ)上单调递增",
-                    "zeros": "x = kπ",
-                    "asymptotes": "x = π/2 + kπ（垂直渐近线）"
-                  },
-                  "graphFeatures": [
-                    "由无穷多条分支组成",
-                    "每个分支在(-π/2+kπ, π/2+kπ)内",
-                    "分支之间被渐近线分隔",
-                    "没有最大最小值（值域为R）"
-                  ],
-                  "example": {
-                    "problem": "求函数y=tanx在区间(0,2π)内的所有零点。",
-                    "solution": "tanx的零点为x=kπ (k∈Z)\n在(0,2π)内：k=1时x=π\n答案：x=π",
-                    "attention": "注意是开区间，不包括0和2π"
-                  },
-                  "commonMistakes": [
-                    "❌ 定义域写成R（忘记tanx在π/2+kπ处无定义）",
-                    "❌ 周期记为2π",
-                    "❌ 认为有最值",
-                    "✅ tan周期是π，定义域有限制"
-                  ]
-                }
-              ]
-            },
-            {
-              "sectionName": "§1.4 三角恒等变换综合",
-              "sectionIntro": "灵活运用各种三角公式进行化简和证明",
-              "knowledgeCards": [
-                {
-                  "cardId": "trig_014",
-                  "title": "三角恒等变换的基本策略",
-                  "concept": "三角恒等变换的目标是化繁为简，主要方法包括：角度变换、函数名变换、幂次变换、形式变换。",
-                  "strategies": [
-                    {
-                      "name": "角度变换",
-                      "description": "统一角度",
-                      "techniques": [
-                        "α = (α+β) - β",
-                        "2α = (α+β) + (α-β)",
-                        "α+β = 2·((α+β)/2)"
-                      ]
-                    },
-                    {
-                      "name": "函数名变换",
-                      "description": "统一函数种类",
-                      "techniques": [
-                        "切化弦：tanx = sinx/cosx",
-                        "弦化切：sinx = tanx·cosx",
-                        "统一为sin或cos"
-                      ]
-                    },
-                    {
-                      "name": "幂次变换",
-                      "description": "升幂或降幂",
-                      "techniques": [
-                        "降幂：cos²x = (1+cos2x)/2",
-                        "升幂：sinx·cosx = (1/2)sin2x"
-                      ]
-                    },
-                    {
-                      "name": "辅助角公式",
-                      "description": "asinx + bcosx形式的化简",
-                      "formula": "asinx + bcosx = √(a²+b²)·sin(x+φ)，其中tanφ=b/a"
+                    "chapterSummary": {
+                        "keyPoints": [
+                            "三角函数的定义：单位圆定义是核心",
+                            "基本关系：同角三角函数关系是基础",
+                            "诱导公式：奇偶性、周期性、对称性",
+                            "和角公式：sin、cos、tan的和差公式",
+                            "倍角公式：特别是cos2α的三种形式",
+                            "图像性质：周期、振幅、单调性、奇偶性"
+                        ],
+                        "formulaSheet": {
+                            "basic": [
+                                "sin²α + cos²α = 1",
+                                "tanα = sinα/cosα",
+                                "sin(-α) = -sinα",
+                                "cos(-α) = cosα"
+                            ],
+                            "sumAngle": [
+                                "sin(α±β) = sinα·cosβ ± cosα·sinβ",
+                                "cos(α±β) = cosα·cosβ ∓ sinα·sinβ",
+                                "tan(α±β) = (tanα±tanβ)/(1∓tanα·tanβ)"
+                            ],
+                            "doubleAngle": [
+                                "sin2α = 2sinα·cosα",
+                                "cos2α = cos²α - sin²α = 2cos²α - 1 = 1 - 2sin²α",
+                                "tan2α = 2tanα/(1-tan²α)"
+                            ]
+                        },
+                        "problemTypes": [
+                            "求三角函数值（特殊角、给定条件）",
+                            "化简三角表达式",
+                            "证明三角恒等式",
+                            "解三角方程",
+                            "三角函数的图像与性质",
+                            "实际应用问题（周期现象）"
+                        ],
+                        "studyTips": [
+                            "熟记特殊角的三角函数值",
+                            "理解公式的几何意义，而不是死记",
+                            "多做化简和证明题，培养公式运用能力",
+                            "画图理解单位圆和三角函数的关系",
+                            "注意符号：象限决定符号"
+                        ]
                     }
-                  ],
-                  "example": {
-                    "problem": "化简：(sin2α)/(1+cos2α)",
-                    "solution": "分子：sin2α = 2sinα·cosα\n分母：1+cos2α = 1+(2cos²α-1) = 2cos²α\n\n原式 = (2sinα·cosα)/(2cos²α) = sinα/cosα = tanα",
-                    "steps": [
-                      "1. 识别：分子是sin2α，分母含cos2α",
-                      "2. 展开：sin2α=2sinα·cosα, 1+cos2α=2cos²α",
-                      "3. 约分：约去2和cosα",
-                      "4. 结果：tanα"
-                    ],
-                    "technique": "降幂公式 + 切化弦"
-                  },
-                  "practiceProblems": [
-                    {
-                      "problem": "证明：(1-cos2α)/sin2α = tanα",
-                      "hint": "将cos2α用sin²α表示"
-                    },
-                    {
-                      "problem": "化简：sinα + sin(α+2π/3) + sin(α+4π/3)",
-                      "hint": "和差化积公式"
-                    }
-                  ],
-                  "commonMistakes": [
-                    "❌ 盲目展开，越化越复杂",
-                    "❌ 不会选择合适的公式",
-                    "✅ 观察结构，选择合适的变换方向"
-                  ]
                 }
-              ]
-            }
-          ],
-          "chapterSummary": {
-            "keyPoints": [
-              "三角函数的定义：单位圆定义是核心",
-              "基本关系：同角三角函数关系是基础",
-              "诱导公式：奇偶性、周期性、对称性",
-              "和角公式：sin、cos、tan的和差公式",
-              "倍角公式：特别是cos2α的三种形式",
-              "图像性质：周期、振幅、单调性、奇偶性"
-            ],
-            "formulaSheet": {
-              "basic": [
-                "sin²α + cos²α = 1",
-                "tanα = sinα/cosα",
-                "sin(-α) = -sinα",
-                "cos(-α) = cosα"
-              ],
-              "sumAngle": [
-                "sin(α±β) = sinα·cosβ ± cosα·sinβ",
-                "cos(α±β) = cosα·cosβ ∓ sinα·sinβ",
-                "tan(α±β) = (tanα±tanβ)/(1∓tanα·tanβ)"
-              ],
-              "doubleAngle": [
-                "sin2α = 2sinα·cosα",
-                "cos2α = cos²α - sin²α = 2cos²α - 1 = 1 - 2sin²α",
-                "tan2α = 2tanα/(1-tan²α)"
-              ]
-            },
-            "problemTypes": [
-              "求三角函数值（特殊角、给定条件）",
-              "化简三角表达式",
-              "证明三角恒等式",
-              "解三角方程",
-              "三角函数的图像与性质",
-              "实际应用问题（周期现象）"
-            ],
-            "studyTips": [
-              "熟记特殊角的三角函数值",
-              "理解公式的几何意义，而不是死记",
-              "多做化简和证明题，培养公式运用能力",
-              "画图理解单位圆和三角函数的关系",
-              "注意符号：象限决定符号"
             ]
-          }
         }
-      ]
-    }
-  ]
+    ]
 }
+
+
 

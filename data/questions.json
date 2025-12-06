@@ -10830,5 +10830,2231 @@
     "abilityTags": [
       "analyze"
     ]
+  },
+  {
+    "questionId": "paper_2021_1_q1",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "** $\\lim_{x \\to 0} \\frac{\\tan 6x}{2x} =$",
+    "answer": "$\\frac{1}{3}$",
+    "solution": "$\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt} = \\frac{2t}{6t^2} = \\frac{1}{3t}$。 $\\frac{dy}{dx}|_{t=1} = \\frac{1}{3(1)} = \\frac{1}{3}$。",
+    "shortSolution": "$\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt} = \\frac{2t}{6t^2} = \\frac{1}{3t}$。 $\\frac{dy}{dx}|_{t=1} = \\frac{1}{3(1)} = \\frac{1}{3}$。",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ]
+  },
+  {
+    "questionId": "paper_2021_1_q2",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "** 点 $x=3$ 是 $f(x) = \\frac{x^2 - x - 6}{x-3}$ 的",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved",
+    "options": [
+      "A. 连续点",
+      "B. 可去间断点",
+      "C. 无穷间断点",
+      "D. 跳跃间断点"
+    ]
+  },
+  {
+    "questionId": "paper_2021_1_q3",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "** 设 $F(x)$ 是 $f(x)$ 的一个原函数，$C$ 为任意常数，则下列正确的是",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved",
+    "options": [
+      "A. $\\int F(x) dx = f(x)$",
+      "B. $F'(x) = f(x) + C$",
+      "C. $f'(x) = F(x) + C$",
+      "D. $\\int f(x) dx = F(x) + C$"
+    ]
+  },
+  {
+    "questionId": "paper_2021_1_q4",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "** 设常级数 $\\sum_{n=1}^\\infty u_n$ 收敛，则下列收敛的是",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved",
+    "options": [
+      "A. $\\sum_{n=1}^\\infty (u_n + \\frac{1}{n})$",
+      "B. $\\sum_{n=1}^\\infty (u_n + \\frac{1}{2^n})$",
+      "C. $\\sum_{n=1}^\\infty (u_n + \\frac{1}{3^n})$",
+      "D. $\\sum_{n=1}^\\infty (u_n - \\frac{1}{\\sqrt{n}})$"
+    ]
+  },
+  {
+    "questionId": "paper_2021_1_q5",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "** 设 $F(x) = \\int_0^{x^2} \\sin t^2 dt$， $g(x) = 3x^6 + 4x^5$， 当 $x \\to 0$ 时，",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved",
+    "options": [
+      "A. $F(x)$ 是比 $g(x)$ 低阶的无穷小",
+      "B. $F(x)$ 是比 $g(x)$ 高阶的无穷小",
+      "C. $F(x)$ 与 $g(x)$ 是等价无穷小",
+      "D. $F(x)$ 与 $g(x)$ 是同阶非等价无穷小"
+    ]
+  },
+  {
+    "questionId": "paper_2021_1_q6",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "** $\\begin{cases} x = 2t^3 + 3 \\\\ y = t^2 - 4 \\end{cases}$，在 $t=1$ 相应的点处的切线斜率为 \\______\\______\\______\\______\\______\\______。",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2021_1_q7",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "** $z = x^2 y$ 的全微分 $dz = $ \\______\\______\\______\\______\\______\\______。",
+    "answer": "$2xy dx + x^2 dy$",
+    "solution": "$dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy = 2xy dx + x^2 dy$。",
+    "shortSolution": "$dz = \\frac{\\partial z}{\\partial x} dx + \\frac{\\partial z}{\\partial y} dy = 2xy dx + x^2 dy$。",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2021_1_q8",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "** 微分方程 $\\frac{dy}{dx} = y+2$ 满足初值 $\\left. y \\right|______{x=0} = -1$ 的特解是 \\______\\______\\______\\______\\______\\______。",
+    "answer": "$e^x - 2$",
+    "solution": "$\\frac{dy}{y+2} = dx$，积分得 $\\ln|y+2| = x + C_1$，即 $y+2 = C e^x$。代入初值 $x=0, y=-1$：$-1+2 = C e^0$，得 $C=1$。特解为 $y = e^x - 2$。",
+    "shortSolution": "$\\frac{dy}{y+2} = dx$，积分得 $\\ln|y+2| = x + C_1$，即 $y+2 = C e^x$。代入初值 $x=0, y=-1$：$-1+2 = C e^0$，得 $C=1$。特解为 $y = e^x - 2$。",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2021_1_q9",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "** 已知 $D = \\{(x,y) | 0 \\le x \\le 1, 0 \\le y \\le 3-x \\}$，则 $\\iint______D d\\sigma =$ \\______\\______\\______\\______\\______\\______。",
+    "answer": "$\\frac{5}{2}$",
+    "solution": "$\\iint_D d\\sigma$ 即为区域 $D$ 的面积 $S_D$。\n    $$S_D = \\int_0^1 dx \\int_0^{3-x} dy = \\int_0^1 (3-x) dx = [3x - \\frac{1}{2}x^2]_0^1 = 3 - \\frac{1}{2} = \\frac{5}{2}$$",
+    "shortSolution": "$\\iint_D d\\sigma$ 即为区域 $D$ 的面积 $S_D$。\n    $$S_D = \\int_0^1 dx \\int_0^{3-x} dy = \\int_0^1 (3-x) dx = [3x - \\frac{1}{2}x^2]_0^1 = 3 - \\frac{1}{2} = \\frac{5}{2}$$",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2021_1_q10",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "** 连续函数 $f(x)$ 满足 $\\int______0^{2x+1} f(t) dt = -2x^3 - \\frac{1}{4}$，则 $f(3) = $ \\______\\______\\______\\______\\______\\______。",
+    "answer": "$-3$",
+    "solution": "对等式两边关于 $x$ 求导： $f(2x+1) \\cdot (2x+1)' = -6x^2$。\n    $2 f(2x+1) = -6x^2$，即 $f(2x+1) = -3x^2$。\n    令 $2x+1 = 3$，得 $x=1$。\n    $f(3) = -3(1)^2 = -3$。\n\n---\n\n### 三、计算题 (本大题共 8 小题, 每小题 6 分, 共 48 分)",
+    "shortSolution": "对等式两边关于 $x$ 求导： $f(2x+1) \\cdot (2x+1)' = -6x^2$。\n    $2 f(2x+1) = -6x^2$，即 $f(2x+1) = -3x^2$。\n    令 $2x+1 = 3$，得 $x=1$。\n    $f(3) = -3(1)^2 = -3$。\n\n---\n\n### 三、计算题 (本大题共 8 小题, 每小题 6 分, 共 48 分)",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2021_1_q11",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "** 求极限 $\\lim_{x \\to +\\infty} (\\sqrt{x^2+3} - x)$ 的值。",
+    "answer": "$0$",
+    "solution": "(有理化)\n    $$\\lim_{x \\to +\\infty} (\\sqrt{x^2+3} - x) = \\lim_{x \\to +\\infty} \\frac{x^2+3 - x^2}{\\sqrt{x^2+3} + x}$$\n    $$= \\lim_{x \\to +\\infty} \\frac{3}{\\sqrt{x^2+3} + x} = \\lim_{x \\to +\\infty} \\frac{3}{x(\\sqrt{1+\\frac{3}{x^2}} + 1)} = \\frac{3}{+\\infty \\cdot 2} = 0$$",
+    "shortSolution": "(有理化)\n    $$\\lim_{x \\to +\\infty} (\\sqrt{x^2+3} - x) = \\lim_{x \\to +\\infty} \\frac{x^2+3 - x^2}{\\sqrt{x^2+3} + x}$$\n    $$= \\lim_{x \\to +\\infty} \\frac{3}{\\sqrt{x^2+3} + x} = \\lim_{x \\to +\\infty} \\frac{3",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2021_1_q12",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "** 已知 $y = 2^x + x^x$ ($x>0$), 求 $\\frac{dy}{dx}$。",
+    "answer": "$2^x \\ln 2 + x^x (\\ln x + 1)$",
+    "solution": "$(2^x)' = 2^x \\ln 2$。对于 $x^x$，取对数 $\\ln (x^x) = x \\ln x$，求导得 $\\frac{1}{x^x} (x^x)' = \\ln x + 1$，故 $(x^x)' = x^x (\\ln x + 1)$。\n    $$\\frac{dy}{dx} = (2^x)' + (x^x)' = 2^x \\ln 2 + x^x (\\ln x + 1)$$",
+    "shortSolution": "$(2^x)' = 2^x \\ln 2$。对于 $x^x$，取对数 $\\ln (x^x) = x \\ln x$，求导得 $\\frac{1}{x^x} (x^x)' = \\ln x + 1$，故 $(x^x)' = x^x (\\ln x + 1)$。\n    $$\\frac{dy}{dx} = (2^x)' + (x^x)' = 2^x \\ln 2 + x^x (\\ln x + 1)$$",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2021_1_q13",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "** 求不定积分 $\\int (x+5) \\cos 3x dx$。",
+    "answer": "$\\frac{1}{3} (x+5) \\sin 3x + \\frac{1}{9} \\cos 3x + C$",
+    "solution": "(分部积分法 $\\int u dv = uv - \\int v du$)\n    $$\\int (x+5) \\cos 3x dx = \\frac{1}{3} (x+5) \\sin 3x - \\int \\frac{1}{3} \\sin 3x dx$$\n    $$= \\frac{1}{3} (x+5) \\sin 3x - \\frac{1}{3} (-\\frac{1}{3} \\cos 3x) + C$$\n    $$= \\frac{1}{3} (x+5) \\sin 3x + \\frac{1}{9} \\cos 3x + C$$",
+    "shortSolution": "(分部积分法 $\\int u dv = uv - \\int v du$)\n    $$\\int (x+5) \\cos 3x dx = \\frac{1}{3} (x+5) \\sin 3x - \\int \\frac{1}{3} \\sin 3x dx$$\n    $$= \\frac{1}{3} (x+5) \\sin 3x - \\frac{1}{3} (-\\frac{1}{3} \\cos 3x) + C$",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2021_1_q14",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "** 求定积分 $\\int_{-2}^2 \\frac{x^{2021} + |x|}{x^2+1} dx$。",
+    "answer": "$\\ln 5$",
+    "solution": "$\\frac{x^{2021}}{x^2+1}$ 为奇函数，在对称区间 $[-2, 2]$ 上的积分为 $0$。 $\\frac{|x|}{x^2+1}$ 为偶函数。\n    $$\\int_{-2}^2 \\frac{x^{2021} + |x|}{x^2+1} dx = \\int_{-2}^2 \\frac{x^{2021}}{x^2+1} dx + \\int_{-2}^2 \\frac{|x|}{x^2+1} dx$$\n    $$= 0 + 2 \\int_0^2 \\frac{x}{x^2+1} dx$$\n    令 $u = x^2+1$，则 $du = 2x dx$。\n    $$= 2 \\int_1^5 \\frac{1}{u} \\cdot \\frac{1}{2} du = [\\ln|u|]_1^5 = \\ln 5 - \\ln 1 = \\ln 5$$",
+    "shortSolution": "$\\frac{x^{2021}}{x^2+1}$ 为奇函数，在对称区间 $[-2, 2]$ 上的积分为 $0$。 $\\frac{|x|}{x^2+1}$ 为偶函数。\n    $$\\int_{-2}^2 \\frac{x^{2021} + |x|}{x^2+1} dx = \\int_{-2}^2 \\frac{x^{2021}}{x^2+1} dx + \\int_{-2}^2 \\frac{|x|}{x^",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2021_1_q15",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "** 已知 $z = z(x,y)$ 是方程 $e^z - xz = 1$ 确定的隐函数，求 $\\frac{\\partial z}{\\partial x} + \\frac{\\partial z}{\\partial y}$。",
+    "answer": "$\\frac{z}{e^z - x}$",
+    "solution": "方程两边对 $y$ 求偏导： $e^z \\frac{\\partial z}{\\partial y} - x \\frac{\\partial z}{\\partial y} = 0$，得 $\\frac{\\partial z}{\\partial y} = 0$。\n    方程两边对 $x$ 求偏导： $e^z \\frac{\\partial z}{\\partial x} - (z + x \\frac{\\partial z}{\\partial x}) = 0$，得 $(e^z - x) \\frac{\\partial z}{\\partial x} = z$，即 $\\frac{\\partial z}{\\partial x} = \\frac{z}{e^z - x}$。\n    $$\\frac{\\partial z}{\\partial x} + \\frac{\\partial z}{\\partial y} = \\frac{z}{e^z - x} + 0 = \\frac{z}{e^z - x}$$",
+    "shortSolution": "方程两边对 $y$ 求偏导： $e^z \\frac{\\partial z}{\\partial y} - x \\frac{\\partial z}{\\partial y} = 0$，得 $\\frac{\\partial z}{\\partial y} = 0$。\n    方程两边对 $x$ 求偏导： $e^z \\frac{\\partial z}{\\partial x} - (z + x \\frac{\\pa",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2021_1_q16",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "** 已知平面区域 $D$ 为 $x^2 + y^2 \\le 4$ 在第一象限的部分，求 $\\iint_D e^{x^2+y^2} d\\sigma$。",
+    "answer": "收敛",
+    "solution": "(根值审敛法)\n    $$L = \\lim_{n \\to \\infty} \\sqrt[n]{|a_n|} = \\lim_{n \\to \\infty} \\frac{n}{2n+1} = \\frac{1}{2}$$\n    因为 $L = \\frac{1}{2} < 1$，故级数收敛。",
+    "shortSolution": "(根值审敛法)\n    $$L = \\lim_{n \\to \\infty} \\sqrt[n]{|a_n|} = \\lim_{n \\to \\infty} \\frac{n}{2n+1} = \\frac{1}{2}$$\n    因为 $L = \\frac{1}{2} < 1$，故级数收敛。",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2021_1_q17",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "** 判断 $\\sum_{n=1}^\\infty \\left(\\frac{n}{2n+1}\\right)^n$ 的收敛性。",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2021_1_q18",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "** 设 $f(x) = \\begin{cases} x^2, & x \\le 2 \\\\ 6-x, & x > 2 \\end{cases}$，$F(x) = \\int_0^x f(t) dt$。求 $F(x)$ 在点 $x=2$ 处的连续性。",
+    "answer": "连续",
+    "solution": "当 $x \\le 2$ 时，$F(x) = \\int_0^x t^2 dt = \\frac{1}{3} x^3$。\n    当 $x > 2$ 时，$F(x) = \\int_0^2 t^2 dt + \\int_2^x (6-t) dt = \\frac{8}{3} + [6t - \\frac{1}{2} t^2]_2^x = \\frac{8}{3} + (6x - \\frac{1}{2} x^2) - (12 - 2) = 6x - \\frac{1}{2} x^2 - \\frac{22}{3}$。\n    检查 $x=2$ 处的极限和函数值：\n    * $\\lim_{x \\to 2^-} F(x) = \\frac{1}{3} (2)^3 = \\frac{8}{3}$\n    * $\\lim_{x \\to 2^+} F(x) = 6(2) - \\frac{1}{2} (2)^2 - \\frac{22}{3} = 10 - \\frac{22}{3} = \\frac{8}{3}$\n    * $F(2) = \\frac{1}{3} (2)^3 = \\frac{8}{3}$\n    三者相等，故 $F(x)$ 在 $x=2$ 处",
+    "shortSolution": "当 $x \\le 2$ 时，$F(x) = \\int_0^x t^2 dt = \\frac{1}{3} x^3$。\n    当 $x > 2$ 时，$F(x) = \\int_0^2 t^2 dt + \\int_2^x (6-t) dt = \\frac{8}{3} + [6t - \\frac{1}{2} t^2]_2^x = \\frac{8}{3} + (6x - \\frac{1}{2} x^2) ",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2021_1_q19",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "** 做一个容积为 $64\\pi$ 立方米的圆形无盖容器，底面和侧面材质相同且厚度不计，问：底面半径为何值时，才能使所用材料最省？",
+    "answer": "$4$ 米",
+    "solution": "设半径为 $r$，高为 $h$。约束条件：$V = \\pi r^2 h = 64\\pi \\Rightarrow h = \\frac{64}{r^2}$。\n    材料面积：$S(r) = \\pi r^2 + 2\\pi r h = \\pi r^2 + \\frac{128\\pi}{r}$。\n    求导：$S'(r) = 2\\pi r - \\frac{128\\pi}{r^2}$。\n    令 $S'(r) = 0$，得 $2\\pi r = \\frac{128\\pi}{r^2} \\Rightarrow r^3 = 64 \\Rightarrow r = 4$。\n    二阶导：$S''(r) = 2\\pi + \\frac{256\\pi}{r^3}$。 $S''(4) = 6\\pi > 0$，故 $r=4$ 时有极小值，即材料最省。",
+    "shortSolution": "设半径为 $r$，高为 $h$。约束条件：$V = \\pi r^2 h = 64\\pi \\Rightarrow h = \\frac{64}{r^2}$。\n    材料面积：$S(r) = \\pi r^2 + 2\\pi r h = \\pi r^2 + \\frac{128\\pi}{r}$。\n    求导：$S'(r) = 2\\pi r - \\frac{128\\pi}{r^2}$。\n    令 $S'(",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2021_1_q20",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "** 设坐标原点作曲线 $y = \\ln x$ 的切线 $L$，该切线与直线 $x=1$ 及 $y = \\ln x$ 围成平面图形 $D$。",
+    "answer": "$y = \\frac{1}{e} x$",
+    "solution": "设切点为 $(x_0, \\ln x_0)$。斜率为 $y'|_{x=x_0} = \\frac{1}{x_0}$。\n    切线方程：$y - \\ln x_0 = \\frac{1}{x_0} (x - x_0)$。\n    切线过原点 $(0,0)$：$0 - \\ln x_0 = \\frac{1}{x_0} (0 - x_0) = -1$，得 $\\ln x_0 = 1$，即 $x_0 = e$。\n    切线斜率 $k = \\frac{1}{e}$。方程为 $y = \\frac{1}{e} x$。",
+    "shortSolution": "设切点为 $(x_0, \\ln x_0)$。斜率为 $y'|_{x=x_0} = \\frac{1}{x_0}$。\n    切线方程：$y - \\ln x_0 = \\frac{1}{x_0} (x - x_0)$。\n    切线过原点 $(0,0)$：$0 - \\ln x_0 = \\frac{1}{x_0} (0 - x_0) = -1$，得 $\\ln x_0 = 1$，即 $x_0 = e$。\n ",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2021_1",
+    "year": 2021,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2023_1_q1",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "\\",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved",
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. 3"
+    ]
+  },
+  {
+    "questionId": "paper_2023_1_q2",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "若",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved",
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. e",
+      "D. \\( e^2 \\)"
+    ]
+  },
+  {
+    "questionId": "paper_2023_1_q3",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "曲",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved",
+    "options": [
+      "A. \\(-e^{-1}\\)",
+      "B. 0",
+      "C. \\( e^{-1} \\)",
+      "D. \\( 2e^{-1} \\)"
+    ]
+  },
+  {
+    "questionId": "paper_2023_1_q4",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved",
+    "options": [
+      "A. \\(\\pi - 1\\)",
+      "B. \\(\\pi + 1\\)",
+      "C. \\(\\frac{\\pi^2}{4} - 1\\)",
+      "D. \\(\\frac{\\pi^2}{4} + 1\\)"
+    ]
+  },
+  {
+    "questionId": "paper_2023_1_q5",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved",
+    "options": [
+      "A. \\[ \\sum_{n=1}^{\\infty} 4u_n \\]",
+      "B. \\[ \\sum_{n=1}^{\\infty} u_{n+4} \\]",
+      "C. \\[ \\sum_{n=1}^{\\infty} (u_n - u_{n+1}) \\]",
+      "D. \\[ \\sum_{n=1}^{\\infty} (u_n - 1) \\]"
+    ]
+  },
+  {
+    "questionId": "paper_2023_1_q6",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "曲",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2023_1_q7",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "已",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2023_1_q8",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2023_1_q9",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "交",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2023_1_q10",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "微",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2023_1_q11",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "求",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2023_1_q12",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "求",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2023_1_q13",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "已",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2023_1_q14",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "求",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2023_1_q15",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2023_1_q16",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2023_1_q17",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "计",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2023_1_q18",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "已",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2023_1_q19",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "证",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2023_1_q20",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2023_1",
+    "year": 2023,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2022_1_q1",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "若",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved",
+    "options": [
+      "A. -1",
+      "B. 0",
+      "C. 1",
+      "D. 2"
+    ]
+  },
+  {
+    "questionId": "paper_2022_1_q2",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "\\",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved",
+    "options": [
+      "A. \\( e^{-3} \\)",
+      "B. \\( e^{\\frac{1}{3}} \\)",
+      "C. 1",
+      "D. \\( e^3 \\)"
+    ]
+  },
+  {
+    "questionId": "paper_2022_1_q3",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "\\",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved",
+    "options": [
+      "A. 充分条件",
+      "B. 必要条件",
+      "C. 充要条件",
+      "D. 既非充分也非必要条件"
+    ]
+  },
+  {
+    "questionId": "paper_2022_1_q4",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "已",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved",
+    "options": [
+      "A. 2",
+      "B. 1",
+      "C. -1",
+      "D. -2"
+    ]
+  },
+  {
+    "questionId": "paper_2022_1_q5",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "将",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved",
+    "options": [
+      "A. \\[ \\int_0^{\\frac{\\pi}{4}} d\\theta \\int_0^{\\sec \\theta} f(r^2) dr \\]",
+      "B. \\[ \\int_0^{\\frac{\\pi}{4}} d\\theta \\int_0^{\\sec \\theta} rf(r^2) dr \\]",
+      "C. \\[ \\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{2}} d\\theta \\int_0^{\\sec \\theta} f(r^2) dr \\]",
+      "D. \\[ \\int_{\\frac{\\pi}{4}}^{\\frac{\\pi}{2}} d\\theta \\int_0^{\\sec \\theta} rf(r^2) dr \\]"
+    ]
+  },
+  {
+    "questionId": "paper_2022_1_q6",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "若",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2022_1_q7",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2022_1_q8",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "椭",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2022_1_q9",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "微",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2022_1_q10",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "函",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2022_1_q11",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "求",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2022_1_q12",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2022_1_q13",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2022_1_q14",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "求",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2022_1_q15",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "已",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2022_1_q16",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2022_1_q17",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "计",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2022_1_q18",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "判",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2022_1_q19",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2022_1_q20",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2022_1",
+    "year": 2022,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2020_1_q1",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved",
+    "options": [
+      "A. \\(\\lim_{x \\to 0} f(x) = 1\\)",
+      "B. \\(\\lim_{x \\to 0} f(x) \\cos x = 1\\)",
+      "C. \\(\\lim_{x \\to 0} f(x) = -1\\)",
+      "D. \\(\\lim_{x \\to 0} \\left[ f(x) + \\cos x \\right] = 1\\)"
+    ]
+  },
+  {
+    "questionId": "paper_2020_1_q2",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "函",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved",
+    "options": [
+      "A. \\(x = -1\\)",
+      "B. \\(x = 0\\)",
+      "C. \\(x = 1\\)",
+      "D. \\(x = 2\\)"
+    ]
+  },
+  {
+    "questionId": "paper_2020_1_q3",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "已",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved",
+    "options": [
+      "A. \\(3^x\\)",
+      "B. \\(3^x \\ln 3\\)",
+      "C. \\(x 3^{x-1}\\)",
+      "D. \\(\\frac{3^x}{\\ln 3}\\)"
+    ]
+  },
+  {
+    "questionId": "paper_2020_1_q4",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved",
+    "options": [
+      "A. \\(\\frac{\\pi}{10}\\)",
+      "B. \\(\\frac{\\pi}{9}\\)",
+      "C. \\(\\frac{\\pi}{5}\\)",
+      "D. \\(\\frac{2\\pi}{9}\\)"
+    ]
+  },
+  {
+    "questionId": "paper_2020_1_q5",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "choice",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved",
+    "options": [
+      "A. \\(\\sum_{n=1}^\\infty 3a_n\\)",
+      "B. \\(\\sum_{n=1}^\\infty a_{n+3}\\)",
+      "C. \\(\\sum_{n=1}^\\infty \\left( a_n + \\frac{1}{\\sqrt{n^2}} \\right)\\)",
+      "D. \\(\\sum_{n=1}^\\infty \\left( a_n - \\frac{1}{\\sqrt{n^3}} \\right)\\)"
+    ]
+  },
+  {
+    "questionId": "paper_2020_1_q6",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "若",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2020_1_q7",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "曲",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2020_1_q8",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "微",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2020_1_q9",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2020_1_q10",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "fill",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2020_1_q11",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "求",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2020_1_q12",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "已",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2020_1_q13",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "求",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2020_1_q14",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2020_1_q1",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "\\",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2020_1_q15",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "求",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2020_1_q16",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "计",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2020_1_q17",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "求",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2020_1_q18",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "判",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2020_1_q19",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved"
+  },
+  {
+    "questionId": "paper_2020_1_q20",
+    "topic": "高等数学",
+    "difficulty": "L1",
+    "type": "solution",
+    "question": "设",
+    "answer": "",
+    "solution": "",
+    "shortSolution": "",
+    "tags": [
+      "真题",
+      "专升本",
+      "广东"
+    ],
+    "knowledgePoints": [
+      "高等数学"
+    ],
+    "abilityTags": [
+      "apply"
+    ],
+    "source": "real_exam",
+    "isRealExam": true,
+    "paperId": "paper_2020_1",
+    "year": 2020,
+    "reviewStatus": "approved"
   }
 ]

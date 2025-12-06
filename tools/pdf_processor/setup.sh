@@ -27,3 +27,7 @@ echo "  python3 pdf_extractor.py sample.pdf"
 echo "  python3 ocr_engine.py temp/pdf_images/page_1.png"
 echo "  python3 question_splitter.py temp/pdf_images/page_1.json"
 
+
+
+
+

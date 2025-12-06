@@ -25,7 +25,7 @@ TRIG_SPECIAL_VALUES = [
 def generate_distinct_options(correct_answer, question_text, num_options=4):
     """生成不重复的选项"""
     options = [correct_answer]
-    
+
     # 根据题目类型生成干扰项
     if '三角' in question_text or 'sin' in question_text or 'cos' in question_text or 'tan' in question_text:
         # 三角函数题目
@@ -66,34 +66,34 @@ def generate_distinct_options(correct_answer, question_text, num_options=4):
         except:
             # 默认干扰项
             options.extend(['0', '1', '-1'])
-    
+
     # 确保有4个选项
     while len(options) < num_options:
         options.append(str(random.randint(-5, 5)))
-    
+
     # 去重
     options = list(dict.fromkeys(options))[:num_options]
-    
+
     # 如果还是不够4个，补充
     while len(options) < num_options:
         options.append(str(random.randint(-10, 10)))
-    
+
     return options[:num_options]
 
 def main():
     # 读取题目
     with open('../data/questions.json', 'r', encoding='utf-8') as f:
         questions = json.load(f)
-    
+
     fixed_count = 0
-    
+
     for q in questions:
         if not q.get('options'):
             continue
-        
+
         options = q['options']
         answer_letter = q['answer']
-        
+
         # 检查是否有重复选项
         if len(options) != len(set(options)):
             # 找到正确答案的值
@@ -103,17 +103,17 @@ def main():
                 correct_answer = options[answer_index]
             except (ValueError, IndexError):
                 correct_answer = options[0]
-            
+
             # 重新生成不重复的选项
             new_options = generate_distinct_options(
                 correct_answer,
                 q['question'],
                 len(options)
             )
-            
+
             # 打乱顺序
             random.shuffle(new_options)
-            
+
             # 更新选项和答案
             q['options'] = new_options
             try:
@@ -124,16 +124,16 @@ def main():
                 new_options[0] = correct_answer
                 q['options'] = new_options
                 q['answer'] = 'A'
-            
+
             fixed_count += 1
-    
+
     print(f'✅ 修复了 {fixed_count} 道题目的重复选项问题')
     print(f'总题目数：{len(questions)}')
-    
+
     # 保存
     with open('../data/questions.json', 'w', encoding='utf-8') as f:
         json.dump(questions, f, ensure_ascii=False, indent=2)
-    
+
     print('✅ 已保存到 questions.json')
 
 if __name__ == '__main__':

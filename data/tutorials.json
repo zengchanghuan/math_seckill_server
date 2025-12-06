@@ -393,7 +393,12 @@
                   },
                   "comparison": {
                     "title": "sin和cos的异同",
-                    "similarities": ["定义域R", "值域[-1,1]", "周期2π", "振幅1"],
+                    "similarities": [
+                      "定义域R",
+                      "值域[-1,1]",
+                      "周期2π",
+                      "振幅1"
+                    ],
                     "differences": [
                       "sin是奇函数，cos是偶函数",
                       "sin过原点，cos不过原点",
@@ -559,4 +564,6 @@
     }
   ]
 }
+
+
 

@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, UploadFile, File
+from fastapi import FastAPI, HTTPException, UploadFile, File, Form, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional, Dict
@@ -8,6 +8,19 @@ import uuid
 import shutil
 import subprocess
 import sys
+try:
+    from admin_api import router as admin_router
+    from auth import create_access_token, MOCK_USERS, get_current_user
+    from fastapi.security import HTTPBasic, HTTPBasicCredentials
+    ADMIN_API_AVAILABLE = True
+except ImportError as e:
+    print(f"Warning: Admin API not available: {e}")
+    ADMIN_API_AVAILABLE = False
+    admin_router = None
+    create_access_token = None
+    MOCK_USERS = {}
+    HTTPBasic = None
+
 
 app = FastAPI(title="数学秒杀 API v2.0")
 
@@ -40,9 +53,27 @@ class QuestionMetadata(BaseModel):
     answer: str
     options: Optional[List[str]] = None
     solution: str
-    tags: List[str]
-    knowledgePoints: List[str]
-    abilityTags: List[str]
+    tags: Optional[List[str]] = []
+    knowledgePoints: Optional[List[str]] = []
+    abilityTags: Optional[List[str]] = []
+    # 可选字段（兼容前端类型）
+    shortSolution: Optional[str] = None
+    detailedSolution: Optional[str] = None
+    templateId: Optional[str] = None
+    source: Optional[str] = None
+    isRealExam: Optional[bool] = None
+    paperId: Optional[str] = None
+    totalAttempts: Optional[int] = None
+    correctRate: Optional[float] = None
+    discriminationIndex: Optional[float] = None
+    avgTimeSeconds: Optional[float] = None
+    reviewStatus: Optional[str] = None
+    createdAt: Optional[str] = None
+    year: Optional[int] = None  # 真题年份
+
+    class Config:
+        # 允许额外字段，避免验证失败
+        extra = 'allow'
 
 class ProblemResponse(BaseModel):
     questionId: str
@@ -134,6 +165,41 @@ async def get_question_stats():
         stats['sourceStats'][source] = stats['sourceStats'].get(source, 0) + 1
 
     return stats
+
+@app.get("/api/questions", response_model=List[QuestionMetadata])
+async def get_questions(paperId: Optional[str] = None, topic: Optional[str] = None, difficulty: Optional[str] = None):
+    """获取题目列表，支持按 paperId、topic、difficulty 过滤"""
+    print(f"API Request: paperId={paperId}, topic={topic}, difficulty={difficulty}")
+
+    with open(QUESTIONS_FILE, 'r', encoding='utf-8') as f:
+        questions = json.load(f)
+
+    print(f"Total questions in file: {len(questions)}")
+
+    # 过滤条件
+    filtered = questions
+    if paperId:
+        filtered = [q for q in filtered if q.get('paperId') == paperId]
+        print(f"After paperId filter ({paperId}): {len(filtered)} questions")
+    if topic:
+        filtered = [q for q in filtered if q.get('topic') == topic]
+        print(f"After topic filter ({topic}): {len(filtered)} questions")
+    if difficulty:
+        filtered = [q for q in filtered if q.get('difficulty') == difficulty]
+        print(f"After difficulty filter ({difficulty}): {len(filtered)} questions")
+
+    # 验证并转换数据
+    result = []
+    for q in filtered:
+        try:
+            result.append(QuestionMetadata(**q))
+        except Exception as e:
+            # 如果某个题目格式不正确，跳过它并记录错误
+            print(f"Warning: Failed to parse question {q.get('questionId', 'unknown')}: {e}")
+            continue
+
+    print(f"Returning {len(result)} questions")
+    return result
 
 @app.get("/api/questions/{question_id}", response_model=QuestionMetadata)
 async def get_question(question_id: str):
@@ -583,113 +649,42 @@ async def get_feedbacks(status: Optional[str] = None):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-# ========== 试卷API ==========
 
-@app.get("/api/papers")
-async def get_exam_papers():
-    """获取所有真题试卷列表（只返回真题，不包括生成的题目）"""
-    try:
-        with open(QUESTIONS_FILE, 'r', encoding='utf-8') as f:
-            questions = json.load(f)
+# ========== 管理端API集成 ==========
+if ADMIN_API_AVAILABLE and admin_router:
+    app.include_router(admin_router)
 
-        # 只筛选真题（source == 'real_exam' 或 isRealExam == True）
-        real_exam_questions = [
-            q for q in questions
-            if q.get('source') == 'real_exam' or q.get('isRealExam') == True
-        ]
+# 登录API
+if ADMIN_API_AVAILABLE:
+    security_basic = HTTPBasic()
 
-        if not real_exam_questions:
-            # 如果没有真题，返回空列表
-            print("⚠️ 没有找到真题数据，返回空列表")
-            return []
+    @app.post("/api/admin/auth/login")
+    async def login(username: str = Form(...), password: str = Form(...)):
+        """管理员登录"""
+        user = MOCK_USERS.get(username)
+        if not user or user["password"] != password:
+            raise HTTPException(status_code=401, detail="用户名或密码错误")
 
-        # 按 paperId 分组
-        papers_dict = {}
-        questions_without_paper = []
-
-        for q in real_exam_questions:
-            paper_id = q.get('paperId')
-            if not paper_id:
-                questions_without_paper.append(q)
-                continue
-
-            if paper_id not in papers_dict:
-                papers_dict[paper_id] = {
-                    "paperId": paper_id,
-                    "questionIds": [],
-                    "questionTypes": {"choice": 0, "fill": 0, "solution": 0}
-                }
-
-            papers_dict[paper_id]["questionIds"].append(q.get('questionId'))
-            q_type = q.get('type', 'choice')
-            if q_type in papers_dict[paper_id]["questionTypes"]:
-                papers_dict[paper_id]["questionTypes"][q_type] += 1
-
-        # 转换为列表并添加元数据
-        papers = []
-        for paper_id, paper_data in papers_dict.items():
-            # 从 paperId 解析试卷信息（格式：paper_2023_1）
-            parts = paper_id.split('_')
-            year = None
-            if len(parts) >= 2:
-                try:
-                    year = int(parts[1])
-                except:
-                    pass
-
-            paper = {
-                "paperId": paper_id,
-                "name": f"{year}年广东专升本高数真题（第{parts[-1]}套）" if year else f"试卷 {paper_id}",
-                "year": year or 2023,
-                "region": "广东",
-                "examType": "专升本",
-                "subject": "高数",
-                "questionIds": paper_data["questionIds"],
-                "suggestedTime": 90,
-                "totalQuestions": len(paper_data["questionIds"]),
-                "questionTypes": paper_data["questionTypes"]
+        from datetime import timedelta
+        from auth import ACCESS_TOKEN_EXPIRE_MINUTES
+        access_token = create_access_token(
+            data={"sub": username},
+            expires_delta=timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+        )
+        return {
+            "token": access_token,
+            "user": {
+                "id": user["id"],
+                "username": user["username"],
+                "displayName": user["displayName"],
+                "role": user["role"]
             }
-            papers.append(paper)
+        }
 
-        # 如果有真题没有 paperId，按年份或其他规则分组
-        if questions_without_paper:
-            # 可以按年份或其他字段分组，这里暂时不处理
-            print(f"⚠️ 有 {len(questions_without_paper)} 道真题没有 paperId，需要手动分配")
-
-        return papers
-    except Exception as e:
-        print(f"获取试卷列表失败：{e}")
-        import traceback
-        traceback.print_exc()
-        return []
-
-@app.get("/api/papers/{paper_id}/questions")
-async def get_questions_by_paper(paper_id: str):
-    """获取指定试卷的所有题目（只返回真题）"""
-    try:
-        with open(QUESTIONS_FILE, 'r', encoding='utf-8') as f:
-            questions = json.load(f)
-
-        # 只筛选真题
-        real_exam_questions = [
-            q for q in questions
-            if q.get('source') == 'real_exam' or q.get('isRealExam') == True
-        ]
-
-        # 筛选出属于该试卷的题目
-        paper_questions = [q for q in real_exam_questions if q.get('paperId') == paper_id]
-
-        if not paper_questions:
-            raise HTTPException(status_code=404, detail=f"试卷 {paper_id} 未找到或没有真题题目")
-
-        return paper_questions
-    except HTTPException:
-        raise
-    except Exception as e:
-        print(f"获取试卷题目失败：{e}")
-        import traceback
-        traceback.print_exc()
-        raise HTTPException(status_code=500, detail=str(e))
+@app.get("/api/admin/auth/me")
+async def get_current_user_info(current_user: dict = Depends(get_current_user)):
+    """获取当前用户信息"""
+    return current_user
 
 if __name__ == "__main__":
     import uvicorn

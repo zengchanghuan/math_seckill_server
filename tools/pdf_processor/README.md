@@ -286,3 +286,4 @@ brew install tesseract-lang
 
 
 
+

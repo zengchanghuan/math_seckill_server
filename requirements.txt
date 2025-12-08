@@ -4,3 +4,5 @@ sympy==1.13.2
 pydantic==2.9.2
 
 
+PyJWT==2.8.0
+python-dotenv==1.0.0
